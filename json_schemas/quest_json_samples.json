@@ -1345,6 +1345,1444 @@
                     }
                 }
             }
+        },
+        {
+            "description": "Fort Rox - Day - Wall Destroyed - Tower Inactive",
+            "QuestFortRox": {
+                "current_phase": "day",
+                "next_phase": "",
+                "hunts_until_next_phase": 0,
+                "current_stage": false,
+                "is_day": true,
+                "is_lair": null,
+                "is_night": null,
+                "is_dawn": null,
+                "hunts_until_dawn": "Dawn",
+                "max_hunts_until_dawn": 130,
+                "progress_percent": 0,
+                "phases": [],
+                "hp": 0,
+                "max_hp": 350,
+                "hp_percent": 0,
+                "wall_warning": "destroyed",
+                "wall_status": "danger",
+                "tower_status": "normal inactive",
+                "fort": {
+                    "w": {
+                        "level": 4,
+                        "status": ""
+                    },
+                    "b": {
+                        "level": 3,
+                        "status": ""
+                    },
+                    "c": {
+                        "level": 3,
+                        "status": ""
+                    },
+                    "m": {
+                        "level": 3,
+                        "status": ""
+                    },
+                    "t": {
+                        "level": 4,
+                        "status": " inactive"
+                    }
+                },
+                "upgrades": {
+                    "w": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "complete",
+                        "level_4": "current complete"
+                    },
+                    "b": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "current complete"
+                    },
+                    "c": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "current complete"
+                    },
+                    "m": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "current complete"
+                    },
+                    "t": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "complete",
+                        "level_4": "current complete"
+                    }
+                },
+                "can_upgrade_fort": "disabled",
+                "can_repair": "active",
+                "max_possible_repair_cost": 350,
+                "max_possible_repair_hp": "full",
+                "boss_multiplier": null,
+                "boss_verb": "cheesed off",
+                "lair_width": null,
+                "show_lair": "active",
+                "can_enter_lair": "disabled",
+                "bait_warning": "",
+                "low_bait_warning": null,
+                "lair_bait_warning": "disabled",
+                "power_type_warning": "day_notice",
+                "items": {
+                    "fort_rox_tower_mana_stat_item": {
+                        "quantity": 133,
+                        "status": ""
+                    },
+                    "meteorite_piece_craft_item": {
+                        "quantity": "1,461",
+                        "status": "available"
+                    },
+                    "howlite_stat_item": {
+                        "quantity": 197,
+                        "status": "unavailable"
+                    },
+                    "blood_stone_stat_item": {
+                        "quantity": 65,
+                        "status": "unavailable"
+                    },
+                    "dawn_dust_stat_item": {
+                        "quantity": 643,
+                        "status": ""
+                    },
+                    "gold_stat_item": {
+                        "quantity": "16,987,601",
+                        "status": ""
+                    },
+                    "gouda_cheese": {
+                        "quantity": 265,
+                        "status": "recommended"
+                    },
+                    "super_brie_cheese": {
+                        "quantity": "5,903",
+                        "status": "recommended"
+                    },
+                    "crescent_cheese": {
+                        "quantity": 25,
+                        "status": "active discouraged",
+                        "cannot_craft": null
+                    },
+                    "moon_cheese": {
+                        "quantity": 620,
+                        "status": "discouraged",
+                        "cannot_craft": null
+                    },
+                    "fort_rox_lair_key_stat_item": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "fort_rox_lair_cheese": {
+                        "quantity": 10,
+                        "status": "discouraged"
+                    }
+                }
+            }
+        },
+        {
+            "description": "Fort Rox - Day - Wall Destroyed - Tower Active",
+            "QuestFortRox": {
+                "current_phase": "day",
+                "next_phase": "",
+                "hunts_until_next_phase": 0,
+                "current_stage": false,
+                "is_day": true,
+                "is_lair": null,
+                "is_night": null,
+                "is_dawn": null,
+                "hunts_until_dawn": "Dawn",
+                "max_hunts_until_dawn": 130,
+                "progress_percent": 0,
+                "phases": [],
+                "hp": 0,
+                "max_hp": 350,
+                "hp_percent": 0,
+                "wall_warning": "destroyed",
+                "wall_status": "danger",
+                "tower_status": "normal active",
+                "fort": {
+                    "w": {
+                        "level": 4,
+                        "status": ""
+                    },
+                    "b": {
+                        "level": "3",
+                        "status": ""
+                    },
+                    "c": {
+                        "level": 3,
+                        "status": ""
+                    },
+                    "m": {
+                        "level": 3,
+                        "status": ""
+                    },
+                    "t": {
+                        "level": 4,
+                        "status": " active"
+                    }
+                },
+                "upgrades": {
+                    "w": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "complete",
+                        "level_4": "current complete"
+                    },
+                    "b": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "current complete"
+                    },
+                    "c": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "current complete"
+                    },
+                    "m": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "current complete"
+                    },
+                    "t": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "complete",
+                        "level_4": "current complete"
+                    }
+                },
+                "can_upgrade_fort": "disabled",
+                "can_repair": "active",
+                "max_possible_repair_cost": 350,
+                "max_possible_repair_hp": "full",
+                "boss_multiplier": null,
+                "boss_verb": "cheesed off",
+                "lair_width": null,
+                "show_lair": "active",
+                "can_enter_lair": "disabled",
+                "bait_warning": "",
+                "low_bait_warning": null,
+                "lair_bait_warning": "disabled",
+                "power_type_warning": "day_notice",
+                "items": {
+                    "fort_rox_tower_mana_stat_item": {
+                        "quantity": "133",
+                        "status": ""
+                    },
+                    "meteorite_piece_craft_item": {
+                        "quantity": "1,461",
+                        "status": "available"
+                    },
+                    "howlite_stat_item": {
+                        "quantity": "197",
+                        "status": "unavailable"
+                    },
+                    "blood_stone_stat_item": {
+                        "quantity": "65",
+                        "status": "unavailable"
+                    },
+                    "dawn_dust_stat_item": {
+                        "quantity": "643",
+                        "status": ""
+                    },
+                    "gold_stat_item": {
+                        "quantity": "16,987,601",
+                        "status": ""
+                    },
+                    "gouda_cheese": {
+                        "quantity": "265",
+                        "status": "recommended"
+                    },
+                    "super_brie_cheese": {
+                        "quantity": "5,903",
+                        "status": "recommended"
+                    },
+                    "crescent_cheese": {
+                        "quantity": "25",
+                        "status": "active discouraged",
+                        "cannot_craft": null
+                    },
+                    "moon_cheese": {
+                        "quantity": "620",
+                        "status": "discouraged",
+                        "cannot_craft": null
+                    },
+                    "fort_rox_lair_key_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "fort_rox_lair_cheese": {
+                        "quantity": "10",
+                        "status": "discouraged"
+                    }
+                }
+            }
+        },
+        {
+            "description": "Fort Rox - Day - Partial Wall",
+            "QuestFortRox": {
+                "current_phase": "day",
+                "next_phase": "",
+                "hunts_until_next_phase": 0,
+                "current_stage": false,
+                "is_day": true,
+                "is_lair": null,
+                "is_night": null,
+                "is_dawn": null,
+                "hunts_until_dawn": "Dawn",
+                "max_hunts_until_dawn": 130,
+                "progress_percent": 0,
+                "phases": [],
+                "hp": 279,
+                "max_hp": 350,
+                "hp_percent": 79.714285714286,
+                "wall_warning": "damaged",
+                "wall_status": "full",
+                "tower_status": "normal active",
+                "fort": {
+                    "w": {
+                        "level": 4,
+                        "status": ""
+                    },
+                    "b": {
+                        "level": 3,
+                        "status": ""
+                    },
+                    "c": {
+                        "level": 3,
+                        "status": ""
+                    },
+                    "m": {
+                        "level": 3,
+                        "status": ""
+                    },
+                    "t": {
+                        "level": 4,
+                        "status": " active"
+                    }
+                },
+                "upgrades": {
+                    "w": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "complete",
+                        "level_4": "current complete"
+                    },
+                    "b": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "current complete"
+                    },
+                    "c": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "current complete"
+                    },
+                    "m": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "current complete"
+                    },
+                    "t": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "complete",
+                        "level_4": "current complete"
+                    }
+                },
+                "can_upgrade_fort": "disabled",
+                "can_repair": "active",
+                "max_possible_repair_cost": 10,
+                "max_possible_repair_hp": 289,
+                "boss_multiplier": null,
+                "boss_verb": "cheesed off",
+                "lair_width": null,
+                "show_lair": "active",
+                "can_enter_lair": "disabled",
+                "bait_warning": "",
+                "low_bait_warning": null,
+                "lair_bait_warning": "disabled",
+                "power_type_warning": "",
+                "items": {
+                    "fort_rox_tower_mana_stat_item": {
+                        "quantity": 131,
+                        "status": ""
+                    },
+                    "meteorite_piece_craft_item": {
+                        "quantity": 10,
+                        "status": "available"
+                    },
+                    "howlite_stat_item": {
+                        "quantity": 197,
+                        "status": "unavailable"
+                    },
+                    "blood_stone_stat_item": {
+                        "quantity": 65,
+                        "status": "unavailable"
+                    },
+                    "dawn_dust_stat_item": {
+                        "quantity": 643,
+                        "status": ""
+                    },
+                    "gold_stat_item": {
+                        "quantity": "16,991,901",
+                        "status": ""
+                    },
+                    "gouda_cheese": {
+                        "quantity": 265,
+                        "status": "recommended"
+                    },
+                    "super_brie_cheese": {
+                        "quantity": "5,901",
+                        "status": "active recommended"
+                    },
+                    "crescent_cheese": {
+                        "quantity": 425,
+                        "status": "discouraged",
+                        "cannot_craft": null
+                    },
+                    "moon_cheese": {
+                        "quantity": 620,
+                        "status": "discouraged",
+                        "cannot_craft": null
+                    },
+                    "fort_rox_lair_key_stat_item": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "fort_rox_lair_cheese": {
+                        "quantity": 10,
+                        "status": "discouraged"
+                    }
+                }
+            }
+        },
+        {
+            "description": "Fort Rox - Twilight",
+            "QuestFortRox": {
+                "current_phase": "night",
+                "next_phase": "Midnight",
+                "hunts_until_next_phase": 35,
+                "current_stage": "stage_one",
+                "is_day": null,
+                "is_lair": null,
+                "is_night": true,
+                "is_dawn": null,
+                "hunts_until_dawn": 130,
+                "max_hunts_until_dawn": 130,
+                "progress_percent": 0,
+                "phases": {
+                    "stage_one": "active",
+                    "stage_two": "",
+                    "stage_three": "",
+                    "stage_four": "",
+                    "stage_five": ""
+                },
+                "hp": 279,
+                "max_hp": 350,
+                "hp_percent": 79.714285714286,
+                "wall_warning": "",
+                "wall_status": "full",
+                "tower_status": "normal inactive",
+                "fort": {
+                    "w": {
+                        "level": 4,
+                        "status": ""
+                    },
+                    "b": {
+                        "level": "3",
+                        "status": ""
+                    },
+                    "c": {
+                        "level": 3,
+                        "status": ""
+                    },
+                    "m": {
+                        "level": 3,
+                        "status": ""
+                    },
+                    "t": {
+                        "level": 4,
+                        "status": " inactive"
+                    }
+                },
+                "upgrades": {
+                    "w": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "complete",
+                        "level_4": "current complete"
+                    },
+                    "b": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "current complete"
+                    },
+                    "c": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "current complete"
+                    },
+                    "m": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "current complete"
+                    },
+                    "t": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "complete",
+                        "level_4": "current complete"
+                    }
+                },
+                "can_upgrade_fort": "disabled",
+                "can_repair": null,
+                "max_possible_repair_cost": 10,
+                "max_possible_repair_hp": 289,
+                "boss_multiplier": null,
+                "boss_verb": "cheesed off",
+                "lair_width": null,
+                "show_lair": "active",
+                "can_enter_lair": "disabled",
+                "bait_warning": "",
+                "low_bait_warning": null,
+                "lair_bait_warning": "disabled",
+                "power_type_warning": "",
+                "items": {
+                    "fort_rox_tower_mana_stat_item": {
+                        "quantity": "131",
+                        "status": ""
+                    },
+                    "meteorite_piece_craft_item": {
+                        "quantity": "10",
+                        "status": "rare"
+                    },
+                    "howlite_stat_item": {
+                        "quantity": "197",
+                        "status": "available"
+                    },
+                    "blood_stone_stat_item": {
+                        "quantity": "65",
+                        "status": "unavailable"
+                    },
+                    "dawn_dust_stat_item": {
+                        "quantity": "643",
+                        "status": ""
+                    },
+                    "gold_stat_item": {
+                        "quantity": "16,991,901",
+                        "status": ""
+                    },
+                    "gouda_cheese": {
+                        "quantity": "265",
+                        "status": "discouraged"
+                    },
+                    "super_brie_cheese": {
+                        "quantity": "5,901",
+                        "status": "discouraged"
+                    },
+                    "crescent_cheese": {
+                        "quantity": "425",
+                        "status": "active recommended",
+                        "cannot_craft": null
+                    },
+                    "moon_cheese": {
+                        "quantity": "620",
+                        "status": "recommended",
+                        "cannot_craft": null
+                    },
+                    "fort_rox_lair_key_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "fort_rox_lair_cheese": {
+                        "quantity": "10",
+                        "status": "discouraged"
+                    }
+                }
+            }
+        },
+        {
+            "description": "Burroughs Rift - Max Mist, Misting, PP",
+            "QuestRiftBurroughs": {
+                "armed_bait": "polluted_parmesan_cheese",
+                "suggested_bait": {
+                    "type": "magical_string_cheese",
+                    "thumb": "https://www.mousehuntgame.com/images/items/bait/e513ef0cbeec29c9c5e44e4db39df7d1.gif?cv=239",
+                    "quantity": 687
+                },
+                "can_mist": false,
+                "is_misting": true,
+                "mist_released": 20,
+                "mist_percent": 100,
+                "mist_tier": "tier_3",
+                "bait_tier": "toxic_spill",
+                "items": {
+                    "terre_ricotta_cheese": "293",
+                    "terre_ricotta_potion": "424",
+                    "mist_canister_stat_item": "2179",
+                    "polluted_parmesan_cheese": "564",
+                    "polluted_parmesan_potion": "684",
+                    "marble_string_cheese": "40",
+                    "brie_string_cheese": "614",
+                    "swiss_string_cheese": "76",
+                    "magical_string_cheese": "687"
+                }
+            }
+        },
+        {
+            "description": "Burroughs Rift - Max Mist, Misting, TR",
+            "QuestRiftBurroughs": {
+                "armed_bait": "terre_ricotta_cheese",
+                "suggested_bait": {
+                    "type": "magical_string_cheese",
+                    "thumb": "https://www.mousehuntgame.com/images/items/bait/e513ef0cbeec29c9c5e44e4db39df7d1.gif?cv=239",
+                    "quantity": 687
+                },
+                "can_mist": false,
+                "is_misting": true,
+                "mist_released": 20,
+                "mist_percent": 100,
+                "mist_tier": "tier_3",
+                "bait_tier": "digby",
+                "items": {
+                    "terre_ricotta_cheese": 293,
+                    "terre_ricotta_potion": 424,
+                    "mist_canister_stat_item": 2179,
+                    "polluted_parmesan_cheese": 564,
+                    "polluted_parmesan_potion": 684,
+                    "marble_string_cheese": 40,
+                    "brie_string_cheese": 614,
+                    "swiss_string_cheese": 76,
+                    "magical_string_cheese": 687
+                }
+            }
+        },
+        {
+            "description": "Burroughs Rift - Max Mist, Misting, bad bait",
+            "QuestRiftBurroughs": {
+                "armed_bait": "gouda_cheese",
+                "suggested_bait": {
+                    "type": "magical_string_cheese",
+                    "thumb": "https://www.mousehuntgame.com/images/items/bait/e513ef0cbeec29c9c5e44e4db39df7d1.gif?cv=239",
+                    "quantity": 687
+                },
+                "can_mist": false,
+                "is_misting": true,
+                "mist_released": 20,
+                "mist_percent": 100,
+                "mist_tier": "tier_3",
+                "bait_tier": "none",
+                "items": {
+                    "terre_ricotta_cheese": 293,
+                    "terre_ricotta_potion": 424,
+                    "mist_canister_stat_item": 2179,
+                    "polluted_parmesan_cheese": 564,
+                    "polluted_parmesan_potion": 684,
+                    "marble_string_cheese": 40,
+                    "brie_string_cheese": 614,
+                    "swiss_string_cheese": 76,
+                    "magical_string_cheese": 687
+                }
+            }
+        },
+        {
+            "description": "Burroughs Rift - Max Mist, Misting, string bait",
+            "QuestRiftBurroughs": {
+                "armed_bait": "brie_string_cheese",
+                "suggested_bait": {
+                    "type": "brie_string_cheese",
+                    "thumb": "https://www.mousehuntgame.com/images/items/bait/5e3e6973e0f640538ff5c33fe0275c0e.gif?cv=239",
+                    "quantity": 614
+                },
+                "can_mist": true,
+                "is_misting": false,
+                "mist_released": 19,
+                "mist_percent": 95,
+                "mist_tier": "tier_3",
+                "bait_tier": "mousoleum",
+                "items": {
+                    "terre_ricotta_cheese": 293,
+                    "terre_ricotta_potion": 424,
+                    "mist_canister_stat_item": 2179,
+                    "polluted_parmesan_cheese": 563,
+                    "polluted_parmesan_potion": 684,
+                    "marble_string_cheese": 40,
+                    "brie_string_cheese": 614,
+                    "swiss_string_cheese": 76,
+                    "magical_string_cheese": 687
+                }
+            }
+        },
+        {
+            "description": "Furoma Rift - Charge 8 - Bad Bait",
+            "QuestRiftFuroma": {
+                "droid": {
+                    "remaining_energy": "1,258",
+                    "energy_usage": "10 to 20",
+                    "power": "90,000",
+                    "luck": 35,
+                    "charge_error": "",
+                    "charge_level": "charge_level_eight",
+                    "percent_energy_lost_retreat": "50%",
+                    "energy_lost_retreat": "629"
+                },
+                "view_state": "pagoda knows_all",
+                "warning": "active bait",
+                "batteries": {
+                    "charge_level_one": {
+                        "status": "unlocked connected",
+                        "total": 20,
+                        "remaining": 20,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_two": {
+                        "status": "unlocked connected",
+                        "total": 65,
+                        "remaining": 45,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_three": {
+                        "status": "unlocked connected",
+                        "total": 140,
+                        "remaining": 75,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_four": {
+                        "status": "unlocked connected",
+                        "total": 260,
+                        "remaining": 120,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_five": {
+                        "status": "unlocked connected",
+                        "total": 460,
+                        "remaining": 200,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_six": {
+                        "status": "unlocked connected",
+                        "total": 770,
+                        "remaining": 310,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_seven": {
+                        "status": "unlocked connected",
+                        "total": 1220,
+                        "remaining": 450,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_eight": {
+                        "status": "unlocked connected selected",
+                        "total": 1835,
+                        "remaining": 38,
+                        "percent": 6.1788617886179,
+                        "items": []
+                    },
+                    "charge_level_nine": {
+                        "status": "unlocked connected exhausted",
+                        "total": 2625,
+                        "remaining": 0,
+                        "percent": 0,
+                        "items": []
+                    },
+                    "charge_level_ten": {
+                        "status": "unlocked connected exhausted",
+                        "total": 3600,
+                        "remaining": 0,
+                        "percent": 0,
+                        "items": []
+                    }
+                },
+                "item_groups": {
+                    "charm": {
+                        "type": "rift_furoma_energy_trinket",
+                        "thumb": "https://www.mousehuntgame.com/images/items/trinkets/63f73949217ef09ad8b36e76e463b109.gif?cv=239",
+                        "quantity": "91",
+                        "status": "can_craft"
+                    },
+                    "basic": {
+                        "type": "magical_string_cheese",
+                        "thumb": "https://www.mousehuntgame.com/images/items/bait/e513ef0cbeec29c9c5e44e4db39df7d1.gif?cv=239",
+                        "quantity": "687",
+                        "status": "can_craft"
+                    },
+                    "master": {
+                        "type": "rift_master_cheese",
+                        "thumb": "https://www.mousehuntgame.com/images/items/bait/5a34f6f04306a1f0c3d7e00bce88a5b0.gif?cv=239",
+                        "quantity": "221",
+                        "status": "can_craft"
+                    },
+                    "pinnacle": {
+                        "type": "rift_rumble_cheese",
+                        "thumb": "https://www.mousehuntgame.com/images/items/bait/9102b40aa202216244cdc371abbe990f.gif?cv=239",
+                        "quantity": "44",
+                        "status": ""
+                    },
+                    "onyx": {
+                        "type": "rift_onyx_cheese",
+                        "thumb": "https://www.mousehuntgame.com/images/items/bait/b637b1f479b64143137b1638fb62fe80.gif?cv=239",
+                        "quantity": "3",
+                        "status": ""
+                    },
+                    "hapless": {
+                        "type": "rift_hapless_cheese",
+                        "thumb": "https://www.mousehuntgame.com/images/items/bait/3ccf243fd17cd1b2309c4223f84a4fa8.gif?cv=239",
+                        "quantity": "34",
+                        "status": ""
+                    }
+                },
+                "items": {
+                    "rift_furoma_energy_trinket": {
+                        "quantity": "91",
+                        "status": ""
+                    },
+                    "combat_energy_stat_item": {
+                        "quantity": "9,619",
+                        "status": ""
+                    },
+                    "marble_string_cheese": {
+                        "quantity": "40",
+                        "status": ""
+                    },
+                    "swiss_string_cheese": {
+                        "quantity": "76",
+                        "status": ""
+                    },
+                    "brie_string_cheese": {
+                        "quantity": "613",
+                        "status": ""
+                    },
+                    "magical_string_cheese": {
+                        "quantity": "687",
+                        "status": ""
+                    },
+                    "maki_string_cheese": {
+                        "quantity": "347",
+                        "status": ""
+                    },
+                    "rift_master_cheese": {
+                        "quantity": "221",
+                        "status": ""
+                    },
+                    "rift_combat_cheese": {
+                        "quantity": "10",
+                        "status": ""
+                    },
+                    "rift_susheese": {
+                        "quantity": "5",
+                        "status": ""
+                    },
+                    "rift_glutter_cheese": {
+                        "quantity": "18",
+                        "status": ""
+                    },
+                    "rift_rumble_cheese": {
+                        "quantity": "44",
+                        "status": ""
+                    },
+                    "rift_onyx_cheese": {
+                        "quantity": "3",
+                        "status": ""
+                    },
+                    "rift_hapless_cheese": {
+                        "quantity": "34",
+                        "status": ""
+                    }
+                },
+                "crafting_hash": "609487"
+            }
+        },
+        {
+            "description": "Furoma Rift - Charge 8 - Rift Rumble",
+            "QuestRiftFuroma": {
+                "droid": {
+                    "remaining_energy": "1,258",
+                    "energy_usage": "10 to 20",
+                    "power": "90,000",
+                    "luck": 35,
+                    "charge_error": "",
+                    "charge_level": "charge_level_eight",
+                    "percent_energy_lost_retreat": "50%",
+                    "energy_lost_retreat": 629
+                },
+                "view_state": "pagoda knows_all",
+                "warning": "",
+                "batteries": {
+                    "charge_level_one": {
+                        "status": "unlocked connected",
+                        "total": 20,
+                        "remaining": 20,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_two": {
+                        "status": "unlocked connected",
+                        "total": 65,
+                        "remaining": 45,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_three": {
+                        "status": "unlocked connected",
+                        "total": 140,
+                        "remaining": 75,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_four": {
+                        "status": "unlocked connected",
+                        "total": 260,
+                        "remaining": 120,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_five": {
+                        "status": "unlocked connected",
+                        "total": 460,
+                        "remaining": 200,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_six": {
+                        "status": "unlocked connected",
+                        "total": 770,
+                        "remaining": 310,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_seven": {
+                        "status": "unlocked connected",
+                        "total": 1220,
+                        "remaining": 450,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_eight": {
+                        "status": "unlocked connected selected",
+                        "total": 1835,
+                        "remaining": 38,
+                        "percent": 6.1788617886179,
+                        "items": []
+                    },
+                    "charge_level_nine": {
+                        "status": "unlocked connected exhausted",
+                        "total": 2625,
+                        "remaining": 0,
+                        "percent": 0,
+                        "items": []
+                    },
+                    "charge_level_ten": {
+                        "status": "unlocked connected exhausted",
+                        "total": 3600,
+                        "remaining": 0,
+                        "percent": 0,
+                        "items": []
+                    }
+                },
+                "item_groups": {
+                    "charm": {
+                        "type": "rift_furoma_energy_trinket",
+                        "thumb": "https://www.mousehuntgame.com/images/items/trinkets/63f73949217ef09ad8b36e76e463b109.gif?cv=239",
+                        "quantity": 91,
+                        "status": "can_craft"
+                    },
+                    "basic": {
+                        "type": "magical_string_cheese",
+                        "thumb": "https://www.mousehuntgame.com/images/items/bait/e513ef0cbeec29c9c5e44e4db39df7d1.gif?cv=239",
+                        "quantity": 687,
+                        "status": "can_craft"
+                    },
+                    "master": {
+                        "type": "rift_master_cheese",
+                        "thumb": "https://www.mousehuntgame.com/images/items/bait/5a34f6f04306a1f0c3d7e00bce88a5b0.gif?cv=239",
+                        "quantity": 221,
+                        "status": "can_craft"
+                    },
+                    "pinnacle": {
+                        "type": "rift_rumble_cheese",
+                        "thumb": "https://www.mousehuntgame.com/images/items/bait/9102b40aa202216244cdc371abbe990f.gif?cv=239",
+                        "quantity": 44,
+                        "status": "active"
+                    },
+                    "onyx": {
+                        "type": "rift_onyx_cheese",
+                        "thumb": "https://www.mousehuntgame.com/images/items/bait/b637b1f479b64143137b1638fb62fe80.gif?cv=239",
+                        "quantity": 3,
+                        "status": ""
+                    },
+                    "hapless": {
+                        "type": "rift_hapless_cheese",
+                        "thumb": "https://www.mousehuntgame.com/images/items/bait/3ccf243fd17cd1b2309c4223f84a4fa8.gif?cv=239",
+                        "quantity": 34,
+                        "status": ""
+                    }
+                },
+                "items": {
+                    "rift_furoma_energy_trinket": {
+                        "quantity": 91,
+                        "status": ""
+                    },
+                    "combat_energy_stat_item": {
+                        "quantity": "9,619",
+                        "status": ""
+                    },
+                    "marble_string_cheese": {
+                        "quantity": 40,
+                        "status": ""
+                    },
+                    "swiss_string_cheese": {
+                        "quantity": 76,
+                        "status": ""
+                    },
+                    "brie_string_cheese": {
+                        "quantity": 613,
+                        "status": ""
+                    },
+                    "magical_string_cheese": {
+                        "quantity": 687,
+                        "status": ""
+                    },
+                    "maki_string_cheese": {
+                        "quantity": 347,
+                        "status": ""
+                    },
+                    "rift_master_cheese": {
+                        "quantity": 221,
+                        "status": ""
+                    },
+                    "rift_combat_cheese": {
+                        "quantity": 10,
+                        "status": ""
+                    },
+                    "rift_susheese": {
+                        "quantity": 5,
+                        "status": ""
+                    },
+                    "rift_glutter_cheese": {
+                        "quantity": 18,
+                        "status": ""
+                    },
+                    "rift_rumble_cheese": {
+                        "quantity": 44,
+                        "status": "active"
+                    },
+                    "rift_onyx_cheese": {
+                        "quantity": 3,
+                        "status": ""
+                    },
+                    "rift_hapless_cheese": {
+                        "quantity": 34,
+                        "status": ""
+                    }
+                },
+                "crafting_hash": 609487
+            }
+        },
+        {
+            "description": "Furoma Rift - Charge 7 - Master Fusion",
+            "QuestRiftFuroma": {
+                "droid": {
+                    "remaining_energy": "1,189",
+                    "energy_usage": "6 to 9",
+                    "power": "50,000",
+                    "luck": 25,
+                    "charge_error": "",
+                    "charge_level": "charge_level_seven",
+                    "percent_energy_lost_retreat": "50%",
+                    "energy_lost_retreat": 594
+                },
+                "view_state": "pagoda knows_all",
+                "warning": "",
+                "batteries": {
+                    "charge_level_one": {
+                        "status": "unlocked connected",
+                        "total": 20,
+                        "remaining": 20,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_two": {
+                        "status": "unlocked connected",
+                        "total": 65,
+                        "remaining": 45,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_three": {
+                        "status": "unlocked connected",
+                        "total": 140,
+                        "remaining": 75,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_four": {
+                        "status": "unlocked connected",
+                        "total": 260,
+                        "remaining": 120,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_five": {
+                        "status": "unlocked connected",
+                        "total": 460,
+                        "remaining": 200,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_six": {
+                        "status": "unlocked connected",
+                        "total": 770,
+                        "remaining": 310,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_seven": {
+                        "status": "unlocked connected selected",
+                        "total": 1220,
+                        "remaining": 419,
+                        "percent": 93.111111111111,
+                        "items": []
+                    },
+                    "charge_level_eight": {
+                        "status": "unlocked connected exhausted",
+                        "total": 1835,
+                        "remaining": 0,
+                        "percent": 0,
+                        "items": []
+                    },
+                    "charge_level_nine": {
+                        "status": "unlocked connected exhausted",
+                        "total": 2625,
+                        "remaining": 0,
+                        "percent": 0,
+                        "items": []
+                    },
+                    "charge_level_ten": {
+                        "status": "unlocked connected exhausted",
+                        "total": 3600,
+                        "remaining": 0,
+                        "percent": 0,
+                        "items": []
+                    }
+                },
+                "item_groups": {
+                    "charm": {
+                        "type": "rift_furoma_energy_trinket",
+                        "thumb": "https://www.mousehuntgame.com/images/items/trinkets/63f73949217ef09ad8b36e76e463b109.gif?cv=239",
+                        "quantity": 91,
+                        "status": "can_craft"
+                    },
+                    "basic": {
+                        "type": "magical_string_cheese",
+                        "thumb": "https://www.mousehuntgame.com/images/items/bait/e513ef0cbeec29c9c5e44e4db39df7d1.gif?cv=239",
+                        "quantity": 687,
+                        "status": "can_craft"
+                    },
+                    "master": {
+                        "type": "rift_master_cheese",
+                        "thumb": "https://www.mousehuntgame.com/images/items/bait/5a34f6f04306a1f0c3d7e00bce88a5b0.gif?cv=239",
+                        "quantity": 220,
+                        "status": "active can_craft"
+                    },
+                    "pinnacle": {
+                        "type": "rift_rumble_cheese",
+                        "thumb": "https://www.mousehuntgame.com/images/items/bait/9102b40aa202216244cdc371abbe990f.gif?cv=239",
+                        "quantity": 239,
+                        "status": "can_craft"
+                    },
+                    "onyx": {
+                        "type": "rift_onyx_cheese",
+                        "thumb": "https://www.mousehuntgame.com/images/items/bait/b637b1f479b64143137b1638fb62fe80.gif?cv=239",
+                        "quantity": 3,
+                        "status": "can_craft"
+                    },
+                    "hapless": {
+                        "type": "rift_hapless_cheese",
+                        "thumb": "https://www.mousehuntgame.com/images/items/bait/3ccf243fd17cd1b2309c4223f84a4fa8.gif?cv=239",
+                        "quantity": 34,
+                        "status": ""
+                    }
+                },
+                "items": {
+                    "rift_furoma_energy_trinket": {
+                        "quantity": 91,
+                        "status": ""
+                    },
+                    "combat_energy_stat_item": {
+                        "quantity": "9,633",
+                        "status": ""
+                    },
+                    "marble_string_cheese": {
+                        "quantity": 40,
+                        "status": ""
+                    },
+                    "swiss_string_cheese": {
+                        "quantity": 76,
+                        "status": ""
+                    },
+                    "brie_string_cheese": {
+                        "quantity": 613,
+                        "status": ""
+                    },
+                    "magical_string_cheese": {
+                        "quantity": 687,
+                        "status": ""
+                    },
+                    "maki_string_cheese": {
+                        "quantity": 347,
+                        "status": ""
+                    },
+                    "rift_master_cheese": {
+                        "quantity": 220,
+                        "status": "active"
+                    },
+                    "rift_combat_cheese": {
+                        "quantity": 10,
+                        "status": ""
+                    },
+                    "rift_susheese": {
+                        "quantity": 5,
+                        "status": ""
+                    },
+                    "rift_glutter_cheese": {
+                        "quantity": 18,
+                        "status": ""
+                    },
+                    "rift_rumble_cheese": {
+                        "quantity": 239,
+                        "status": ""
+                    },
+                    "rift_onyx_cheese": {
+                        "quantity": 3,
+                        "status": ""
+                    },
+                    "rift_hapless_cheese": {
+                        "quantity": 34,
+                        "status": ""
+                    }
+                },
+                "crafting_hash": "b83a4e"
+            }
+        },
+        {
+            "description": "Furoma Rift - Training Grounds - Master Fusion",
+            "QuestRiftFuroma": {
+                "droid": {
+                    "remaining_energy": "---",
+                    "energy_usage": "0 to 0",
+                    "power": 0,
+                    "luck": 0,
+                    "charge_error": "error",
+                    "charge_level": "",
+                    "percent_energy_lost_retreat": "50%",
+                    "energy_lost_retreat": 0
+                },
+                "view_state": "trainingGrounds knows_all",
+                "warning": "active pagoda_bait",
+                "batteries": {
+                    "charge_level_one": {
+                        "status": "unlocked",
+                        "total": 20,
+                        "remaining": null,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_two": {
+                        "status": "unlocked",
+                        "total": 65,
+                        "remaining": null,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_three": {
+                        "status": "unlocked",
+                        "total": 140,
+                        "remaining": null,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_four": {
+                        "status": "unlocked",
+                        "total": 260,
+                        "remaining": null,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_five": {
+                        "status": "unlocked",
+                        "total": 460,
+                        "remaining": null,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_six": {
+                        "status": "unlocked",
+                        "total": 770,
+                        "remaining": null,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_seven": {
+                        "status": "unlocked",
+                        "total": 1220,
+                        "remaining": null,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_eight": {
+                        "status": "unlocked",
+                        "total": 1835,
+                        "remaining": null,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_nine": {
+                        "status": "unlocked",
+                        "total": 2625,
+                        "remaining": null,
+                        "percent": 100,
+                        "items": []
+                    },
+                    "charge_level_ten": {
+                        "status": "unlocked",
+                        "total": 3600,
+                        "remaining": null,
+                        "percent": 100,
+                        "items": []
+                    }
+                },
+                "item_groups": {
+                    "charm": {
+                        "type": "rift_furoma_energy_trinket",
+                        "thumb": "https://www.mousehuntgame.com/images/items/trinkets/63f73949217ef09ad8b36e76e463b109.gif?cv=239",
+                        "quantity": 91,
+                        "status": "can_craft"
+                    },
+                    "basic": {
+                        "type": "magical_string_cheese",
+                        "thumb": "https://www.mousehuntgame.com/images/items/bait/e513ef0cbeec29c9c5e44e4db39df7d1.gif?cv=239",
+                        "quantity": 687,
+                        "status": "can_craft"
+                    },
+                    "master": {
+                        "type": "rift_master_cheese",
+                        "thumb": "https://www.mousehuntgame.com/images/items/bait/5a34f6f04306a1f0c3d7e00bce88a5b0.gif?cv=239",
+                        "quantity": 220,
+                        "status": "active can_craft"
+                    },
+                    "pinnacle": {
+                        "type": "rift_rumble_cheese",
+                        "thumb": "https://www.mousehuntgame.com/images/items/bait/9102b40aa202216244cdc371abbe990f.gif?cv=239",
+                        "quantity": 239,
+                        "status": "can_craft"
+                    },
+                    "onyx": {
+                        "type": "rift_onyx_cheese",
+                        "thumb": "https://www.mousehuntgame.com/images/items/bait/b637b1f479b64143137b1638fb62fe80.gif?cv=239",
+                        "quantity": 3,
+                        "status": "can_craft"
+                    },
+                    "hapless": {
+                        "type": "rift_hapless_cheese",
+                        "thumb": "https://www.mousehuntgame.com/images/items/bait/3ccf243fd17cd1b2309c4223f84a4fa8.gif?cv=239",
+                        "quantity": 34,
+                        "status": ""
+                    }
+                },
+                "items": {
+                    "rift_furoma_energy_trinket": {
+                        "quantity": 91,
+                        "status": ""
+                    },
+                    "combat_energy_stat_item": {
+                        "quantity": "10,227",
+                        "status": ""
+                    },
+                    "marble_string_cheese": {
+                        "quantity": 40,
+                        "status": ""
+                    },
+                    "swiss_string_cheese": {
+                        "quantity": 76,
+                        "status": ""
+                    },
+                    "brie_string_cheese": {
+                        "quantity": 613,
+                        "status": ""
+                    },
+                    "magical_string_cheese": {
+                        "quantity": 687,
+                        "status": ""
+                    },
+                    "maki_string_cheese": {
+                        "quantity": 347,
+                        "status": ""
+                    },
+                    "rift_master_cheese": {
+                        "quantity": 220,
+                        "status": "active"
+                    },
+                    "rift_combat_cheese": {
+                        "quantity": 10,
+                        "status": ""
+                    },
+                    "rift_susheese": {
+                        "quantity": 5,
+                        "status": ""
+                    },
+                    "rift_glutter_cheese": {
+                        "quantity": 18,
+                        "status": ""
+                    },
+                    "rift_rumble_cheese": {
+                        "quantity": 239,
+                        "status": ""
+                    },
+                    "rift_onyx_cheese": {
+                        "quantity": 3,
+                        "status": ""
+                    },
+                    "rift_hapless_cheese": {
+                        "quantity": 34,
+                        "status": ""
+                    }
+                },
+                "crafting_hash": "b83a4e"
+            }
         }
     ]
 }
