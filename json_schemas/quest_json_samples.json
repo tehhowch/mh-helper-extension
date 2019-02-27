@@ -1,0 +1,1350 @@
+{
+    "collected_quests": [
+        {
+            "description": "Sand Crypts",
+            "QuestSandDunes": {
+                "type": "sand_dunes",
+                "is_normal": false,
+                "loot_drops": {
+                    "dewthief_petal_crafting_item": {
+                        "active": false,
+                        "type": "dewthief_petal_crafting_item",
+                        "name": "Dewthief Petal",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/d5047edfbde1a609528cdef5096c5e96.gif?cv=239",
+                        "quantity": 1181
+                    },
+                    "dreamfluff_herbs_crafting_item": {
+                        "active": false,
+                        "type": "dreamfluff_herbs_crafting_item",
+                        "name": "Dreamfluff Herbs",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/9c7dc802589329532603f2247a710e59.gif?cv=239",
+                        "quantity": 653
+                    },
+                    "duskshade_petal_crafting_item": {
+                        "active": false,
+                        "type": "duskshade_petal_crafting_item",
+                        "name": "Duskshade Petal",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/5873b1eeef94bdb5ac2a204cc52b0726.gif?cv=239",
+                        "quantity": 349
+                    },
+                    "graveblossom_petal_crafting_item": {
+                        "active": false,
+                        "type": "graveblossom_petal_crafting_item",
+                        "name": "Graveblossom Petal",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/186ecf8960bdd05a88cbc2d042377453.gif?cv=239",
+                        "quantity": 336
+                    },
+                    "plumepearl_herbs_crafting_item": {
+                        "active": false,
+                        "type": "plumepearl_herbs_crafting_item",
+                        "name": "Plumepearl Herbs",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/7b53e4c852ec4ef3a76ece38ea2ff381.gif?cv=239",
+                        "quantity": 392
+                    },
+                    "lunaria_petal_crafting_item": {
+                        "active": true,
+                        "type": "lunaria_petal_crafting_item",
+                        "name": "Lunaria Petal",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/db0ff065b2cd8752ada3d532b243ca5a.gif?cv=239",
+                        "quantity": 51
+                    }
+                },
+                "recipes_known": 23,
+                "recipes_total": 25,
+                "essences": [
+                    {
+                        "name": "Aleth Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/e8fd189884e5d517deca23e5f183b1cf.gif?cv=239",
+                        "quantity": 3068,
+                        "type": "essence_a_crafting_item"
+                    },
+                    {
+                        "name": "Ber Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/de22f6f71864f5c0ec367c011e09acd9.gif?cv=239",
+                        "quantity": 1488,
+                        "type": "essence_b_crafting_item"
+                    },
+                    {
+                        "name": "Cynd Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/949047e60efc1a6929de3c4b1b25c9ac.gif?cv=239",
+                        "quantity": 542,
+                        "type": "essence_c_crafting_item"
+                    },
+                    {
+                        "name": "Dol Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/98f36a0017b846d51d33618685906743.gif?cv=239",
+                        "quantity": 19,
+                        "type": "essence_d_crafting_item"
+                    },
+                    {
+                        "name": "Est Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/1be2e3ec51d13779c133545470a2bd42.gif?cv=239",
+                        "quantity": 25,
+                        "type": "essence_e_crafting_item"
+                    },
+                    {
+                        "name": "Fel Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/7174d3c904067a9ae8a5944ed0470224.gif?cv=239",
+                        "quantity": 13,
+                        "type": "essence_f_crafting_item"
+                    },
+                    {
+                        "name": "Gur Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/a200e64b998fe4255529a2f3a76a57df.gif?cv=239",
+                        "quantity": 52,
+                        "type": "essence_g_crafting_item"
+                    },
+                    {
+                        "name": "Hix Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/9bd87c451740f1f3fc7f2f132fcc8d23.gif?cv=239",
+                        "quantity": 1,
+                        "type": "essence_h_crafting_item"
+                    },
+                    {
+                        "name": "Icuri Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/9093c480c099d45901d869ded0541d17.gif?cv=239",
+                        "quantity": 0,
+                        "type": "essence_i_crafting_item"
+                    }
+                ],
+                "valid_bait": true,
+                "minigame": {
+                    "type": "grubling",
+                    "salt_charms_used": 1,
+                    "needle": 97
+                }
+            }
+        },
+        {
+            "description": "Sand Dunes - Stampede",
+            "QuestSandDunes": {}
+        },
+        {
+            "description": "Sand Dunes - No Stampede",
+            "QuestSandDunes": {}
+        },
+        {
+            "description": "Lost City - Cursed",
+            "QuestLostCity": {}
+        },
+        {
+            "description": "Lost City - No Curses",
+            "QuestLostCity": {}
+        },
+        {
+            "description": "Cursed City - All Curses",
+            "QuestLostCity": {}
+        },
+        {
+            "description": "Cursed City - Some Curses",
+            "QuestLostCity": {}
+        },
+        {
+            "description": "Cursed City - No Curses",
+            "QuestLostCity": {
+                "type": "lost_city",
+                "is_normal": false,
+                "loot_drops": {
+                    "dewthief_petal_crafting_item": {
+                        "active": false,
+                        "type": "dewthief_petal_crafting_item",
+                        "name": "Dewthief Petal",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/d5047edfbde1a609528cdef5096c5e96.gif?cv=239",
+                        "quantity": 1181
+                    },
+                    "dreamfluff_herbs_crafting_item": {
+                        "active": false,
+                        "type": "dreamfluff_herbs_crafting_item",
+                        "name": "Dreamfluff Herbs",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/9c7dc802589329532603f2247a710e59.gif?cv=239",
+                        "quantity": 653
+                    },
+                    "duskshade_petal_crafting_item": {
+                        "active": false,
+                        "type": "duskshade_petal_crafting_item",
+                        "name": "Duskshade Petal",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/5873b1eeef94bdb5ac2a204cc52b0726.gif?cv=239",
+                        "quantity": 349
+                    },
+                    "graveblossom_petal_crafting_item": {
+                        "active": false,
+                        "type": "graveblossom_petal_crafting_item",
+                        "name": "Graveblossom Petal",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/186ecf8960bdd05a88cbc2d042377453.gif?cv=239",
+                        "quantity": 345
+                    },
+                    "plumepearl_herbs_crafting_item": {
+                        "active": true,
+                        "type": "plumepearl_herbs_crafting_item",
+                        "name": "Plumepearl Herbs",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/7b53e4c852ec4ef3a76ece38ea2ff381.gif?cv=239",
+                        "quantity": 392
+                    },
+                    "lunaria_petal_crafting_item": {
+                        "active": false,
+                        "type": "lunaria_petal_crafting_item",
+                        "name": "Lunaria Petal",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/db0ff065b2cd8752ada3d532b243ca5a.gif?cv=239",
+                        "quantity": 61
+                    }
+                },
+                "recipes_known": 23,
+                "recipes_total": 25,
+                "essences": [
+                    {
+                        "name": "Aleth Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/e8fd189884e5d517deca23e5f183b1cf.gif?cv=239",
+                        "quantity": 3072,
+                        "type": "essence_a_crafting_item"
+                    },
+                    {
+                        "name": "Ber Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/de22f6f71864f5c0ec367c011e09acd9.gif?cv=239",
+                        "quantity": 1476,
+                        "type": "essence_b_crafting_item"
+                    },
+                    {
+                        "name": "Cynd Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/949047e60efc1a6929de3c4b1b25c9ac.gif?cv=239",
+                        "quantity": 539,
+                        "type": "essence_c_crafting_item"
+                    },
+                    {
+                        "name": "Dol Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/98f36a0017b846d51d33618685906743.gif?cv=239",
+                        "quantity": 20,
+                        "type": "essence_d_crafting_item"
+                    },
+                    {
+                        "name": "Est Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/1be2e3ec51d13779c133545470a2bd42.gif?cv=239",
+                        "quantity": 25,
+                        "type": "essence_e_crafting_item"
+                    },
+                    {
+                        "name": "Fel Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/7174d3c904067a9ae8a5944ed0470224.gif?cv=239",
+                        "quantity": 2,
+                        "type": "essence_f_crafting_item"
+                    },
+                    {
+                        "name": "Gur Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/a200e64b998fe4255529a2f3a76a57df.gif?cv=239",
+                        "quantity": 5,
+                        "type": "essence_g_crafting_item"
+                    },
+                    {
+                        "name": "Hix Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/9bd87c451740f1f3fc7f2f132fcc8d23.gif?cv=239",
+                        "quantity": 0,
+                        "type": "essence_h_crafting_item"
+                    },
+                    {
+                        "name": "Icuri Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/9093c480c099d45901d869ded0541d17.gif?cv=239",
+                        "quantity": 6,
+                        "type": "essence_i_crafting_item"
+                    }
+                ],
+                "valid_bait": true,
+                "minigame": {
+                    "type": "curse",
+                    "is_cursed": false,
+                    "curses": [
+                        {
+                            "name": "Fear!",
+                            "type": "fear",
+                            "charm": {
+                                "name": "Bravery Charm",
+                                "thumb": "https://www.mousehuntgame.com/images/items/trinkets/2c9278be3c3f80f3edc2bc43e75400ee.gif?cv=239",
+                                "quantity": 72,
+                                "equipped": false
+                            },
+                            "active": false
+                        },
+                        {
+                            "name": "Darkness!",
+                            "type": "darkness",
+                            "charm": {
+                                "name": "Shine Charm",
+                                "thumb": "https://www.mousehuntgame.com/images/items/trinkets/1b1cd27a52ef04fed3331db688edd4eb.gif?cv=239",
+                                "quantity": 60,
+                                "equipped": false
+                            },
+                            "active": false
+                        },
+                        {
+                            "name": "Mist!",
+                            "type": "mist",
+                            "charm": {
+                                "name": "Clarity Charm",
+                                "thumb": "https://www.mousehuntgame.com/images/items/trinkets/ec52b7ccd657718a5807997175f8baf3.gif?cv=239",
+                                "quantity": 77,
+                                "equipped": false
+                            },
+                            "active": false
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "description": "Living Garden - Filling",
+            "QuestLivingGarden": {}
+        },
+        {
+            "description": "Living Garden - Poured",
+            "QuestLivingGarden": {}
+        },
+        {
+            "description": "Twisted Garden - Filling",
+            "QuestLivingGarden": {
+                "type": "desert_oasis",
+                "is_normal": false,
+                "loot_drops": {
+                    "dewthief_petal_crafting_item": {
+                        "active": false,
+                        "type": "dewthief_petal_crafting_item",
+                        "name": "Dewthief Petal",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/d5047edfbde1a609528cdef5096c5e96.gif?cv=239",
+                        "quantity": 1181
+                    },
+                    "dreamfluff_herbs_crafting_item": {
+                        "active": false,
+                        "type": "dreamfluff_herbs_crafting_item",
+                        "name": "Dreamfluff Herbs",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/9c7dc802589329532603f2247a710e59.gif?cv=239",
+                        "quantity": 653
+                    },
+                    "duskshade_petal_crafting_item": {
+                        "active": false,
+                        "type": "duskshade_petal_crafting_item",
+                        "name": "Duskshade Petal",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/5873b1eeef94bdb5ac2a204cc52b0726.gif?cv=239",
+                        "quantity": 349
+                    },
+                    "graveblossom_petal_crafting_item": {
+                        "active": true,
+                        "type": "graveblossom_petal_crafting_item",
+                        "name": "Graveblossom Petal",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/186ecf8960bdd05a88cbc2d042377453.gif?cv=239",
+                        "quantity": 342
+                    },
+                    "plumepearl_herbs_crafting_item": {
+                        "active": false,
+                        "type": "plumepearl_herbs_crafting_item",
+                        "name": "Plumepearl Herbs",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/7b53e4c852ec4ef3a76ece38ea2ff381.gif?cv=239",
+                        "quantity": 392
+                    },
+                    "lunaria_petal_crafting_item": {
+                        "active": false,
+                        "type": "lunaria_petal_crafting_item",
+                        "name": "Lunaria Petal",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/db0ff065b2cd8752ada3d532b243ca5a.gif?cv=239",
+                        "quantity": 61
+                    }
+                },
+                "recipes_known": 23,
+                "recipes_total": 25,
+                "essences": [
+                    {
+                        "name": "Aleth Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/e8fd189884e5d517deca23e5f183b1cf.gif?cv=239",
+                        "quantity": 3071,
+                        "type": "essence_a_crafting_item"
+                    },
+                    {
+                        "name": "Ber Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/de22f6f71864f5c0ec367c011e09acd9.gif?cv=239",
+                        "quantity": 1492,
+                        "type": "essence_b_crafting_item"
+                    },
+                    {
+                        "name": "Cynd Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/949047e60efc1a6929de3c4b1b25c9ac.gif?cv=239",
+                        "quantity": 539,
+                        "type": "essence_c_crafting_item"
+                    },
+                    {
+                        "name": "Dol Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/98f36a0017b846d51d33618685906743.gif?cv=239",
+                        "quantity": 20,
+                        "type": "essence_d_crafting_item"
+                    },
+                    {
+                        "name": "Est Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/1be2e3ec51d13779c133545470a2bd42.gif?cv=239",
+                        "quantity": 25,
+                        "type": "essence_e_crafting_item"
+                    },
+                    {
+                        "name": "Fel Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/7174d3c904067a9ae8a5944ed0470224.gif?cv=239",
+                        "quantity": 14,
+                        "type": "essence_f_crafting_item"
+                    },
+                    {
+                        "name": "Gur Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/a200e64b998fe4255529a2f3a76a57df.gif?cv=239",
+                        "quantity": 52,
+                        "type": "essence_g_crafting_item"
+                    },
+                    {
+                        "name": "Hix Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/9bd87c451740f1f3fc7f2f132fcc8d23.gif?cv=239",
+                        "quantity": 1,
+                        "type": "essence_h_crafting_item"
+                    },
+                    {
+                        "name": "Icuri Essence",
+                        "thumb": "https://www.mousehuntgame.com/images/items/crafting_items/thumbnails/9093c480c099d45901d869ded0541d17.gif?cv=239",
+                        "quantity": 0,
+                        "type": "essence_i_crafting_item"
+                    }
+                ],
+                "valid_bait": true,
+                "minigame": {
+                    "type": "drops",
+                    "vials_state": "filling",
+                    "red_drops": 4,
+                    "yellow_drops": 0,
+                    "red_height": 32,
+                    "yellow_height": 0,
+                    "estimate": 4,
+                    "alchemy_result": "Attract thirsty mice for 4 turns! With Red drops, you'll receive a power boost!",
+                    "timer": 0
+                }
+            }
+        },
+        {
+            "description": "Twisted Garden - Maxed",
+            "QuestLivingGarden": {
+                "type": "desert_oasis",
+                "valid_bait": true,
+                "is_normal": false,
+                "minigame": {
+                    "type": "drops",
+                    "vials_state": "filling",
+                    "red_drops": 10,
+                    "yellow_drops": 10,
+                    "estimate": 35,
+                    "timer": 0
+                }
+            }
+        },
+        {
+            "description": "Twisted Garden - Poured (Both)",
+            "QuestLivingGarden": {
+                "type": "desert_oasis",
+                "valid_bait": true,
+                "is_normal": false,
+                "minigame": {
+                    "type": "drops",
+                    "alchemy_result": "Attract thirsty mice for 0 turns!",
+                    "boost": "Power AND Luck boost!",
+                    "vials_state": "dumped",
+                    "red_drops": 0,
+                    "yellow_drops": 0,
+                    "timer": 35
+                }
+            }
+        },
+        {
+            "description": "Twisted Garden - Poured (Red)",
+            "QuestLivingGarden": {
+                "type": "desert_oasis",
+                "valid_bait": true,
+                "is_normal": false,
+                "minigame": {
+                    "type": "drops",
+                    "vials_state": "dumped",
+                    "red_drops": 0,
+                    "yellow_drops": 0,
+                    "red_height": 0,
+                    "yellow_height": 0,
+                    "boost": "Power boost!",
+                    "alchemy_result": "Attract thirsty mice for 0 turns!",
+                    "timer": 1
+                }
+            }
+        },
+        {
+            "description": "Twisted Garden - Poured (Yellow)",
+            "QuestLivingGarden": {
+                "type": "desert_oasis",
+                "valid_bait": true,
+                "is_normal": false,
+                "minigame": {
+                    "type": "drops",
+                    "vials_state": "dumped",
+                    "red_drops": 0,
+                    "yellow_drops": 0,
+                    "red_height": 0,
+                    "yellow_height": 0,
+                    "boost": "Luck boost!",
+                    "alchemy_result": "Attract thirsty mice for 0 turns!",
+                    "timer": 1
+                }
+            }
+        },
+        {
+            "description": "Iceberg - Treacherous Tunnels",
+            "QuestIceberg": {
+                "in_bonus": false,
+                "user_progress": 16,
+                "turns_taken": 1,
+                "max_turns": 450,
+                "max_depth": 1800,
+                "can_reset": false,
+                "can_drill": true,
+                "drill_heat": 0,
+                "drill_max_charges": 8,
+                "has_drill": true,
+                "items": {
+                    "drill_charge_stat_item": "7",
+                    "sticky_trinket": "664",
+                    "wax_trinket": "622"
+                },
+                "chests": [
+                    {
+                        "id": 1,
+                        "name": "Supply Chest",
+                        "turn": 425,
+                        "active": true,
+                        "position": 623
+                    },
+                    {
+                        "id": 2,
+                        "name": "Strongbox",
+                        "turn": 350,
+                        "active": true,
+                        "position": 525
+                    },
+                    {
+                        "id": 3,
+                        "name": "Treasure Chest",
+                        "turn": 275,
+                        "active": true,
+                        "position": 428
+                    }
+                ],
+                "phases": {
+                    "1": {
+                        "id": 1,
+                        "name": "Treacherous Tunnels",
+                        "length": 300,
+                        "percent": 0,
+                        "top": 33,
+                        "height": 160
+                    },
+                    "2": {
+                        "id": 2,
+                        "name": "Brutal Bulwark",
+                        "length": 300,
+                        "percent": 0.16666666666667,
+                        "top": 193,
+                        "height": 160
+                    },
+                    "3": {
+                        "id": 3,
+                        "name": "Bombing Run",
+                        "length": 1000,
+                        "percent": 0.33333333333333,
+                        "top": 353,
+                        "height": 533
+                    },
+                    "4": {
+                        "id": 4,
+                        "name": "The Mad Depths",
+                        "length": 200,
+                        "percent": 0.88888888888889,
+                        "top": 885,
+                        "height": 107
+                    },
+                    "5": {
+                        "id": 5,
+                        "name": "Icewing's Lair",
+                        "length": false,
+                        "percent": 1,
+                        "top": 991,
+                        "height": 0
+                    }
+                },
+                "current_phase": "Treacherous Tunnels",
+                "timeline_position": 2,
+                "cutaway_position": -12,
+                "player_position": 39
+            }
+        },
+        {
+            "description": "Mousoleum - Wrong Bait - No Wall, Can Build",
+            "QuestMousoleum": {
+                "bait_type": "super_brie_cheese",
+                "has_wall": false,
+                "wall_health": "0",
+                "wall_percent": 0,
+                "wall_materials": "32",
+                "wall_health_status": "destroyed",
+                "wall_cost_quantity": 30,
+                "can_build": true,
+                "can_repair": null,
+                "can_craft": null,
+                "items": {
+                    "radioactive_blue_cheese_potion": {
+                        "quantity": "723",
+                        "status": ""
+                    },
+                    "greater_radioactive_blue_cheese_potion": {
+                        "quantity": "5",
+                        "status": ""
+                    },
+                    "radioactive_blue_cheese": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "mousoleum_wall_stat_item": {
+                        "quantity": "32",
+                        "status": ""
+                    },
+                    "crimson_cheese": {
+                        "quantity": "22",
+                        "status": ""
+                    },
+                    "crimson_curd_crafting_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "magic_essence_craft_item": {
+                        "quantity": "295",
+                        "status": ""
+                    }
+                },
+                "max_wall_health": 30,
+                "power_type_warning": true,
+                "has_shadow_traps": true,
+                "bait_warning": true,
+                "bait_wall_warning": null,
+                "crimson_wall_warning": null
+            }
+        },
+        {
+            "description": "Mousoleum - Wrong Powertype - No Wall, Can Build",
+            "QuestMousoleum": {
+                "bait_type": "radioactive_blue_cheese",
+                "has_wall": false,
+                "wall_health": "0",
+                "wall_percent": 0,
+                "wall_materials": "32",
+                "wall_health_status": "destroyed",
+                "wall_cost_quantity": 30,
+                "can_build": true,
+                "can_repair": null,
+                "can_craft": null,
+                "items": {
+                    "radioactive_blue_cheese_potion": {
+                        "quantity": "722",
+                        "status": ""
+                    },
+                    "greater_radioactive_blue_cheese_potion": {
+                        "quantity": "5",
+                        "status": ""
+                    },
+                    "radioactive_blue_cheese": {
+                        "quantity": "20",
+                        "status": "active"
+                    },
+                    "mousoleum_wall_stat_item": {
+                        "quantity": "32",
+                        "status": ""
+                    },
+                    "crimson_cheese": {
+                        "quantity": "22",
+                        "status": ""
+                    },
+                    "crimson_curd_crafting_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "magic_essence_craft_item": {
+                        "quantity": "295",
+                        "status": ""
+                    }
+                },
+                "max_wall_health": 30,
+                "power_type_warning": true,
+                "has_shadow_traps": true,
+                "bait_warning": null,
+                "bait_wall_warning": null,
+                "crimson_wall_warning": null
+            }
+        },
+        {
+            "description": "Mousoleum - No Wall, Can Build",
+            "QuestMousoleum": {
+                "bait_type": "radioactive_blue_cheese",
+                "has_wall": false,
+                "wall_health": "0",
+                "wall_percent": 0,
+                "wall_materials": "32",
+                "wall_health_status": "destroyed",
+                "wall_cost_quantity": 30,
+                "can_build": true,
+                "can_repair": null,
+                "can_craft": null,
+                "items": {
+                    "radioactive_blue_cheese_potion": {
+                        "quantity": "722",
+                        "status": ""
+                    },
+                    "greater_radioactive_blue_cheese_potion": {
+                        "quantity": "5",
+                        "status": ""
+                    },
+                    "radioactive_blue_cheese": {
+                        "quantity": "20",
+                        "status": "active"
+                    },
+                    "mousoleum_wall_stat_item": {
+                        "quantity": "32",
+                        "status": ""
+                    },
+                    "crimson_cheese": {
+                        "quantity": "22",
+                        "status": ""
+                    },
+                    "crimson_curd_crafting_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "magic_essence_craft_item": {
+                        "quantity": "295",
+                        "status": ""
+                    }
+                },
+                "max_wall_health": 30,
+                "power_type_warning": null,
+                "has_shadow_traps": true,
+                "bait_warning": null,
+                "bait_wall_warning": null,
+                "crimson_wall_warning": null
+            }
+        },
+        {
+            "description": "Mousoleum - Full Health Wall",
+            "QuestMousoleum": {
+                "bait_type": "radioactive_blue_cheese",
+                "has_wall": true,
+                "wall_health": 30,
+                "wall_percent": 100,
+                "wall_materials": 4,
+                "wall_health_status": "max",
+                "wall_cost_quantity": 0,
+                "can_build": null,
+                "can_repair": null,
+                "can_craft": null,
+                "items": {
+                    "radioactive_blue_cheese_potion": {
+                        "quantity": 722,
+                        "status": ""
+                    },
+                    "greater_radioactive_blue_cheese_potion": {
+                        "quantity": 5,
+                        "status": ""
+                    },
+                    "radioactive_blue_cheese": {
+                        "quantity": 19,
+                        "status": "active"
+                    },
+                    "mousoleum_wall_stat_item": {
+                        "quantity": 4,
+                        "status": ""
+                    },
+                    "crimson_cheese": {
+                        "quantity": 22,
+                        "status": ""
+                    },
+                    "crimson_curd_crafting_item": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "magic_essence_craft_item": {
+                        "quantity": 295,
+                        "status": ""
+                    }
+                },
+                "max_wall_health": 30,
+                "power_type_warning": null,
+                "has_shadow_traps": true,
+                "bait_warning": null,
+                "bait_wall_warning": null,
+                "crimson_wall_warning": null
+            }
+        },
+        {
+            "description": "Laboratory - Completed",
+            "QuestLaboratory": {
+                "background": " hasBasicPotion hasGreaterPotion",
+                "canvas_page_url": "https://www.mousehuntgame.com/",
+                "has_travel_warning": null,
+                "state": "complete",
+                "items": {
+                    "brie_cheese": {
+                        "quantity": "197",
+                        "status": "hidden"
+                    },
+                    "cheddar_cheese": {
+                        "quantity": "1,970",
+                        "status": "hidden"
+                    },
+                    "greater_radioactive_blue_cheese_potion": {
+                        "quantity": "5",
+                        "status": ""
+                    },
+                    "marble_cheese": {
+                        "quantity": "197",
+                        "status": "hidden"
+                    },
+                    "radioactive_blue_cheese": {
+                        "quantity": "197",
+                        "status": "active"
+                    },
+                    "radioactive_blue_cheese_potion": {
+                        "quantity": "722",
+                        "status": ""
+                    },
+                    "super_brie_cheese": {
+                        "quantity": "5,197",
+                        "status": ""
+                    },
+                    "swiss_cheese": {
+                        "quantity": "197,000",
+                        "status": "hidden"
+                    }
+                }
+            }
+        },
+        {
+            "description": "Harbour - Ready to Search",
+            "QuestHarbour": {
+                "status": "canBeginSearch",
+                "boat_name": "C# Shanty",
+                "can_claim": false,
+                "can_claim_status": "disabled",
+                "crew": [
+                    {
+                        "name": "Pirate",
+                        "type": "pirate",
+                        "thumb": "https://www.mousehuntgame.com/images/mice/thumb/03d8bcb4845ff37734be1501c33daa8b.gif?cv=239",
+                        "status": "caught",
+                        "index": 0
+                    }
+                ],
+                "can_assemble_map": "canAssemble",
+                "has_map": true,
+                "map_status": "incomplete",
+                "num_scraps": 5,
+                "canvas_page_url": "https://www.mousehuntgame.com/"
+            }
+        },
+        {
+            "description": "Harbour - Searching",
+            "QuestHarbour": {
+                "status": "searchStarted",
+                "boat_name": "Bottled Fury",
+                "can_claim": false,
+                "can_claim_status": "disabled",
+                "crew": [
+                    {
+                        "name": "Pirate",
+                        "type": "pirate",
+                        "thumb": "https://www.mousehuntgame.com/images/mice/thumb/03d8bcb4845ff37734be1501c33daa8b.gif?cv=239",
+                        "status": "caught",
+                        "index": 0
+                    },
+                    {
+                        "name": "Bilged Boatswain",
+                        "type": "bilged_boatswain",
+                        "thumb": "https://www.mousehuntgame.com/images/mice/thumb/709cb970bc80ff0c04c1f05d18f473e3.gif?cv=239",
+                        "status": "uncaught",
+                        "index": 1
+                    },
+                    {
+                        "name": "Corrupt Commodore",
+                        "type": "corrupt_commodore",
+                        "thumb": "https://www.mousehuntgame.com/images/mice/thumb/ccc60c7281654dafca91aac3672aaacc.gif?cv=239",
+                        "status": "uncaught",
+                        "index": 2
+                    },
+                    {
+                        "name": "Cabin Boy",
+                        "type": "cabin_boy",
+                        "thumb": "https://www.mousehuntgame.com/images/mice/thumb/f9c6cb8dd5395f1e0ffb6de566b51c44.gif?cv=239",
+                        "status": "uncaught",
+                        "index": 3
+                    }
+                ],
+                "can_assemble_map": "canAssemble",
+                "has_map": true,
+                "map_status": "incomplete",
+                "num_scraps": 5,
+                "canvas_page_url": "https://www.mousehuntgame.com/"
+            }
+        },
+        {
+            "description": "Harbour - Complete & Unclaimed",
+            "QuestHarbour": {
+                "status": "searchStarted",
+                "boat_name": "Bottled Fury",
+                "can_claim": true,
+                "can_claim_status": "active",
+                "crew": [
+                    {
+                        "name": "Pirate",
+                        "type": "pirate",
+                        "thumb": "https://www.mousehuntgame.com/images/mice/thumb/03d8bcb4845ff37734be1501c33daa8b.gif?cv=239",
+                        "status": "caught",
+                        "index": 0
+                    },
+                    {
+                        "name": "Bilged Boatswain",
+                        "type": "bilged_boatswain",
+                        "thumb": "https://www.mousehuntgame.com/images/mice/thumb/709cb970bc80ff0c04c1f05d18f473e3.gif?cv=239",
+                        "status": "caught",
+                        "index": 1
+                    },
+                    {
+                        "name": "Corrupt Commodore",
+                        "type": "corrupt_commodore",
+                        "thumb": "https://www.mousehuntgame.com/images/mice/thumb/ccc60c7281654dafca91aac3672aaacc.gif?cv=239",
+                        "status": "caught",
+                        "index": 2
+                    },
+                    {
+                        "name": "Cabin Boy",
+                        "type": "cabin_boy",
+                        "thumb": "https://www.mousehuntgame.com/images/mice/thumb/f9c6cb8dd5395f1e0ffb6de566b51c44.gif?cv=239",
+                        "status": "caught",
+                        "index": 3
+                    }
+                ],
+                "can_assemble_map": "selected",
+                "has_map": true,
+                "map_status": "hasMap",
+                "num_scraps": 5,
+                "canvas_page_url": "https://www.mousehuntgame.com/"
+            }
+        },
+        {
+            "description": "Harbour - No Progress",
+            "QuestHarbour": {
+                "status": "noShip",
+                "boat_name": "C# Shanty",
+                "can_claim": false,
+                "can_claim_status": "disabled",
+                "crew": [
+                    {
+                        "name": "Pirate",
+                        "type": "pirate",
+                        "thumb": "https://www.mousehuntgame.com/images/mice/thumb/03d8bcb4845ff37734be1501c33daa8b.gif?cv=239",
+                        "status": "uncaught",
+                        "index": 0
+                    }
+                ],
+                "can_assemble_map": "selected",
+                "has_map": true,
+                "map_status": "hasMap",
+                "num_scraps": "5",
+                "canvas_page_url": "https://www.mousehuntgame.com/"
+            }
+        },
+        {
+            "description": "Claw Shot City - No Poster",
+            "QuestClawShotCity": {
+                "map_active": false,
+                "has_wanted_poster": false,
+                "posters_complete": 75,
+                "is_law": true,
+                "fools_gold": "1164",
+                "phase": "need_poster"
+            }
+        },
+        {
+            "description": "Claw Shot City - Unopened Poster",
+            "QuestClawShotCity": {
+                "map_active": false,
+                "has_wanted_poster": true,
+                "posters_complete": 75,
+                "is_law": true,
+                "fools_gold": 1044,
+                "phase": "has_poster"
+            }
+        },
+        {
+            "description": "Claw Shot City - Active Poster",
+            "QuestClawShotCity": {
+                "map_active": true,
+                "has_wanted_poster": false,
+                "posters_complete": 75,
+                "is_law": true,
+                "fools_gold": 1044,
+                "phase": "active_poster"
+            }
+        },
+        {
+            "description": "Claw Shot City - Active Poster - Only Boss Remaining",
+            "QuestClawShotCity": {
+                "map_active": true,
+                "has_wanted_poster": false,
+                "posters_complete": 75,
+                "is_law": true,
+                "fools_gold": 1044,
+                "phase": "active_poster"
+            }
+        },
+        {
+            "description": "Claw Shot City - Completed Unclaimed Poster",
+            "QuestClawShotCity": {
+                "map_active": true,
+                "has_wanted_poster": false,
+                "posters_complete": 75,
+                "is_law": true,
+                "fools_gold": 1049,
+                "phase": "has_reward"
+            }
+        },
+        {
+            "description": "Zokor Fealty 80+ Boss Defeated",
+            "QuestAncientCity": {
+                "status": "",
+                "bait_warning": "active",
+                "bait_status": "",
+                "power_type_warning": "",
+                "boss": "defeated",
+                "countdown": -13,
+                "total": 96,
+                "remaining": 17,
+                "width": 17.708333333333,
+                "district_tier": 3,
+                "district_type": "y",
+                "clue_name": "Fealty",
+                "district_name": "The Templar's Fealty Sanctum",
+                "items": {
+                    "cave_nightshade_crafting_item": {
+                        "quantity": "1,193",
+                        "status": ""
+                    },
+                    "cavern_fungus_crafting_item": {
+                        "quantity": "8,586",
+                        "status": ""
+                    },
+                    "plate_of_fealty_crafting_item": {
+                        "quantity": 759,
+                        "status": "active"
+                    },
+                    "tech_power_core_crafting_item": {
+                        "quantity": 836,
+                        "status": ""
+                    },
+                    "ancient_scholar_scroll_crafting_item": {
+                        "quantity": 851,
+                        "status": ""
+                    },
+                    "glowing_gruyere_cheese": {
+                        "quantity": 275
+                    }
+                },
+                "can_craft_3": "disabled",
+                "can_craft_5": "disabled"
+            }
+        },
+        {
+            "description": "Fort Rox - Dawn - Tower Built & Inactive",
+            "QuestFortRox": {
+                "current_phase": "dawn",
+                "next_phase": "",
+                "hunts_until_next_phase": 0,
+                "current_stage": false,
+                "is_day": null,
+                "is_lair": null,
+                "is_night": null,
+                "is_dawn": true,
+                "hunts_until_dawn": "Dawn",
+                "max_hunts_until_dawn": 130,
+                "progress_percent": 100,
+                "phases": [],
+                "hp": 223,
+                "max_hp": 350,
+                "hp_percent": 63.714285714286,
+                "wall_warning": "",
+                "wall_status": "full",
+                "tower_status": "normal inactive",
+                "fort": {
+                    "w": {
+                        "level": 4,
+                        "status": ""
+                    },
+                    "b": {
+                        "level": 3,
+                        "status": ""
+                    },
+                    "c": {
+                        "level": 3,
+                        "status": ""
+                    },
+                    "m": {
+                        "level": 3,
+                        "status": ""
+                    },
+                    "t": {
+                        "level": 4,
+                        "status": " inactive"
+                    }
+                },
+                "upgrades": {
+                    "w": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "complete",
+                        "level_4": "current complete"
+                    },
+                    "b": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "current complete"
+                    },
+                    "c": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "current complete"
+                    },
+                    "m": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "current complete"
+                    },
+                    "t": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "complete",
+                        "level_4": "current complete"
+                    }
+                },
+                "can_upgrade_fort": "disabled",
+                "can_repair": null,
+                "max_possible_repair_cost": 127,
+                "max_possible_repair_hp": "full",
+                "boss_multiplier": 4,
+                "boss_verb": "irate",
+                "lair_width": null,
+                "show_lair": "active",
+                "can_enter_lair": "disabled",
+                "bait_warning": "",
+                "low_bait_warning": null,
+                "lair_bait_warning": "disabled",
+                "power_type_warning": "",
+                "items": {
+                    "fort_rox_tower_mana_stat_item": {
+                        "quantity": 141,
+                        "status": ""
+                    },
+                    "meteorite_piece_craft_item": {
+                        "quantity": "1,461",
+                        "status": "uncommon"
+                    },
+                    "howlite_stat_item": {
+                        "quantity": 178,
+                        "status": "available"
+                    },
+                    "blood_stone_stat_item": {
+                        "quantity": 57,
+                        "status": "available"
+                    },
+                    "dawn_dust_stat_item": {
+                        "quantity": 719,
+                        "status": ""
+                    },
+                    "gold_stat_item": {
+                        "quantity": "16,690,581",
+                        "status": ""
+                    },
+                    "gouda_cheese": {
+                        "quantity": 265,
+                        "status": "discouraged"
+                    },
+                    "super_brie_cheese": {
+                        "quantity": "5,903",
+                        "status": "discouraged"
+                    },
+                    "crescent_cheese": {
+                        "quantity": 53,
+                        "status": "active recommended",
+                        "cannot_craft": null
+                    },
+                    "moon_cheese": {
+                        "quantity": 620,
+                        "status": "recommended",
+                        "cannot_craft": null
+                    },
+                    "fort_rox_lair_key_stat_item": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "fort_rox_lair_cheese": {
+                        "quantity": 5,
+                        "status": "discouraged"
+                    }
+                }
+            }
+        },
+        {
+            "description": "Fort Rox - Dawn - Tower Active",
+            "QuestFortRox": {
+                "current_phase": "dawn",
+                "next_phase": "",
+                "hunts_until_next_phase": 0,
+                "current_stage": false,
+                "is_day": null,
+                "is_lair": null,
+                "is_night": null,
+                "is_dawn": true,
+                "hunts_until_dawn": "Dawn",
+                "max_hunts_until_dawn": 130,
+                "progress_percent": 100,
+                "phases": [],
+                "hp": 223,
+                "max_hp": 350,
+                "hp_percent": 63.714285714286,
+                "wall_warning": "",
+                "wall_status": "full",
+                "tower_status": "normal active",
+                "fort": {
+                    "w": {
+                        "level": 4,
+                        "status": ""
+                    },
+                    "b": {
+                        "level": 3,
+                        "status": ""
+                    },
+                    "c": {
+                        "level": 3,
+                        "status": ""
+                    },
+                    "m": {
+                        "level": 3,
+                        "status": ""
+                    },
+                    "t": {
+                        "level": 4,
+                        "status": " active"
+                    }
+                },
+                "upgrades": {
+                    "w": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "complete",
+                        "level_4": "current complete"
+                    },
+                    "b": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "current complete"
+                    },
+                    "c": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "current complete"
+                    },
+                    "m": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "current complete"
+                    },
+                    "t": {
+                        "status": "",
+                        "level_1": "complete",
+                        "level_2": "complete",
+                        "level_3": "complete",
+                        "level_4": "current complete"
+                    }
+                },
+                "can_upgrade_fort": "disabled",
+                "can_repair": null,
+                "max_possible_repair_cost": 127,
+                "max_possible_repair_hp": "full",
+                "boss_multiplier": 4,
+                "boss_verb": "irate",
+                "lair_width": null,
+                "show_lair": "active",
+                "can_enter_lair": "disabled",
+                "bait_warning": "",
+                "low_bait_warning": null,
+                "lair_bait_warning": "disabled",
+                "power_type_warning": "",
+                "items": {
+                    "fort_rox_tower_mana_stat_item": {
+                        "quantity": 141,
+                        "status": ""
+                    },
+                    "meteorite_piece_craft_item": {
+                        "quantity": "1,461",
+                        "status": "uncommon"
+                    },
+                    "howlite_stat_item": {
+                        "quantity": 178,
+                        "status": "available"
+                    },
+                    "blood_stone_stat_item": {
+                        "quantity": 57,
+                        "status": "available"
+                    },
+                    "dawn_dust_stat_item": {
+                        "quantity": 719,
+                        "status": ""
+                    },
+                    "gold_stat_item": {
+                        "quantity": "16,690,581",
+                        "status": ""
+                    },
+                    "gouda_cheese": {
+                        "quantity": 265,
+                        "status": "discouraged"
+                    },
+                    "super_brie_cheese": {
+                        "quantity": "5,903",
+                        "status": "discouraged"
+                    },
+                    "crescent_cheese": {
+                        "quantity": 53,
+                        "status": "active recommended",
+                        "cannot_craft": null
+                    },
+                    "moon_cheese": {
+                        "quantity": 620,
+                        "status": "recommended",
+                        "cannot_craft": null
+                    },
+                    "fort_rox_lair_key_stat_item": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "fort_rox_lair_cheese": {
+                        "quantity": 5,
+                        "status": "discouraged"
+                    }
+                }
+            }
+        }
+    ]
+}

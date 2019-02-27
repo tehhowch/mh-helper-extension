@@ -1,0 +1,317 @@
+{
+    "collected_viewing_atts": [
+        {
+            "description": "Balack's Cove, Low, Increasing Intensity",
+            "viewing_atts": {
+                "tide": "low",
+                "tide_direction": "out",
+                "cycle_progress": 68,
+                "num_pinch": 83,
+                "num_raisins": 58,
+                "num_rage": 66
+            }
+        },
+        {
+            "description": "Balack's Cove, Low, Decreasing Intensity",
+            "viewing_atts": {
+                "tide": "low",
+                "tide_direction": "in",
+                "cycle_progress": 83,
+                "num_pinch": 83,
+                "num_raisins": 58,
+                "num_rage": 67
+            }
+        },
+        {
+            "description": "Zugzwang's Tower - Technic Knights & Mystic Pawns",
+            "viewing_atts": {
+                "zzt_amplifier": 165,
+                "zzt_tech_progress": 8,
+                "zzt_mage_progress": 0
+            }
+        },
+        {
+            "description": "Zugzwang's Tower - Technic King & Mystic Pawns",
+            "viewing_atts": {
+                "zzt_amplifier": 100,
+                "zzt_tech_progress": 15,
+                "zzt_mage_progress": 7
+            }
+        },
+        {
+            "description": "Zugzwang's Tower - Technic Complete & Mystic Bishops",
+            "viewing_atts": {
+                "zzt_amplifier": 68,
+                "zzt_tech_progress": 16,
+                "zzt_mage_progress": 10
+            }
+        },
+        {
+            "description": "Zugzwang's Tower - Technic Knights & Mystic Pawns",
+            "viewing_atts": {
+                "zzt_amplifier": 165,
+                "zzt_tech_progress": 8,
+                "zzt_mage_progress": 0
+            }
+        },
+        {
+            "description": "FW Wave 2 All available",
+            "viewing_atts": {
+                "desert_warpath": {
+                    "wave": 2,
+                    "victories": "33",
+                    "friends": 4,
+                    "streak_quantity": 2,
+                    "streak_thumb": "https://www.mousehuntgame.com/images/mice/thumb/08a392115d7b3f3aa5130072b167c5b8.gif?cv=239",
+                    "streak_type": "desert_archer",
+                    "mice": {
+                        "desert_warrior": {
+                            "status": "active",
+                            "quantity": 40
+                        },
+                        "desert_scout": {
+                            "status": "active",
+                            "quantity": 40
+                        },
+                        "desert_archer": {
+                            "status": "active",
+                            "quantity": 38
+                        },
+                        "desert_cavalry": {
+                            "status": "active",
+                            "quantity": 44
+                        },
+                        "desert_mage": {
+                            "status": "active",
+                            "quantity": 20
+                        },
+                        "desert_general": {
+                            "status": "active",
+                            "quantity": 1
+                        },
+                        "desert_supply": {
+                            "status": "active",
+                            "quantity": 1
+                        }
+                    },
+                    "has_support_mice": "active",
+                    "morale_percent": 2,
+                    "show_portal": "showPortal",
+                    "items": {
+                        "flame_march_archer_trinket": {
+                            "quantity": "23",
+                            "status": ""
+                        },
+                        "flame_march_cavalry_trinket": {
+                            "quantity": "35",
+                            "status": ""
+                        },
+                        "flame_march_mage_trinket": {
+                            "quantity": "42",
+                            "status": ""
+                        },
+                        "flame_march_scout_trinket": {
+                            "quantity": "42",
+                            "status": ""
+                        },
+                        "flame_march_warrior_trinket": {
+                            "quantity": "24",
+                            "status": ""
+                        },
+                        "super_flame_march_archer_trinket": {
+                            "quantity": "80",
+                            "status": ""
+                        },
+                        "super_flame_march_cavalry_trinket": {
+                            "quantity": "14",
+                            "status": ""
+                        },
+                        "super_flame_march_mage_trinket": {
+                            "quantity": "59",
+                            "status": ""
+                        },
+                        "super_flame_march_scout_trinket": {
+                            "quantity": "77",
+                            "status": ""
+                        },
+                        "super_flame_march_warrior_trinket": {
+                            "quantity": "96",
+                            "status": ""
+                        },
+                        "artillery_strike_stat_item": {
+                            "quantity": "4",
+                            "status": ""
+                        },
+                        "warpath_portal_projector_stat_item": {
+                            "quantity": "0",
+                            "status": "disabled"
+                        },
+                        "flame_march_general_trinket": {
+                            "quantity": "43",
+                            "status": ""
+                        },
+                        "super_flame_march_general_trinket": {
+                            "quantity": "59",
+                            "status": ""
+                        },
+                        "monger_trinket": {
+                            "quantity": "16",
+                            "status": ""
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "description": "FW Wave 2 Archers defeated",
+            "viewing_atts": {
+                "wave": 2,
+                "victories": 33,
+                "friends": 4,
+                "streak_quantity": 0,
+                "streak_thumb": null,
+                "streak_type": false,
+                "mice": {
+                    "desert_warrior": {
+                        "status": "active",
+                        "quantity": 33
+                    },
+                    "desert_scout": {
+                        "status": "active",
+                        "quantity": 33
+                    },
+                    "desert_archer": {
+                        "status": "inactive",
+                        "quantity": 0
+                    },
+                    "desert_cavalry": {
+                        "status": "active targetted",
+                        "quantity": 37
+                    },
+                    "desert_mage": {
+                        "status": "active",
+                        "quantity": 13
+                    },
+                    "desert_general": {
+                        "status": "active",
+                        "quantity": 1
+                    },
+                    "desert_supply": {
+                        "status": "active",
+                        "quantity": 1
+                    }
+                },
+                "has_support_mice": "active",
+                "morale_percent": 42,
+                "show_portal": "showPortal",
+                "items": {
+                    "flame_march_archer_trinket": {
+                        "quantity": 10,
+                        "status": ""
+                    },
+                    "flame_march_cavalry_trinket": {
+                        "quantity": 35,
+                        "status": "active"
+                    },
+                    "flame_march_mage_trinket": {
+                        "quantity": 42,
+                        "status": ""
+                    },
+                    "flame_march_scout_trinket": {
+                        "quantity": 42,
+                        "status": ""
+                    },
+                    "flame_march_warrior_trinket": {
+                        "quantity": 24,
+                        "status": ""
+                    },
+                    "super_flame_march_archer_trinket": {
+                        "quantity": 79,
+                        "status": ""
+                    },
+                    "super_flame_march_cavalry_trinket": {
+                        "quantity": 14,
+                        "status": ""
+                    },
+                    "super_flame_march_mage_trinket": {
+                        "quantity": 59,
+                        "status": ""
+                    },
+                    "super_flame_march_scout_trinket": {
+                        "quantity": 77,
+                        "status": ""
+                    },
+                    "super_flame_march_warrior_trinket": {
+                        "quantity": 96,
+                        "status": ""
+                    },
+                    "artillery_strike_stat_item": {
+                        "quantity": 4,
+                        "status": ""
+                    },
+                    "warpath_portal_projector_stat_item": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "flame_march_general_trinket": {
+                        "quantity": 43,
+                        "status": ""
+                    },
+                    "super_flame_march_general_trinket": {
+                        "quantity": 58,
+                        "status": ""
+                    },
+                    "monger_trinket": {
+                        "quantity": 16,
+                        "status": ""
+                    }
+                }
+            }
+        },
+        {
+            "description": "Forbidden Grove - Open (12h remaining)",
+            "viewing_atts": {
+                "grove_open": true,
+                "state_progress": 26,
+                "num_runes": 345,
+                "num_runic_bait": 38
+            }
+        },
+        {
+            "description": "Forbidden Grove - Open (7.3h remaining)",
+            "viewing_atts": {
+                "grove_open": true,
+                "state_progress": 54,
+                "num_runes": 345,
+                "num_runic_bait": 38
+            }
+        },
+        {
+            "description": "Forbidden Grove - Open (~12m to closure)",
+            "viewing_atts": {
+                "grove_open": true,
+                "state_progress": 98,
+                "num_runes": 345,
+                "num_runic_bait": 38
+            }
+        },
+        {
+            "description": "Forbidden Grove - Open (~5m to closure)",
+            "viewing_atts": {
+                "grove_open": true,
+                "state_progress": 99,
+                "num_runes": "345",
+                "num_runic_bait": "38"
+            }
+        },
+        {
+            "description": "Forbidden Grove - Open (<1m to closure)",
+            "viewing_atts": {
+                "grove_open": true,
+                "state_progress": 99,
+                "num_runes": "345",
+                "num_runic_bait": "38"
+            }
+        }
+    ]
+}
