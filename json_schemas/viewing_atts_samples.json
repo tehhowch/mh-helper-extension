@@ -269,6 +269,118 @@
             }
         },
         {
+            "description": "FW Wave 3 All available",
+            "viewing_atts": {
+                "desert_warpath": {
+                    "wave": 3,
+                    "victories": 33,
+                    "friends": 3,
+                    "streak_quantity": 1,
+                    "streak_thumb": "https://www.mousehuntgame.com/images/mice/thumb/1a49def2e420b47611c8135ff684ebbf.gif?cv=239",
+                    "streak_type": "desert_archer_epic",
+                    "mice": {
+                        "desert_warrior_epic": {
+                            "status": "active",
+                            "quantity": 45
+                        },
+                        "desert_scout_epic": {
+                            "status": "active",
+                            "quantity": 50
+                        },
+                        "desert_archer_epic": {
+                            "status": "active targetted",
+                            "quantity": 49
+                        },
+                        "desert_cavalry_strong": {
+                            "status": "active",
+                            "quantity": 60
+                        },
+                        "desert_mage_strong": {
+                            "status": "active",
+                            "quantity": 30
+                        },
+                        "desert_artillery": {
+                            "status": "active",
+                            "quantity": 20
+                        },
+                        "desert_general": {
+                            "status": "active",
+                            "quantity": 1
+                        },
+                        "desert_supply": {
+                            "status": "active",
+                            "quantity": 1
+                        }
+                    },
+                    "has_support_mice": "active",
+                    "morale_percent": 3,
+                    "show_portal": "showPortal",
+                    "items": {
+                        "flame_march_archer_trinket": {
+                            "quantity": 40,
+                            "status": "active"
+                        },
+                        "flame_march_cavalry_trinket": {
+                            "quantity": 28,
+                            "status": ""
+                        },
+                        "flame_march_mage_trinket": {
+                            "quantity": 37,
+                            "status": ""
+                        },
+                        "flame_march_scout_trinket": {
+                            "quantity": 32,
+                            "status": ""
+                        },
+                        "flame_march_warrior_trinket": {
+                            "quantity": 17,
+                            "status": ""
+                        },
+                        "super_flame_march_archer_trinket": {
+                            "quantity": 79,
+                            "status": ""
+                        },
+                        "super_flame_march_cavalry_trinket": {
+                            "quantity": 14,
+                            "status": ""
+                        },
+                        "super_flame_march_mage_trinket": {
+                            "quantity": 58,
+                            "status": ""
+                        },
+                        "super_flame_march_scout_trinket": {
+                            "quantity": 77,
+                            "status": ""
+                        },
+                        "super_flame_march_warrior_trinket": {
+                            "quantity": 96,
+                            "status": ""
+                        },
+                        "artillery_strike_stat_item": {
+                            "quantity": 4,
+                            "status": ""
+                        },
+                        "warpath_portal_projector_stat_item": {
+                            "quantity": 0,
+                            "status": "disabled"
+                        },
+                        "flame_march_general_trinket": {
+                            "quantity": 44,
+                            "status": ""
+                        },
+                        "super_flame_march_general_trinket": {
+                            "quantity": 56,
+                            "status": ""
+                        },
+                        "monger_trinket": {
+                            "quantity": 16,
+                            "status": ""
+                        }
+                    }
+                }
+            }
+        },
+        {
             "description": "Forbidden Grove - Open (12h remaining)",
             "viewing_atts": {
                 "grove_open": true,
