@@ -2783,6 +2783,822 @@
                 },
                 "crafting_hash": "b83a4e"
             }
+        },
+        {
+            "description": "Crystal Library - On Assignment",
+            "QuestZugzwangLibrary": {
+                "library_point_collectible": {
+                    "name": "Library Points",
+                    "thumb": "https://www.mousehuntgame.com/images/items/collectibles/56167b7e163b8aa92a9596f5b1eec343.jpg?cv=239",
+                    "quantity": 8340
+                },
+                "hasResearchQuest": true,
+                "secondsRemainingUntilUserCanAcceptQuest": 0
+            }
+        },
+        {
+            "description": "Town of Gnawnia - Bounties Complete",
+            "QuestTownOfGnawniaBountyMice": {
+                "status": "none_available",
+                "can_claim": "disabled",
+                "can_accept": "disabled",
+                "mouse_name": "",
+                "mouse_thumb": null,
+                "mouse_type": "",
+                "bait_like_name": "???",
+                "bait_like_image": null,
+                "bait_like_type": "",
+                "bait_like_armed": "",
+                "bait_love_name": "???",
+                "bait_love_image": null,
+                "bait_love_type": "",
+                "bait_love_armed": "",
+                "rewards": [],
+                "canvas_page_url": "https://www.mousehuntgame.com/"
+            }
+        },
+        {
+            "description": "Windmill - Construction Complete",
+            "QuestWindmill": {
+                "bonus": "max",
+                "boss_status": "complete",
+                "speed": 60,
+                "needle": 105,
+                "can_buy": "active",
+                "items": {
+                    "grilled_cheese": {
+                        "quantity": 24,
+                        "status": ""
+                    },
+                    "flour_stat_item": {
+                        "quantity": 27,
+                        "status": ""
+                    }
+                },
+                "canvas_page_url": "https://www.mousehuntgame.com/"
+            }
+        },
+        {
+            "description": "Mountain - Damaged Boulder - SB+ - Charm with no Power",
+            "QuestMountain": {
+                "state": "boulder",
+                "boulder_status": "caved",
+                "boulder_percent": 10,
+                "boulder_hp": 100,
+                "trinket_type": "flame_march_cavalry_trinket",
+                "trinket_thumb": "https://www.mousehuntgame.com/images/items/trinkets/1eaebff31897d864db004a6d374b33aa.gif?cv=239",
+                "trinket_power": 0,
+                "trinket_power_warning": "active",
+                "trinket_strength": "none",
+                "items": {
+                    "cheddore_cheese": {
+                        "quantity": 103,
+                        "status": ""
+                    },
+                    "abominable_asiago_cheese": {
+                        "quantity": 37,
+                        "status": ""
+                    },
+                    "cheddar_cheese": {
+                        "quantity": "1,256",
+                        "status": ""
+                    },
+                    "swiss_cheese": {
+                        "quantity": "150,334",
+                        "status": ""
+                    },
+                    "brie_cheese": {
+                        "quantity": 218,
+                        "status": ""
+                    },
+                    "gouda_cheese": {
+                        "quantity": 265,
+                        "status": ""
+                    },
+                    "super_brie_cheese": {
+                        "quantity": "5,855",
+                        "status": "active"
+                    },
+                    "weak_power_trinket": {
+                        "quantity": 108,
+                        "status": ""
+                    },
+                    "power_trinket": {
+                        "quantity": 329,
+                        "status": ""
+                    },
+                    "super_power_trinket": {
+                        "quantity": 5,
+                        "status": ""
+                    },
+                    "ched_ore_crafting_item": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "ice_curd_crafting_item": {
+                        "quantity": 3,
+                        "status": ""
+                    },
+                    "faceted_sugar_crafting_item": {
+                        "quantity": 11,
+                        "status": ""
+                    },
+                    "curds_and_whey_craft_item": {
+                        "quantity": "27,647",
+                        "status": ""
+                    },
+                    "salt_craft_item": {
+                        "quantity": "10,622",
+                        "status": ""
+                    },
+                    "magic_essence_craft_item": {
+                        "quantity": 288,
+                        "status": ""
+                    }
+                },
+                "recipes": {
+                    "abominable_asiago_cheese_normal": {
+                        "can_craft": "",
+                        "parts": {
+                            "faceted_sugar_crafting_item": "",
+                            "ice_curd_crafting_item": ""
+                        }
+                    },
+                    "abominable_asiago_cheese_magic": {
+                        "can_craft": "",
+                        "parts": {
+                            "faceted_sugar_crafting_item": "",
+                            "ice_curd_crafting_item": "",
+                            "magic_essence_craft_item": ""
+                        }
+                    }
+                },
+                "mice": {
+                    "craggy_ore": {
+                        "difficulty": "Difficult"
+                    },
+                    "slope_swimmer": {
+                        "difficulty": "Difficult"
+                    },
+                    "mountain": {
+                        "difficulty": "Hard"
+                    }
+                },
+                "boss_status": "active",
+                "canvas_page_url": "https://www.mousehuntgame.com/"
+            }
+        },
+        {
+            "description": "Mountain - Damaged Boulder - SB+ - Charm with Power",
+            "QuestMountain": {
+                "state": "boulder",
+                "boulder_status": "caved",
+                "boulder_percent": 10,
+                "boulder_hp": 100,
+                "trinket_type": "mining_trinket",
+                "trinket_thumb": "https://www.mousehuntgame.com/images/items/trinkets/f7399c5331d89cc6a8b6b17f560d24b4_v2.gif?cv=239",
+                "trinket_power": 200,
+                "trinket_power_warning": null,
+                "trinket_strength": "med",
+                "items": {
+                    "cheddore_cheese": {
+                        "quantity": 103,
+                        "status": ""
+                    },
+                    "abominable_asiago_cheese": {
+                        "quantity": 37,
+                        "status": ""
+                    },
+                    "cheddar_cheese": {
+                        "quantity": "1,256",
+                        "status": ""
+                    },
+                    "swiss_cheese": {
+                        "quantity": "150,334",
+                        "status": ""
+                    },
+                    "brie_cheese": {
+                        "quantity": 218,
+                        "status": ""
+                    },
+                    "gouda_cheese": {
+                        "quantity": 265,
+                        "status": ""
+                    },
+                    "super_brie_cheese": {
+                        "quantity": "5,854",
+                        "status": "active"
+                    },
+                    "weak_power_trinket": {
+                        "quantity": 108,
+                        "status": ""
+                    },
+                    "power_trinket": {
+                        "quantity": 329,
+                        "status": ""
+                    },
+                    "super_power_trinket": {
+                        "quantity": 5,
+                        "status": ""
+                    },
+                    "ched_ore_crafting_item": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "ice_curd_crafting_item": {
+                        "quantity": 3,
+                        "status": ""
+                    },
+                    "faceted_sugar_crafting_item": {
+                        "quantity": 11,
+                        "status": ""
+                    },
+                    "curds_and_whey_craft_item": {
+                        "quantity": "27,647",
+                        "status": ""
+                    },
+                    "salt_craft_item": {
+                        "quantity": "10,622",
+                        "status": ""
+                    },
+                    "magic_essence_craft_item": {
+                        "quantity": 288,
+                        "status": ""
+                    }
+                },
+                "recipes": {
+                    "abominable_asiago_cheese_normal": {
+                        "can_craft": "",
+                        "parts": {
+                            "faceted_sugar_crafting_item": "",
+                            "ice_curd_crafting_item": ""
+                        }
+                    },
+                    "abominable_asiago_cheese_magic": {
+                        "can_craft": "",
+                        "parts": {
+                            "faceted_sugar_crafting_item": "",
+                            "ice_curd_crafting_item": "",
+                            "magic_essence_craft_item": ""
+                        }
+                    }
+                },
+                "mice": {
+                    "craggy_ore": {
+                        "difficulty": "Medium"
+                    },
+                    "slope_swimmer": {
+                        "difficulty": "Medium"
+                    },
+                    "mountain": {
+                        "difficulty": "Tough"
+                    }
+                },
+                "boss_status": "active"
+            }
+        },
+        {
+            "description": "Mountain - Damaged Boulder - Chedd-ore",
+            "QuestMountain": {
+                "state": "bait",
+                "boulder_status": "caved",
+                "boulder_percent": 10,
+                "boulder_hp": 100,
+                "trinket_type": "mining_trinket",
+                "trinket_thumb": "https://www.mousehuntgame.com/images/items/trinkets/f7399c5331d89cc6a8b6b17f560d24b4_v2.gif?cv=239",
+                "trinket_power": 200,
+                "trinket_power_warning": null,
+                "trinket_strength": "med",
+                "items": {
+                    "cheddore_cheese": {
+                        "quantity": 103,
+                        "status": "active"
+                    },
+                    "abominable_asiago_cheese": {
+                        "quantity": 37,
+                        "status": ""
+                    },
+                    "cheddar_cheese": {
+                        "quantity": "1,256",
+                        "status": ""
+                    },
+                    "swiss_cheese": {
+                        "quantity": "150,334",
+                        "status": ""
+                    },
+                    "brie_cheese": {
+                        "quantity": 218,
+                        "status": ""
+                    },
+                    "gouda_cheese": {
+                        "quantity": 265,
+                        "status": ""
+                    },
+                    "super_brie_cheese": {
+                        "quantity": "5,854",
+                        "status": ""
+                    },
+                    "weak_power_trinket": {
+                        "quantity": 108,
+                        "status": ""
+                    },
+                    "power_trinket": {
+                        "quantity": 329,
+                        "status": ""
+                    },
+                    "super_power_trinket": {
+                        "quantity": 5,
+                        "status": ""
+                    },
+                    "ched_ore_crafting_item": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "ice_curd_crafting_item": {
+                        "quantity": 3,
+                        "status": ""
+                    },
+                    "faceted_sugar_crafting_item": {
+                        "quantity": 11,
+                        "status": ""
+                    },
+                    "curds_and_whey_craft_item": {
+                        "quantity": "27,647",
+                        "status": ""
+                    },
+                    "salt_craft_item": {
+                        "quantity": "10,622",
+                        "status": ""
+                    },
+                    "magic_essence_craft_item": {
+                        "quantity": 288,
+                        "status": ""
+                    }
+                },
+                "recipes": {
+                    "abominable_asiago_cheese_normal": {
+                        "can_craft": "",
+                        "parts": {
+                            "faceted_sugar_crafting_item": "",
+                            "ice_curd_crafting_item": ""
+                        }
+                    },
+                    "abominable_asiago_cheese_magic": {
+                        "can_craft": "",
+                        "parts": {
+                            "faceted_sugar_crafting_item": "",
+                            "ice_curd_crafting_item": "",
+                            "magic_essence_craft_item": ""
+                        }
+                    }
+                },
+                "mice": {
+                    "craggy_ore": {
+                        "difficulty": "Medium"
+                    },
+                    "slope_swimmer": {
+                        "difficulty": "Medium"
+                    },
+                    "mountain": {
+                        "difficulty": "Tough"
+                    }
+                },
+                "boss_status": "active"
+            }
+        },
+        {
+            "description": "Mountain - Damaged Boulder - Asiago",
+            "QuestMountain": {
+                "state": "boss",
+                "boulder_status": "caved",
+                "boulder_percent": 10,
+                "boulder_hp": 100,
+                "trinket_type": "mining_trinket",
+                "trinket_thumb": "https://www.mousehuntgame.com/images/items/trinkets/f7399c5331d89cc6a8b6b17f560d24b4_v2.gif?cv=239",
+                "trinket_power": 200,
+                "trinket_power_warning": null,
+                "trinket_strength": "med",
+                "items": {
+                    "cheddore_cheese": {
+                        "quantity": 103,
+                        "status": ""
+                    },
+                    "abominable_asiago_cheese": {
+                        "quantity": 37,
+                        "status": "active"
+                    },
+                    "cheddar_cheese": {
+                        "quantity": "1,256",
+                        "status": ""
+                    },
+                    "swiss_cheese": {
+                        "quantity": "150,334",
+                        "status": ""
+                    },
+                    "brie_cheese": {
+                        "quantity": 218,
+                        "status": ""
+                    },
+                    "gouda_cheese": {
+                        "quantity": 265,
+                        "status": ""
+                    },
+                    "super_brie_cheese": {
+                        "quantity": "5,854",
+                        "status": ""
+                    },
+                    "weak_power_trinket": {
+                        "quantity": 108,
+                        "status": ""
+                    },
+                    "power_trinket": {
+                        "quantity": 329,
+                        "status": ""
+                    },
+                    "super_power_trinket": {
+                        "quantity": 5,
+                        "status": ""
+                    },
+                    "ched_ore_crafting_item": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "ice_curd_crafting_item": {
+                        "quantity": 3,
+                        "status": ""
+                    },
+                    "faceted_sugar_crafting_item": {
+                        "quantity": 11,
+                        "status": ""
+                    },
+                    "curds_and_whey_craft_item": {
+                        "quantity": "27,647",
+                        "status": ""
+                    },
+                    "salt_craft_item": {
+                        "quantity": "10,622",
+                        "status": ""
+                    },
+                    "magic_essence_craft_item": {
+                        "quantity": 288,
+                        "status": ""
+                    }
+                },
+                "recipes": {
+                    "abominable_asiago_cheese_normal": {
+                        "can_craft": "",
+                        "parts": {
+                            "faceted_sugar_crafting_item": "",
+                            "ice_curd_crafting_item": ""
+                        }
+                    },
+                    "abominable_asiago_cheese_magic": {
+                        "can_craft": "",
+                        "parts": {
+                            "faceted_sugar_crafting_item": "",
+                            "ice_curd_crafting_item": "",
+                            "magic_essence_craft_item": ""
+                        }
+                    }
+                },
+                "mice": {
+                    "craggy_ore": {
+                        "difficulty": "Medium"
+                    },
+                    "slope_swimmer": {
+                        "difficulty": "Medium"
+                    },
+                    "mountain": {
+                        "difficulty": "Tough"
+                    }
+                },
+                "boss_status": "active"
+            }
+        },
+        {
+            "description": "Sunken City - Sunken Treasure - 25km+",
+            "QuestSunkenCity": {
+                "active_zone": 534,
+                "is_diving": true,
+                "trinket": "mining_trinket",
+                "distance": 168520,
+                "zone_name": "Sunken Treasure",
+                "can_dive": false,
+                "seed_title": null,
+                "bait_armed": false,
+                "best_dive": 168520,
+                "zones": [
+                    {
+                        "num": 533,
+                        "name": "Haunted Shipwreck",
+                        "type": "haunted_shipwreck",
+                        "full": false,
+                        "left": -82,
+                        "width": 150,
+                        "length": 250,
+                        "category": "barnacle"
+                    },
+                    {
+                        "num": 534,
+                        "name": "Sunken Treasure",
+                        "type": "sunken_treasure",
+                        "full": false,
+                        "left": 68,
+                        "width": 150,
+                        "length": 250,
+                        "category": "treasure"
+                    },
+                    {
+                        "num": 535,
+                        "name": "Haunted Shipwreck",
+                        "type": "haunted_shipwreck",
+                        "full": true,
+                        "left": 218,
+                        "width": 300,
+                        "length": 500,
+                        "category": "barnacle"
+                    },
+                    {
+                        "num": 536,
+                        "name": "Murky Depths",
+                        "type": "murky_depths",
+                        "full": false,
+                        "left": 518,
+                        "width": 150,
+                        "length": 250,
+                        "category": "default"
+                    },
+                    {
+                        "num": 537,
+                        "name": "Lost Ruins",
+                        "type": "lost_ruins",
+                        "full": false,
+                        "left": 668,
+                        "width": 150,
+                        "length": 250,
+                        "category": "mouse_scale"
+                    }
+                ],
+                "sea_floor": -49876,
+                "stage": "murky_depths",
+                "items": {
+                    "oxygen_stat_item": 1344,
+                    "water_jet_trinket": 45,
+                    "anchor_trinket": 207,
+                    "damaged_coral_crafting_item": 2766,
+                    "mouse_scale_crafting_item": 2127,
+                    "barnacle_crafting_item": 2586,
+                    "brined_curd_crafting_item": 487,
+                    "magic_essence_craft_item": 288,
+                    "fishy_fromage_cheese": 68
+                }
+            }
+        },
+        {
+            "description": "Fungal Cavern - Normal Bait - Wrong Powertype",
+            "QuestFungalCavern": {
+                "bait": "basic_bait",
+                "recipes": {
+                    "glowing_gruyere_cheese_3_pieces": {
+                        "type": "glowing_gruyere_cheese_3_pieces",
+                        "name": "Glowing Gruyere Cheese (3 Pieces)",
+                        "max": 274,
+                        "status": "active",
+                        "parts": {
+                            "cavern_fungus_crafting_item": {
+                                "type": "cavern_fungus_crafting_item",
+                                "required": 3,
+                                "status": ""
+                            },
+                            "cave_nightshade_crafting_item": {
+                                "type": "cave_nightshade_crafting_item",
+                                "required": 1,
+                                "status": ""
+                            },
+                            "living_shard_crafting_item": {
+                                "type": "living_shard_crafting_item",
+                                "required": 3,
+                                "status": ""
+                            },
+                            "ionized_salt_craft_item": {
+                                "type": "ionized_salt_craft_item",
+                                "required": 6,
+                                "status": ""
+                            },
+                            "curds_and_whey_craft_item": {
+                                "type": "curds_and_whey_craft_item",
+                                "required": 30,
+                                "status": ""
+                            }
+                        }
+                    },
+                    "glowing_gruyere_cheese_5_pieces": {
+                        "type": "glowing_gruyere_cheese_5_pieces",
+                        "name": "Glowing Gruyere Cheese (5 Pieces)",
+                        "max": 144,
+                        "status": "active",
+                        "parts": {
+                            "cavern_fungus_crafting_item": {
+                                "type": "cavern_fungus_crafting_item",
+                                "required": 3,
+                                "status": ""
+                            },
+                            "cave_nightshade_crafting_item": {
+                                "type": "cave_nightshade_crafting_item",
+                                "required": 1,
+                                "status": ""
+                            },
+                            "living_shard_crafting_item": {
+                                "type": "living_shard_crafting_item",
+                                "required": 3,
+                                "status": ""
+                            },
+                            "ionized_salt_craft_item": {
+                                "type": "ionized_salt_craft_item",
+                                "required": 6,
+                                "status": ""
+                            },
+                            "curds_and_whey_craft_item": {
+                                "type": "curds_and_whey_craft_item",
+                                "required": 30,
+                                "status": ""
+                            },
+                            "magic_essence_craft_item": {
+                                "type": "magic_essence_craft_item",
+                                "required": 2,
+                                "status": ""
+                            }
+                        }
+                    },
+                    "mineral_cheese_3_pieces": {
+                        "type": "mineral_cheese_3_pieces",
+                        "name": "Mineral Cheese (3 Pieces)",
+                        "max": 187,
+                        "status": "active",
+                        "parts": {
+                            "mineral_crafting_item": {
+                                "type": "mineral_crafting_item",
+                                "required": 12,
+                                "status": ""
+                            },
+                            "ionized_salt_craft_item": {
+                                "type": "ionized_salt_craft_item",
+                                "required": 6,
+                                "status": ""
+                            },
+                            "curds_and_whey_craft_item": {
+                                "type": "curds_and_whey_craft_item",
+                                "required": 18,
+                                "status": ""
+                            }
+                        }
+                    },
+                    "mineral_cheese_6_pieces": {
+                        "type": "mineral_cheese_6_pieces",
+                        "name": "Mineral Cheese (6 Pieces)",
+                        "max": 48,
+                        "status": "active",
+                        "parts": {
+                            "mineral_crafting_item": {
+                                "type": "mineral_crafting_item",
+                                "required": 12,
+                                "status": ""
+                            },
+                            "ionized_salt_craft_item": {
+                                "type": "ionized_salt_craft_item",
+                                "required": 6,
+                                "status": ""
+                            },
+                            "curds_and_whey_craft_item": {
+                                "type": "curds_and_whey_craft_item",
+                                "required": 18,
+                                "status": ""
+                            },
+                            "magic_essence_craft_item": {
+                                "type": "magic_essence_craft_item",
+                                "required": 6,
+                                "status": ""
+                            }
+                        }
+                    },
+                    "gemstone_cheese_recipe": {
+                        "type": "gemstone_cheese_recipe",
+                        "name": "Gemstone Cheese (3 Pieces)",
+                        "max": 3,
+                        "status": "active",
+                        "parts": {
+                            "gemstone_crafting_item": {
+                                "type": "gemstone_crafting_item",
+                                "required": 3,
+                                "status": ""
+                            },
+                            "mineral_crafting_item": {
+                                "type": "mineral_crafting_item",
+                                "required": 28,
+                                "status": ""
+                            },
+                            "ionized_salt_craft_item": {
+                                "type": "ionized_salt_craft_item",
+                                "required": 6,
+                                "status": ""
+                            },
+                            "curds_and_whey_craft_item": {
+                                "type": "curds_and_whey_craft_item",
+                                "required": 6,
+                                "status": ""
+                            }
+                        }
+                    },
+                    "diamond_cheese_1_piece": {
+                        "type": "diamond_cheese_1_piece",
+                        "name": "Diamond Cheese (1 Piece)",
+                        "max": 3,
+                        "status": "active",
+                        "parts": {
+                            "diamond_crafting_item": {
+                                "type": "diamond_crafting_item",
+                                "required": 10,
+                                "status": ""
+                            },
+                            "mineral_crafting_item": {
+                                "type": "mineral_crafting_item",
+                                "required": 100,
+                                "status": ""
+                            },
+                            "ionized_salt_craft_item": {
+                                "type": "ionized_salt_craft_item",
+                                "required": 12,
+                                "status": ""
+                            },
+                            "curds_and_whey_craft_item": {
+                                "type": "curds_and_whey_craft_item",
+                                "required": 3,
+                                "status": ""
+                            }
+                        }
+                    }
+                },
+                "items": {
+                    "crystal_crucible_crafting_item": {
+                        "quantity": 327,
+                        "status": " off"
+                    },
+                    "glowing_gruyere_cheese": {
+                        "quantity": 280,
+                        "status": ""
+                    },
+                    "cavern_fungus_crafting_item": {
+                        "quantity": "8,586",
+                        "status": " on"
+                    },
+                    "cave_nightshade_crafting_item": {
+                        "quantity": "1,193",
+                        "status": " on"
+                    },
+                    "living_shard_crafting_item": {
+                        "quantity": 823,
+                        "status": " off"
+                    },
+                    "ionized_salt_craft_item": {
+                        "quantity": "3,660",
+                        "status": " off"
+                    },
+                    "curds_and_whey_craft_item": {
+                        "quantity": "27,647",
+                        "status": " off"
+                    },
+                    "magic_essence_craft_item": {
+                        "quantity": 288,
+                        "status": " off"
+                    },
+                    "mineral_cheese": {
+                        "quantity": 146,
+                        "status": ""
+                    },
+                    "mineral_crafting_item": {
+                        "quantity": "2,250",
+                        "status": " off"
+                    },
+                    "gemstone_cheese": {
+                        "quantity": 54,
+                        "status": ""
+                    },
+                    "gemstone_crafting_item": {
+                        "quantity": 11,
+                        "status": " off"
+                    },
+                    "diamond_cheese": {
+                        "quantity": 1,
+                        "status": ""
+                    },
+                    "diamond_crafting_item": {
+                        "quantity": 33,
+                        "status": " off"
+                    }
+                },
+                "warning": "warning",
+                "canvas_page_url": "https://www.mousehuntgame.com/"
+            }
         }
     ]
 }

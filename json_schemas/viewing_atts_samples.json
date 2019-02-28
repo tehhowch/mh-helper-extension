@@ -424,6 +424,18 @@
                 "num_runes": "345",
                 "num_runic_bait": "38"
             }
+        },
+        {
+            "description": "SG - Fall",
+            "viewing_atts": {
+                "trap_effectiveness": "Very Poor",
+                "bait_effectiveness": true,
+                "setup_effectiveness": 1,
+                "reset_effectiveness": true,
+                "season": "fl",
+                "zzt_amplifier": 0,
+                "zzt_max_amplifier": 175
+            }
         }
     ]
 }
