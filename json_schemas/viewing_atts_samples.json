@@ -381,6 +381,212 @@
             }
         },
         {
+            "description": "FW Wave 3 - 1 remaining - Flamebane armed",
+            "viewing_atts": {
+                "desert_warpath": {
+                    "wave": 3,
+                    "victories": "33",
+                    "friends": 3,
+                    "streak_quantity": 3,
+                    "streak_thumb": "https://www.mousehuntgame.com/images/mice/thumb/e7a3642e7a43fbd81cb6b32134eb43be.gif?cv=239",
+                    "streak_type": "desert_mage_strong",
+                    "mice": {
+                        "desert_warrior_epic": {
+                            "status": "inactive",
+                            "quantity": 0
+                        },
+                        "desert_scout_epic": {
+                            "status": "inactive",
+                            "quantity": 0
+                        },
+                        "desert_archer_epic": {
+                            "status": "inactive",
+                            "quantity": 0
+                        },
+                        "desert_cavalry_strong": {
+                            "status": "inactive",
+                            "quantity": 0
+                        },
+                        "desert_mage_strong": {
+                            "status": "active",
+                            "quantity": 1
+                        },
+                        "desert_artillery": {
+                            "status": "inactive",
+                            "quantity": 0
+                        },
+                        "desert_general": {
+                            "status": "inactive",
+                            "quantity": 0
+                        },
+                        "desert_supply": {
+                            "status": "inactive",
+                            "quantity": 0
+                        }
+                    },
+                    "has_support_mice": "inactive",
+                    "morale_percent": 100,
+                    "show_portal": "showPortal",
+                    "items": {
+                        "flame_march_archer_trinket": {
+                            "quantity": "21",
+                            "status": ""
+                        },
+                        "flame_march_cavalry_trinket": {
+                            "quantity": "11",
+                            "status": ""
+                        },
+                        "flame_march_mage_trinket": {
+                            "quantity": "36",
+                            "status": ""
+                        },
+                        "flame_march_scout_trinket": {
+                            "quantity": "20",
+                            "status": ""
+                        },
+                        "flame_march_warrior_trinket": {
+                            "quantity": "7",
+                            "status": ""
+                        },
+                        "super_flame_march_archer_trinket": {
+                            "quantity": "79",
+                            "status": ""
+                        },
+                        "super_flame_march_cavalry_trinket": {
+                            "quantity": "14",
+                            "status": ""
+                        },
+                        "super_flame_march_mage_trinket": {
+                            "quantity": "58",
+                            "status": ""
+                        },
+                        "super_flame_march_scout_trinket": {
+                            "quantity": "69",
+                            "status": ""
+                        },
+                        "super_flame_march_warrior_trinket": {
+                            "quantity": "85",
+                            "status": ""
+                        },
+                        "artillery_strike_stat_item": {
+                            "quantity": "4",
+                            "status": ""
+                        },
+                        "warpath_portal_projector_stat_item": {
+                            "quantity": "0",
+                            "status": "disabled"
+                        },
+                        "flame_march_general_trinket": {
+                            "quantity": "42",
+                            "status": ""
+                        },
+                        "super_flame_march_general_trinket": {
+                            "quantity": "55",
+                            "status": ""
+                        },
+                        "monger_trinket": {
+                            "quantity": "16",
+                            "status": ""
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "description": "FW Wave 4",
+            "viewing_atts": {
+                "desert_warpath": {
+                    "wave": 4,
+                    "victories": 33,
+                    "friends": 3,
+                    "streak_quantity": 0,
+                    "streak_thumb": null,
+                    "streak_type": false,
+                    "mice": {
+                        "desert_elite_gaurd": {
+                            "status": "active",
+                            "quantity": 12
+                        },
+                        "desert_boss": {
+                            "status": "active",
+                            "quantity": 1
+                        }
+                    },
+                    "has_support_mice": "inactive",
+                    "morale_percent": 0,
+                    "show_portal": "showPortal",
+                    "items": {
+                        "flame_march_archer_trinket": {
+                            "quantity": 21,
+                            "status": ""
+                        },
+                        "flame_march_cavalry_trinket": {
+                            "quantity": 11,
+                            "status": ""
+                        },
+                        "flame_march_mage_trinket": {
+                            "quantity": 36,
+                            "status": ""
+                        },
+                        "flame_march_scout_trinket": {
+                            "quantity": 20,
+                            "status": ""
+                        },
+                        "flame_march_warrior_trinket": {
+                            "quantity": 7,
+                            "status": ""
+                        },
+                        "super_flame_march_archer_trinket": {
+                            "quantity": 79,
+                            "status": ""
+                        },
+                        "super_flame_march_cavalry_trinket": {
+                            "quantity": 14,
+                            "status": ""
+                        },
+                        "super_flame_march_mage_trinket": {
+                            "quantity": 58,
+                            "status": ""
+                        },
+                        "super_flame_march_scout_trinket": {
+                            "quantity": 69,
+                            "status": ""
+                        },
+                        "super_flame_march_warrior_trinket": {
+                            "quantity": 85,
+                            "status": ""
+                        },
+                        "artillery_strike_stat_item": {
+                            "quantity": 4,
+                            "status": " disabled"
+                        },
+                        "warpath_portal_projector_stat_item": {
+                            "quantity": 0,
+                            "status": "disabled"
+                        },
+                        "flame_march_general_trinket": {
+                            "quantity": 43,
+                            "status": ""
+                        },
+                        "super_flame_march_general_trinket": {
+                            "quantity": 55,
+                            "status": ""
+                        },
+                        "monger_trinket": {
+                            "quantity": 16,
+                            "status": ""
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "description": "FW Wave 4 - Artillery Commander Tent",
+            "viewing_atts": {
+                "desert_warpath": {}
+            }
+        },
+        {
             "description": "Forbidden Grove - Open (12h remaining)",
             "viewing_atts": {
                 "grove_open": true,
