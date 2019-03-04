@@ -642,6 +642,18 @@
                 "zzt_amplifier": 0,
                 "zzt_max_amplifier": 175
             }
+        },
+        {
+            "description": "SG - Winter",
+            "viewing_atts": {
+                "trap_effectiveness": "Strong",
+                "bait_effectiveness": true,
+                "setup_effectiveness": 4,
+                "reset_effectiveness": true,
+                "season": "wr",
+                "zzt_amplifier": 0,
+                "zzt_max_amplifier": 175
+            }
         }
     ]
 }

@@ -578,6 +578,95 @@
             }
         },
         {
+            "description": "Iceerg - Bombing Run",
+            "QuestIceberg": {
+                "in_bonus": false,
+                "user_progress": 1389,
+                "turns_taken": 123,
+                "max_turns": 450,
+                "max_depth": 1800,
+                "can_reset": false,
+                "can_drill": true,
+                "drill_heat": 0,
+                "drill_max_charges": 8,
+                "has_drill": true,
+                "items": {
+                    "drill_charge_stat_item": "7",
+                    "sticky_trinket": "684",
+                    "wax_trinket": 527
+                },
+                "chests": [
+                    {
+                        "id": 1,
+                        "name": "Supply Chest",
+                        "turn": 425,
+                        "active": true,
+                        "position": 623
+                    },
+                    {
+                        "id": 2,
+                        "name": "Strongbox",
+                        "turn": 350,
+                        "active": true,
+                        "position": 525
+                    },
+                    {
+                        "id": 3,
+                        "name": "Treasure Chest",
+                        "turn": 275,
+                        "active": true,
+                        "position": 428
+                    }
+                ],
+                "phases": {
+                    "1": {
+                        "id": 1,
+                        "name": "Treacherous Tunnels",
+                        "length": 300,
+                        "percent": 0,
+                        "top": 33,
+                        "height": 160
+                    },
+                    "2": {
+                        "id": 2,
+                        "name": "Brutal Bulwark",
+                        "length": 300,
+                        "percent": 0.16666666666667,
+                        "top": 193,
+                        "height": 160
+                    },
+                    "3": {
+                        "id": 3,
+                        "name": "Bombing Run",
+                        "length": 1000,
+                        "percent": 0.33333333333333,
+                        "top": 353,
+                        "height": 533
+                    },
+                    "4": {
+                        "id": 4,
+                        "name": "The Mad Depths",
+                        "length": 200,
+                        "percent": 0.88888888888889,
+                        "top": 885,
+                        "height": 107
+                    },
+                    "5": {
+                        "id": 5,
+                        "name": "Icewing's Lair",
+                        "length": false,
+                        "percent": 1,
+                        "top": 991,
+                        "height": 0
+                    }
+                },
+                "current_phase": "Bombing Run",
+                "timeline_position": 160,
+                "cutaway_position": -743,
+                "player_position": 770
+            }
+        },
+        {
             "description": "Mousoleum - Wrong Bait - No Wall, Can Build",
             "QuestMousoleum": {
                 "bait_type": "super_brie_cheese",
