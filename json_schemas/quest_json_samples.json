@@ -3688,6 +3688,2281 @@
                 "warning": "warning",
                 "canvas_page_url": "https://www.mousehuntgame.com/"
             }
+        },
+        {
+            "description": "Birthday 2019 - Unentered, no bait",
+            "QuestBirthday2019": {
+                "bait_warning": true,
+                "factory_atts": {
+                    "current_progress": 0,
+                    "current_room": "none",
+                    "pipe_speed": 10,
+                    "max_pipe_progress": 2000,
+                    "hunts_remaining": 200,
+                    "boss_warning": null,
+                    "can_claim": null,
+                    "level": {
+                        "mixing_room": 1,
+                        "break_room": 1,
+                        "pumping_room": 1,
+                        "quality_assurance_room": 1
+                    },
+                    "can_upgrade_levels": {
+                        "mixing_room": null,
+                        "break_room": null,
+                        "pumping_room": null,
+                        "quality_assurance_room": null
+                    },
+                    "can_upgrade": null,
+                    "room_data": {
+                        "mixing_room": {
+                            "name": "Mixing Room",
+                            "description": "Upgrade this room to increase the quantity of cheese found inside of cheese crates.",
+                            "factory_item": "birthday_factory_mixing_room_stat_item",
+                            "effect_prefix": "When I complete an order, I'll get:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "5 cheese, 5 Magic Essence",
+                                    "effects": 5,
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "10 cheese, 5 Magic Essence",
+                                    "effects": 10,
+                                    "cost": {
+                                        "birthday_factory_mixing_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "15 cheese, 5 Magic Essence",
+                                    "effects": 15,
+                                    "cost": {
+                                        "birthday_factory_break_room_stat_item": 8,
+                                        "birthday_factory_quality_assurance_room_stat_item": 12
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "20 cheese, 5 Magic Essence",
+                                    "effects": 20,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 18,
+                                        "birthday_factory_break_room_stat_item": 6,
+                                        "birthday_factory_quality_assurance_room_stat_item": 6
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "25 cheese, 5 Magic Essence",
+                                    "effects": 25,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        },
+                        "break_room": {
+                            "name": "Break Room",
+                            "description": "Upgrade this room to earn bonus loot from caught mice when they drop Coggy Colby Cheese.",
+                            "factory_item": "birthday_factory_break_room_stat_item",
+                            "effect_prefix": "Mice who drop Colby also give:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "No effect",
+                                    "effects": [],
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "+1 Coggy Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 1
+                                    },
+                                    "cost": {
+                                        "birthday_factory_break_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "+2 Coggy Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 2
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 12,
+                                        "birthday_factory_mixing_room_stat_item": 8
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "+1 Repair Charm, +2 Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 2,
+                                        "birthday_factory_trinket": 1
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 6,
+                                        "birthday_factory_mixing_room_stat_item": 6,
+                                        "birthday_factory_quality_assurance_room_stat_item": 18
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "+2 Repair Charms, +2 Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 2,
+                                        "birthday_factory_trinket": 2
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        },
+                        "pumping_room": {
+                            "name": "Pumping Room",
+                            "description": "Upgrade this room to increase litres of cheese that flow through the factory pipes after each successful catch.",
+                            "factory_item": "birthday_factory_pumping_room_stat_item",
+                            "effect_prefix": "The cheese pipeline will move:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "+10 litres each catch",
+                                    "effects": 10,
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "+15 litres each catch",
+                                    "effects": 15,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "+20 litres each catch",
+                                    "effects": 20,
+                                    "cost": {
+                                        "birthday_factory_mixing_room_stat_item": 12,
+                                        "birthday_factory_quality_assurance_room_stat_item": 8
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "+30 litres each catch",
+                                    "effects": 30,
+                                    "cost": {
+                                        "birthday_factory_mixing_room_stat_item": 6,
+                                        "birthday_factory_break_room_stat_item": 18,
+                                        "birthday_factory_quality_assurance_room_stat_item": 6
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "+40 litres each catch",
+                                    "effects": 40,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        },
+                        "quality_assurance_room": {
+                            "name": "QA Room",
+                            "description": "Upgrade this room to increase the percentage of SUPER|brie+ found inside of cheese crates.",
+                            "factory_item": "birthday_factory_quality_assurance_room_stat_item",
+                            "effect_prefix": "In each completed order, I'll find:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "20% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.2,
+                                        "brie_cheese": 0.8
+                                    },
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "40% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.4,
+                                        "brie_cheese": 0.6
+                                    },
+                                    "cost": {
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "60% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.6,
+                                        "brie_cheese": 0.4
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 8,
+                                        "birthday_factory_break_room_stat_item": 12
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "80% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.8,
+                                        "brie_cheese": 0.2
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 6,
+                                        "birthday_factory_mixing_room_stat_item": 18,
+                                        "birthday_factory_break_room_stat_item": 6
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "100% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 1,
+                                        "brie_cheese": 0
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": {
+                    "coggy_colby_cheese": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_trinket": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_golden_ticket_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_mixing_room_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_break_room_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_pumping_room_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_quality_assurance_room_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "surprise_party_weapon": {
+                        "quantity": "0",
+                        "status": "disabled unowned"
+                    },
+                    "wacky_inflatable_party_people_weapon": {
+                        "quantity": "0",
+                        "status": "disabled unowned"
+                    },
+                    "birthday_infinite_labyrinth_trap_skin": {
+                        "quantity": "0",
+                        "status": "disabled unowned"
+                    },
+                    "birthday_eleven_journal_theme_collectible": {
+                        "quantity": "0",
+                        "status": "disabled unowned"
+                    }
+                },
+                "pipes": {
+                    "first": 0,
+                    "second": 0,
+                    "third": 0,
+                    "fourth": 0,
+                    "fifth": 0
+                },
+                "mice": {
+                    "pumping_room": [
+                        "time_punk",
+                        "time_tailor",
+                        "time_thief",
+                        "reality_restitch"
+                    ],
+                    "mixing_room": [
+                        "force_fighter_blue",
+                        "force_fighter_yellow",
+                        "force_fighter_red",
+                        "force_fighter_pink",
+                        "force_fighter_green",
+                        "super_fighterbot_megasupreme"
+                    ],
+                    "quality_assurance_room": [
+                        "cupcake_runner",
+                        "cupcake_cutie",
+                        "cupcake_candle_thief",
+                        "cupcake_camo",
+                        "sprinkley_sweet"
+                    ],
+                    "break_room": [
+                        "dance_party",
+                        "para_para_dancer",
+                        "breakdancer",
+                        "dance_boss"
+                    ]
+                }
+            }
+        },
+        {
+            "description": "Birthday 2019 - Unentered, SB+",
+            "QuestBirthday2019": {
+                "bait_warning": true,
+                "factory_atts": {
+                    "current_progress": 0,
+                    "current_room": "none",
+                    "pipe_speed": 10,
+                    "max_pipe_progress": 2000,
+                    "hunts_remaining": 200,
+                    "boss_warning": null,
+                    "can_claim": null,
+                    "level": {
+                        "mixing_room": 1,
+                        "break_room": 1,
+                        "pumping_room": 1,
+                        "quality_assurance_room": 1
+                    },
+                    "can_upgrade_levels": {
+                        "mixing_room": null,
+                        "break_room": null,
+                        "pumping_room": null,
+                        "quality_assurance_room": null
+                    },
+                    "can_upgrade": null,
+                    "room_data": {
+                        "mixing_room": {
+                            "name": "Mixing Room",
+                            "description": "Upgrade this room to increase the quantity of cheese found inside of cheese crates.",
+                            "factory_item": "birthday_factory_mixing_room_stat_item",
+                            "effect_prefix": "When I complete an order, I'll get:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "5 cheese, 5 Magic Essence",
+                                    "effects": 5,
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "10 cheese, 5 Magic Essence",
+                                    "effects": 10,
+                                    "cost": {
+                                        "birthday_factory_mixing_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "15 cheese, 5 Magic Essence",
+                                    "effects": 15,
+                                    "cost": {
+                                        "birthday_factory_break_room_stat_item": 8,
+                                        "birthday_factory_quality_assurance_room_stat_item": 12
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "20 cheese, 5 Magic Essence",
+                                    "effects": 20,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 18,
+                                        "birthday_factory_break_room_stat_item": 6,
+                                        "birthday_factory_quality_assurance_room_stat_item": 6
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "25 cheese, 5 Magic Essence",
+                                    "effects": 25,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        },
+                        "break_room": {
+                            "name": "Break Room",
+                            "description": "Upgrade this room to earn bonus loot from caught mice when they drop Coggy Colby Cheese.",
+                            "factory_item": "birthday_factory_break_room_stat_item",
+                            "effect_prefix": "Mice who drop Colby also give:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "No effect",
+                                    "effects": [],
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "+1 Coggy Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 1
+                                    },
+                                    "cost": {
+                                        "birthday_factory_break_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "+2 Coggy Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 2
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 12,
+                                        "birthday_factory_mixing_room_stat_item": 8
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "+1 Repair Charm, +2 Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 2,
+                                        "birthday_factory_trinket": 1
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 6,
+                                        "birthday_factory_mixing_room_stat_item": 6,
+                                        "birthday_factory_quality_assurance_room_stat_item": 18
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "+2 Repair Charms, +2 Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 2,
+                                        "birthday_factory_trinket": 2
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        },
+                        "pumping_room": {
+                            "name": "Pumping Room",
+                            "description": "Upgrade this room to increase litres of cheese that flow through the factory pipes after each successful catch.",
+                            "factory_item": "birthday_factory_pumping_room_stat_item",
+                            "effect_prefix": "The cheese pipeline will move:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "+10 litres each catch",
+                                    "effects": 10,
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "+15 litres each catch",
+                                    "effects": 15,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "+20 litres each catch",
+                                    "effects": 20,
+                                    "cost": {
+                                        "birthday_factory_mixing_room_stat_item": 12,
+                                        "birthday_factory_quality_assurance_room_stat_item": 8
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "+30 litres each catch",
+                                    "effects": 30,
+                                    "cost": {
+                                        "birthday_factory_mixing_room_stat_item": 6,
+                                        "birthday_factory_break_room_stat_item": 18,
+                                        "birthday_factory_quality_assurance_room_stat_item": 6
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "+40 litres each catch",
+                                    "effects": 40,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        },
+                        "quality_assurance_room": {
+                            "name": "QA Room",
+                            "description": "Upgrade this room to increase the percentage of SUPER|brie+ found inside of cheese crates.",
+                            "factory_item": "birthday_factory_quality_assurance_room_stat_item",
+                            "effect_prefix": "In each completed order, I'll find:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "20% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.2,
+                                        "brie_cheese": 0.8
+                                    },
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "40% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.4,
+                                        "brie_cheese": 0.6
+                                    },
+                                    "cost": {
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "60% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.6,
+                                        "brie_cheese": 0.4
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 8,
+                                        "birthday_factory_break_room_stat_item": 12
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "80% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.8,
+                                        "brie_cheese": 0.2
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 6,
+                                        "birthday_factory_mixing_room_stat_item": 18,
+                                        "birthday_factory_break_room_stat_item": 6
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "100% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 1,
+                                        "brie_cheese": 0
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": {
+                    "coggy_colby_cheese": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "birthday_factory_trinket": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "birthday_factory_golden_ticket_stat_item": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "birthday_factory_mixing_room_stat_item": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "birthday_factory_break_room_stat_item": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "birthday_factory_pumping_room_stat_item": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "birthday_factory_quality_assurance_room_stat_item": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "surprise_party_weapon": {
+                        "quantity": 0,
+                        "status": "disabled unowned"
+                    },
+                    "wacky_inflatable_party_people_weapon": {
+                        "quantity": 0,
+                        "status": "disabled unowned"
+                    },
+                    "birthday_infinite_labyrinth_trap_skin": {
+                        "quantity": 0,
+                        "status": "disabled unowned"
+                    },
+                    "birthday_eleven_journal_theme_collectible": {
+                        "quantity": 0,
+                        "status": "disabled unowned"
+                    }
+                },
+                "pipes": {
+                    "first": 0,
+                    "second": 0,
+                    "third": 0,
+                    "fourth": 0,
+                    "fifth": 0
+                },
+                "mice": {
+                    "pumping_room": [
+                        "time_punk",
+                        "time_tailor",
+                        "time_thief",
+                        "reality_restitch"
+                    ],
+                    "mixing_room": [
+                        "force_fighter_blue",
+                        "force_fighter_yellow",
+                        "force_fighter_red",
+                        "force_fighter_pink",
+                        "force_fighter_green",
+                        "super_fighterbot_megasupreme"
+                    ],
+                    "quality_assurance_room": [
+                        "cupcake_runner",
+                        "cupcake_cutie",
+                        "cupcake_candle_thief",
+                        "cupcake_camo",
+                        "sprinkley_sweet"
+                    ],
+                    "break_room": [
+                        "dance_party",
+                        "para_para_dancer",
+                        "breakdancer",
+                        "dance_boss"
+                    ]
+                }
+            }
+        },
+        {
+            "description": "Birthday 2019 - Mixing Room, SB+",
+            "QuestBirthday2019": {
+                "bait_warning": true,
+                "factory_atts": {
+                    "current_progress": 0,
+                    "current_room": "mixing_room",
+                    "pipe_speed": 10,
+                    "max_pipe_progress": 2000,
+                    "hunts_remaining": 200,
+                    "boss_warning": null,
+                    "can_claim": null,
+                    "level": {
+                        "mixing_room": 1,
+                        "break_room": 1,
+                        "pumping_room": 1,
+                        "quality_assurance_room": 1
+                    },
+                    "can_upgrade_levels": {
+                        "mixing_room": null,
+                        "break_room": null,
+                        "pumping_room": null,
+                        "quality_assurance_room": null
+                    },
+                    "can_upgrade": null,
+                    "room_data": {
+                        "mixing_room": {
+                            "name": "Mixing Room",
+                            "description": "Upgrade this room to increase the quantity of cheese found inside of cheese crates.",
+                            "factory_item": "birthday_factory_mixing_room_stat_item",
+                            "effect_prefix": "When I complete an order, I'll get:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "5 cheese, 5 Magic Essence",
+                                    "effects": 5,
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "10 cheese, 5 Magic Essence",
+                                    "effects": 10,
+                                    "cost": {
+                                        "birthday_factory_mixing_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "15 cheese, 5 Magic Essence",
+                                    "effects": 15,
+                                    "cost": {
+                                        "birthday_factory_break_room_stat_item": 8,
+                                        "birthday_factory_quality_assurance_room_stat_item": 12
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "20 cheese, 5 Magic Essence",
+                                    "effects": 20,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 18,
+                                        "birthday_factory_break_room_stat_item": 6,
+                                        "birthday_factory_quality_assurance_room_stat_item": 6
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "25 cheese, 5 Magic Essence",
+                                    "effects": 25,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        },
+                        "break_room": {
+                            "name": "Break Room",
+                            "description": "Upgrade this room to earn bonus loot from caught mice when they drop Coggy Colby Cheese.",
+                            "factory_item": "birthday_factory_break_room_stat_item",
+                            "effect_prefix": "Mice who drop Colby also give:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "No effect",
+                                    "effects": [],
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "+1 Coggy Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 1
+                                    },
+                                    "cost": {
+                                        "birthday_factory_break_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "+2 Coggy Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 2
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 12,
+                                        "birthday_factory_mixing_room_stat_item": 8
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "+1 Repair Charm, +2 Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 2,
+                                        "birthday_factory_trinket": 1
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 6,
+                                        "birthday_factory_mixing_room_stat_item": 6,
+                                        "birthday_factory_quality_assurance_room_stat_item": 18
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "+2 Repair Charms, +2 Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 2,
+                                        "birthday_factory_trinket": 2
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        },
+                        "pumping_room": {
+                            "name": "Pumping Room",
+                            "description": "Upgrade this room to increase litres of cheese that flow through the factory pipes after each successful catch.",
+                            "factory_item": "birthday_factory_pumping_room_stat_item",
+                            "effect_prefix": "The cheese pipeline will move:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "+10 litres each catch",
+                                    "effects": 10,
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "+15 litres each catch",
+                                    "effects": 15,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "+20 litres each catch",
+                                    "effects": 20,
+                                    "cost": {
+                                        "birthday_factory_mixing_room_stat_item": 12,
+                                        "birthday_factory_quality_assurance_room_stat_item": 8
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "+30 litres each catch",
+                                    "effects": 30,
+                                    "cost": {
+                                        "birthday_factory_mixing_room_stat_item": 6,
+                                        "birthday_factory_break_room_stat_item": 18,
+                                        "birthday_factory_quality_assurance_room_stat_item": 6
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "+40 litres each catch",
+                                    "effects": 40,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        },
+                        "quality_assurance_room": {
+                            "name": "QA Room",
+                            "description": "Upgrade this room to increase the percentage of SUPER|brie+ found inside of cheese crates.",
+                            "factory_item": "birthday_factory_quality_assurance_room_stat_item",
+                            "effect_prefix": "In each completed order, I'll find:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "20% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.2,
+                                        "brie_cheese": 0.8
+                                    },
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "40% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.4,
+                                        "brie_cheese": 0.6
+                                    },
+                                    "cost": {
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "60% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.6,
+                                        "brie_cheese": 0.4
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 8,
+                                        "birthday_factory_break_room_stat_item": 12
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "80% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.8,
+                                        "brie_cheese": 0.2
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 6,
+                                        "birthday_factory_mixing_room_stat_item": 18,
+                                        "birthday_factory_break_room_stat_item": 6
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "100% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 1,
+                                        "brie_cheese": 0
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": {
+                    "coggy_colby_cheese": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "birthday_factory_trinket": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "birthday_factory_golden_ticket_stat_item": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "birthday_factory_mixing_room_stat_item": {
+                        "quantity": 0,
+                        "status": "disabled active"
+                    },
+                    "birthday_factory_break_room_stat_item": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "birthday_factory_pumping_room_stat_item": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "birthday_factory_quality_assurance_room_stat_item": {
+                        "quantity": 0,
+                        "status": "disabled"
+                    },
+                    "surprise_party_weapon": {
+                        "quantity": 0,
+                        "status": "disabled unowned"
+                    },
+                    "wacky_inflatable_party_people_weapon": {
+                        "quantity": 0,
+                        "status": "disabled unowned"
+                    },
+                    "birthday_infinite_labyrinth_trap_skin": {
+                        "quantity": 0,
+                        "status": "disabled unowned"
+                    },
+                    "birthday_eleven_journal_theme_collectible": {
+                        "quantity": 0,
+                        "status": "disabled unowned"
+                    }
+                },
+                "pipes": {
+                    "first": 0,
+                    "second": 0,
+                    "third": 0,
+                    "fourth": 0,
+                    "fifth": 0
+                },
+                "mice": {
+                    "pumping_room": [
+                        "time_punk",
+                        "time_tailor",
+                        "time_thief",
+                        "reality_restitch"
+                    ],
+                    "mixing_room": [
+                        "force_fighter_blue",
+                        "force_fighter_yellow",
+                        "force_fighter_red",
+                        "force_fighter_pink",
+                        "force_fighter_green",
+                        "super_fighterbot_megasupreme"
+                    ],
+                    "quality_assurance_room": [
+                        "cupcake_runner",
+                        "cupcake_cutie",
+                        "cupcake_candle_thief",
+                        "cupcake_camo",
+                        "sprinkley_sweet"
+                    ],
+                    "break_room": [
+                        "dance_party",
+                        "para_para_dancer",
+                        "breakdancer",
+                        "dance_boss"
+                    ]
+                }
+            }
+        },
+        {
+            "description": "Birthday 2019 - Pump Room, SB+, No Upgrades",
+            "QuestBirthday2019": {
+                "bait_warning": true,
+                "factory_atts": {
+                    "current_progress": 0,
+                    "current_room": "pumping_room",
+                    "pipe_speed": 10,
+                    "max_pipe_progress": 2000,
+                    "hunts_remaining": 200,
+                    "boss_warning": null,
+                    "can_claim": null,
+                    "level": {
+                        "mixing_room": 1,
+                        "break_room": 1,
+                        "pumping_room": 1,
+                        "quality_assurance_room": 1
+                    },
+                    "can_upgrade_levels": {
+                        "mixing_room": null,
+                        "break_room": null,
+                        "pumping_room": null,
+                        "quality_assurance_room": null
+                    },
+                    "can_upgrade": null,
+                    "room_data": {
+                        "mixing_room": {
+                            "name": "Mixing Room",
+                            "description": "Upgrade this room to increase the quantity of cheese found inside of cheese crates.",
+                            "factory_item": "birthday_factory_mixing_room_stat_item",
+                            "effect_prefix": "When I complete an order, I'll get:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "5 cheese, 5 Magic Essence",
+                                    "effects": 5,
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "10 cheese, 5 Magic Essence",
+                                    "effects": 10,
+                                    "cost": {
+                                        "birthday_factory_mixing_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "15 cheese, 5 Magic Essence",
+                                    "effects": 15,
+                                    "cost": {
+                                        "birthday_factory_break_room_stat_item": 8,
+                                        "birthday_factory_quality_assurance_room_stat_item": 12
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "20 cheese, 5 Magic Essence",
+                                    "effects": 20,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 18,
+                                        "birthday_factory_break_room_stat_item": 6,
+                                        "birthday_factory_quality_assurance_room_stat_item": 6
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "25 cheese, 5 Magic Essence",
+                                    "effects": 25,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        },
+                        "break_room": {
+                            "name": "Break Room",
+                            "description": "Upgrade this room to earn bonus loot from caught mice when they drop Coggy Colby Cheese.",
+                            "factory_item": "birthday_factory_break_room_stat_item",
+                            "effect_prefix": "Mice who drop Colby also give:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "No effect",
+                                    "effects": [],
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "+1 Coggy Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 1
+                                    },
+                                    "cost": {
+                                        "birthday_factory_break_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "+2 Coggy Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 2
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 12,
+                                        "birthday_factory_mixing_room_stat_item": 8
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "+1 Repair Charm, +2 Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 2,
+                                        "birthday_factory_trinket": 1
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 6,
+                                        "birthday_factory_mixing_room_stat_item": 6,
+                                        "birthday_factory_quality_assurance_room_stat_item": 18
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "+2 Repair Charms, +2 Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 2,
+                                        "birthday_factory_trinket": 2
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        },
+                        "pumping_room": {
+                            "name": "Pumping Room",
+                            "description": "Upgrade this room to increase litres of cheese that flow through the factory pipes after each successful catch.",
+                            "factory_item": "birthday_factory_pumping_room_stat_item",
+                            "effect_prefix": "The cheese pipeline will move:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "+10 litres each catch",
+                                    "effects": 10,
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "+15 litres each catch",
+                                    "effects": 15,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "+20 litres each catch",
+                                    "effects": 20,
+                                    "cost": {
+                                        "birthday_factory_mixing_room_stat_item": 12,
+                                        "birthday_factory_quality_assurance_room_stat_item": 8
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "+30 litres each catch",
+                                    "effects": 30,
+                                    "cost": {
+                                        "birthday_factory_mixing_room_stat_item": 6,
+                                        "birthday_factory_break_room_stat_item": 18,
+                                        "birthday_factory_quality_assurance_room_stat_item": 6
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "+40 litres each catch",
+                                    "effects": 40,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        },
+                        "quality_assurance_room": {
+                            "name": "QA Room",
+                            "description": "Upgrade this room to increase the percentage of SUPER|brie+ found inside of cheese crates.",
+                            "factory_item": "birthday_factory_quality_assurance_room_stat_item",
+                            "effect_prefix": "In each completed order, I'll find:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "20% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.2,
+                                        "brie_cheese": 0.8
+                                    },
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "40% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.4,
+                                        "brie_cheese": 0.6
+                                    },
+                                    "cost": {
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "60% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.6,
+                                        "brie_cheese": 0.4
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 8,
+                                        "birthday_factory_break_room_stat_item": 12
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "80% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.8,
+                                        "brie_cheese": 0.2
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 6,
+                                        "birthday_factory_mixing_room_stat_item": 18,
+                                        "birthday_factory_break_room_stat_item": 6
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "100% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 1,
+                                        "brie_cheese": 0
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": {
+                    "coggy_colby_cheese": {
+                        "quantity": "2",
+                        "status": ""
+                    },
+                    "birthday_factory_trinket": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_golden_ticket_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_mixing_room_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_break_room_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_pumping_room_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled active"
+                    },
+                    "birthday_factory_quality_assurance_room_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "surprise_party_weapon": {
+                        "quantity": "0",
+                        "status": "disabled unowned"
+                    },
+                    "wacky_inflatable_party_people_weapon": {
+                        "quantity": "0",
+                        "status": "disabled unowned"
+                    },
+                    "birthday_infinite_labyrinth_trap_skin": {
+                        "quantity": "0",
+                        "status": "disabled unowned"
+                    },
+                    "birthday_eleven_journal_theme_collectible": {
+                        "quantity": "0",
+                        "status": "disabled unowned"
+                    }
+                },
+                "pipes": {
+                    "first": 0,
+                    "second": 0,
+                    "third": 0,
+                    "fourth": 0,
+                    "fifth": 0
+                },
+                "mice": {
+                    "pumping_room": [
+                        "time_punk",
+                        "time_tailor",
+                        "time_thief",
+                        "reality_restitch"
+                    ],
+                    "mixing_room": [
+                        "force_fighter_blue",
+                        "force_fighter_yellow",
+                        "force_fighter_red",
+                        "force_fighter_pink",
+                        "force_fighter_green",
+                        "super_fighterbot_megasupreme"
+                    ],
+                    "quality_assurance_room": [
+                        "cupcake_runner",
+                        "cupcake_cutie",
+                        "cupcake_candle_thief",
+                        "cupcake_camo",
+                        "sprinkley_sweet"
+                    ],
+                    "break_room": [
+                        "dance_party",
+                        "para_para_dancer",
+                        "breakdancer",
+                        "dance_boss"
+                    ]
+                }
+            }
+        },
+        {
+            "description": "Birthday 2019 - QA Room, SB+, No Upgrades",
+            "QuestBirthday2019": {
+                "bait_warning": true,
+                "factory_atts": {
+                    "current_progress": 0,
+                    "current_room": "quality_assurance_room",
+                    "pipe_speed": 10,
+                    "max_pipe_progress": 2000,
+                    "hunts_remaining": 200,
+                    "boss_warning": null,
+                    "can_claim": null,
+                    "level": {
+                        "mixing_room": 1,
+                        "break_room": 1,
+                        "pumping_room": 1,
+                        "quality_assurance_room": 1
+                    },
+                    "can_upgrade_levels": {
+                        "mixing_room": null,
+                        "break_room": null,
+                        "pumping_room": null,
+                        "quality_assurance_room": null
+                    },
+                    "can_upgrade": null,
+                    "room_data": {
+                        "mixing_room": {
+                            "name": "Mixing Room",
+                            "description": "Upgrade this room to increase the quantity of cheese found inside of cheese crates.",
+                            "factory_item": "birthday_factory_mixing_room_stat_item",
+                            "effect_prefix": "When I complete an order, I'll get:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "5 cheese, 5 Magic Essence",
+                                    "effects": 5,
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "10 cheese, 5 Magic Essence",
+                                    "effects": 10,
+                                    "cost": {
+                                        "birthday_factory_mixing_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "15 cheese, 5 Magic Essence",
+                                    "effects": 15,
+                                    "cost": {
+                                        "birthday_factory_break_room_stat_item": 8,
+                                        "birthday_factory_quality_assurance_room_stat_item": 12
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "20 cheese, 5 Magic Essence",
+                                    "effects": 20,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 18,
+                                        "birthday_factory_break_room_stat_item": 6,
+                                        "birthday_factory_quality_assurance_room_stat_item": 6
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "25 cheese, 5 Magic Essence",
+                                    "effects": 25,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        },
+                        "break_room": {
+                            "name": "Break Room",
+                            "description": "Upgrade this room to earn bonus loot from caught mice when they drop Coggy Colby Cheese.",
+                            "factory_item": "birthday_factory_break_room_stat_item",
+                            "effect_prefix": "Mice who drop Colby also give:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "No effect",
+                                    "effects": [],
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "+1 Coggy Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 1
+                                    },
+                                    "cost": {
+                                        "birthday_factory_break_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "+2 Coggy Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 2
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 12,
+                                        "birthday_factory_mixing_room_stat_item": 8
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "+1 Repair Charm, +2 Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 2,
+                                        "birthday_factory_trinket": 1
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 6,
+                                        "birthday_factory_mixing_room_stat_item": 6,
+                                        "birthday_factory_quality_assurance_room_stat_item": 18
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "+2 Repair Charms, +2 Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 2,
+                                        "birthday_factory_trinket": 2
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        },
+                        "pumping_room": {
+                            "name": "Pumping Room",
+                            "description": "Upgrade this room to increase litres of cheese that flow through the factory pipes after each successful catch.",
+                            "factory_item": "birthday_factory_pumping_room_stat_item",
+                            "effect_prefix": "The cheese pipeline will move:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "+10 litres each catch",
+                                    "effects": 10,
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "+15 litres each catch",
+                                    "effects": 15,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "+20 litres each catch",
+                                    "effects": 20,
+                                    "cost": {
+                                        "birthday_factory_mixing_room_stat_item": 12,
+                                        "birthday_factory_quality_assurance_room_stat_item": 8
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "+30 litres each catch",
+                                    "effects": 30,
+                                    "cost": {
+                                        "birthday_factory_mixing_room_stat_item": 6,
+                                        "birthday_factory_break_room_stat_item": 18,
+                                        "birthday_factory_quality_assurance_room_stat_item": 6
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "+40 litres each catch",
+                                    "effects": 40,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        },
+                        "quality_assurance_room": {
+                            "name": "QA Room",
+                            "description": "Upgrade this room to increase the percentage of SUPER|brie+ found inside of cheese crates.",
+                            "factory_item": "birthday_factory_quality_assurance_room_stat_item",
+                            "effect_prefix": "In each completed order, I'll find:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "20% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.2,
+                                        "brie_cheese": 0.8
+                                    },
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "40% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.4,
+                                        "brie_cheese": 0.6
+                                    },
+                                    "cost": {
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "60% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.6,
+                                        "brie_cheese": 0.4
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 8,
+                                        "birthday_factory_break_room_stat_item": 12
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "80% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.8,
+                                        "brie_cheese": 0.2
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 6,
+                                        "birthday_factory_mixing_room_stat_item": 18,
+                                        "birthday_factory_break_room_stat_item": 6
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "100% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 1,
+                                        "brie_cheese": 0
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": {
+                    "coggy_colby_cheese": {
+                        "quantity": "2",
+                        "status": ""
+                    },
+                    "birthday_factory_trinket": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_golden_ticket_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_mixing_room_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_break_room_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_pumping_room_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_quality_assurance_room_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled active"
+                    },
+                    "surprise_party_weapon": {
+                        "quantity": "0",
+                        "status": "disabled unowned"
+                    },
+                    "wacky_inflatable_party_people_weapon": {
+                        "quantity": "0",
+                        "status": "disabled unowned"
+                    },
+                    "birthday_infinite_labyrinth_trap_skin": {
+                        "quantity": "0",
+                        "status": "disabled unowned"
+                    },
+                    "birthday_eleven_journal_theme_collectible": {
+                        "quantity": "0",
+                        "status": "disabled unowned"
+                    }
+                },
+                "pipes": {
+                    "first": 0,
+                    "second": 0,
+                    "third": 0,
+                    "fourth": 0,
+                    "fifth": 0
+                },
+                "mice": {
+                    "pumping_room": [
+                        "time_punk",
+                        "time_tailor",
+                        "time_thief",
+                        "reality_restitch"
+                    ],
+                    "mixing_room": [
+                        "force_fighter_blue",
+                        "force_fighter_yellow",
+                        "force_fighter_red",
+                        "force_fighter_pink",
+                        "force_fighter_green",
+                        "super_fighterbot_megasupreme"
+                    ],
+                    "quality_assurance_room": [
+                        "cupcake_runner",
+                        "cupcake_cutie",
+                        "cupcake_candle_thief",
+                        "cupcake_camo",
+                        "sprinkley_sweet"
+                    ],
+                    "break_room": [
+                        "dance_party",
+                        "para_para_dancer",
+                        "breakdancer",
+                        "dance_boss"
+                    ]
+                }
+            }
+        },
+        {
+            "description": "Birthday 2019 - Break Room, SB+, No Upgrades",
+            "QuestBirthday2019": {
+                "bait_warning": true,
+                "factory_atts": {
+                    "current_progress": 0,
+                    "current_room": "break_room",
+                    "pipe_speed": 10,
+                    "max_pipe_progress": 2000,
+                    "hunts_remaining": 200,
+                    "boss_warning": null,
+                    "can_claim": null,
+                    "level": {
+                        "mixing_room": 1,
+                        "break_room": 1,
+                        "pumping_room": 1,
+                        "quality_assurance_room": 1
+                    },
+                    "can_upgrade_levels": {
+                        "mixing_room": null,
+                        "break_room": null,
+                        "pumping_room": null,
+                        "quality_assurance_room": null
+                    },
+                    "can_upgrade": null,
+                    "room_data": {
+                        "mixing_room": {
+                            "name": "Mixing Room",
+                            "description": "Upgrade this room to increase the quantity of cheese found inside of cheese crates.",
+                            "factory_item": "birthday_factory_mixing_room_stat_item",
+                            "effect_prefix": "When I complete an order, I'll get:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "5 cheese, 5 Magic Essence",
+                                    "effects": 5,
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "10 cheese, 5 Magic Essence",
+                                    "effects": 10,
+                                    "cost": {
+                                        "birthday_factory_mixing_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "15 cheese, 5 Magic Essence",
+                                    "effects": 15,
+                                    "cost": {
+                                        "birthday_factory_break_room_stat_item": 8,
+                                        "birthday_factory_quality_assurance_room_stat_item": 12
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "20 cheese, 5 Magic Essence",
+                                    "effects": 20,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 18,
+                                        "birthday_factory_break_room_stat_item": 6,
+                                        "birthday_factory_quality_assurance_room_stat_item": 6
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "25 cheese, 5 Magic Essence",
+                                    "effects": 25,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        },
+                        "break_room": {
+                            "name": "Break Room",
+                            "description": "Upgrade this room to earn bonus loot from caught mice when they drop Coggy Colby Cheese.",
+                            "factory_item": "birthday_factory_break_room_stat_item",
+                            "effect_prefix": "Mice who drop Colby also give:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "No effect",
+                                    "effects": [],
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "+1 Coggy Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 1
+                                    },
+                                    "cost": {
+                                        "birthday_factory_break_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "+2 Coggy Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 2
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 12,
+                                        "birthday_factory_mixing_room_stat_item": 8
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "+1 Repair Charm, +2 Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 2,
+                                        "birthday_factory_trinket": 1
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 6,
+                                        "birthday_factory_mixing_room_stat_item": 6,
+                                        "birthday_factory_quality_assurance_room_stat_item": 18
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "+2 Repair Charms, +2 Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 2,
+                                        "birthday_factory_trinket": 2
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        },
+                        "pumping_room": {
+                            "name": "Pumping Room",
+                            "description": "Upgrade this room to increase litres of cheese that flow through the factory pipes after each successful catch.",
+                            "factory_item": "birthday_factory_pumping_room_stat_item",
+                            "effect_prefix": "The cheese pipeline will move:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "+10 litres each catch",
+                                    "effects": 10,
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "+15 litres each catch",
+                                    "effects": 15,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "+20 litres each catch",
+                                    "effects": 20,
+                                    "cost": {
+                                        "birthday_factory_mixing_room_stat_item": 12,
+                                        "birthday_factory_quality_assurance_room_stat_item": 8
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "+30 litres each catch",
+                                    "effects": 30,
+                                    "cost": {
+                                        "birthday_factory_mixing_room_stat_item": 6,
+                                        "birthday_factory_break_room_stat_item": 18,
+                                        "birthday_factory_quality_assurance_room_stat_item": 6
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "+40 litres each catch",
+                                    "effects": 40,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        },
+                        "quality_assurance_room": {
+                            "name": "QA Room",
+                            "description": "Upgrade this room to increase the percentage of SUPER|brie+ found inside of cheese crates.",
+                            "factory_item": "birthday_factory_quality_assurance_room_stat_item",
+                            "effect_prefix": "In each completed order, I'll find:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "20% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.2,
+                                        "brie_cheese": 0.8
+                                    },
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "40% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.4,
+                                        "brie_cheese": 0.6
+                                    },
+                                    "cost": {
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "60% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.6,
+                                        "brie_cheese": 0.4
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 8,
+                                        "birthday_factory_break_room_stat_item": 12
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "80% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.8,
+                                        "brie_cheese": 0.2
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 6,
+                                        "birthday_factory_mixing_room_stat_item": 18,
+                                        "birthday_factory_break_room_stat_item": 6
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "100% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 1,
+                                        "brie_cheese": 0
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": {
+                    "coggy_colby_cheese": {
+                        "quantity": "2",
+                        "status": ""
+                    },
+                    "birthday_factory_trinket": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_golden_ticket_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_mixing_room_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_break_room_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled active"
+                    },
+                    "birthday_factory_pumping_room_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_quality_assurance_room_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "surprise_party_weapon": {
+                        "quantity": "0",
+                        "status": "disabled unowned"
+                    },
+                    "wacky_inflatable_party_people_weapon": {
+                        "quantity": "0",
+                        "status": "disabled unowned"
+                    },
+                    "birthday_infinite_labyrinth_trap_skin": {
+                        "quantity": "0",
+                        "status": "disabled unowned"
+                    },
+                    "birthday_eleven_journal_theme_collectible": {
+                        "quantity": "0",
+                        "status": "disabled unowned"
+                    }
+                },
+                "pipes": {
+                    "first": 0,
+                    "second": 0,
+                    "third": 0,
+                    "fourth": 0,
+                    "fifth": 0
+                },
+                "mice": {
+                    "pumping_room": [
+                        "time_punk",
+                        "time_tailor",
+                        "time_thief",
+                        "reality_restitch"
+                    ],
+                    "mixing_room": [
+                        "force_fighter_blue",
+                        "force_fighter_yellow",
+                        "force_fighter_red",
+                        "force_fighter_pink",
+                        "force_fighter_green",
+                        "super_fighterbot_megasupreme"
+                    ],
+                    "quality_assurance_room": [
+                        "cupcake_runner",
+                        "cupcake_cutie",
+                        "cupcake_candle_thief",
+                        "cupcake_camo",
+                        "sprinkley_sweet"
+                    ],
+                    "break_room": [
+                        "dance_party",
+                        "para_para_dancer",
+                        "breakdancer",
+                        "dance_boss"
+                    ]
+                }
+            }
+        },
+        {
+            "description": "Birthday 2019 - Break Room, Coggy Colby, No Upgrades",
+            "QuestBirthday2019": {
+                "bait_warning": null,
+                "factory_atts": {
+                    "current_progress": 0,
+                    "current_room": "break_room",
+                    "pipe_speed": 10,
+                    "max_pipe_progress": 2000,
+                    "hunts_remaining": 200,
+                    "boss_warning": null,
+                    "can_claim": null,
+                    "level": {
+                        "mixing_room": 1,
+                        "break_room": 1,
+                        "pumping_room": 1,
+                        "quality_assurance_room": 1
+                    },
+                    "can_upgrade_levels": {
+                        "mixing_room": null,
+                        "break_room": null,
+                        "pumping_room": null,
+                        "quality_assurance_room": null
+                    },
+                    "can_upgrade": null,
+                    "room_data": {
+                        "mixing_room": {
+                            "name": "Mixing Room",
+                            "description": "Upgrade this room to increase the quantity of cheese found inside of cheese crates.",
+                            "factory_item": "birthday_factory_mixing_room_stat_item",
+                            "effect_prefix": "When I complete an order, I'll get:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "5 cheese, 5 Magic Essence",
+                                    "effects": 5,
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "10 cheese, 5 Magic Essence",
+                                    "effects": 10,
+                                    "cost": {
+                                        "birthday_factory_mixing_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "15 cheese, 5 Magic Essence",
+                                    "effects": 15,
+                                    "cost": {
+                                        "birthday_factory_break_room_stat_item": 8,
+                                        "birthday_factory_quality_assurance_room_stat_item": 12
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "20 cheese, 5 Magic Essence",
+                                    "effects": 20,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 18,
+                                        "birthday_factory_break_room_stat_item": 6,
+                                        "birthday_factory_quality_assurance_room_stat_item": 6
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "25 cheese, 5 Magic Essence",
+                                    "effects": 25,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        },
+                        "break_room": {
+                            "name": "Break Room",
+                            "description": "Upgrade this room to earn bonus loot from caught mice when they drop Coggy Colby Cheese.",
+                            "factory_item": "birthday_factory_break_room_stat_item",
+                            "effect_prefix": "Mice who drop Colby also give:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "No effect",
+                                    "effects": [],
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "+1 Coggy Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 1
+                                    },
+                                    "cost": {
+                                        "birthday_factory_break_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "+2 Coggy Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 2
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 12,
+                                        "birthday_factory_mixing_room_stat_item": 8
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "+1 Repair Charm, +2 Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 2,
+                                        "birthday_factory_trinket": 1
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 6,
+                                        "birthday_factory_mixing_room_stat_item": 6,
+                                        "birthday_factory_quality_assurance_room_stat_item": 18
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "+2 Repair Charms, +2 Colby",
+                                    "effects": {
+                                        "coggy_colby_cheese": 2,
+                                        "birthday_factory_trinket": 2
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        },
+                        "pumping_room": {
+                            "name": "Pumping Room",
+                            "description": "Upgrade this room to increase litres of cheese that flow through the factory pipes after each successful catch.",
+                            "factory_item": "birthday_factory_pumping_room_stat_item",
+                            "effect_prefix": "The cheese pipeline will move:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "+10 litres each catch",
+                                    "effects": 10,
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "+15 litres each catch",
+                                    "effects": 15,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "+20 litres each catch",
+                                    "effects": 20,
+                                    "cost": {
+                                        "birthday_factory_mixing_room_stat_item": 12,
+                                        "birthday_factory_quality_assurance_room_stat_item": 8
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "+30 litres each catch",
+                                    "effects": 30,
+                                    "cost": {
+                                        "birthday_factory_mixing_room_stat_item": 6,
+                                        "birthday_factory_break_room_stat_item": 18,
+                                        "birthday_factory_quality_assurance_room_stat_item": 6
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "+40 litres each catch",
+                                    "effects": 40,
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        },
+                        "quality_assurance_room": {
+                            "name": "QA Room",
+                            "description": "Upgrade this room to increase the percentage of SUPER|brie+ found inside of cheese crates.",
+                            "factory_item": "birthday_factory_quality_assurance_room_stat_item",
+                            "effect_prefix": "In each completed order, I'll find:",
+                            "levels": {
+                                "1": {
+                                    "effect_name": "20% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.2,
+                                        "brie_cheese": 0.8
+                                    },
+                                    "cost": []
+                                },
+                                "2": {
+                                    "effect_name": "40% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.4,
+                                        "brie_cheese": 0.6
+                                    },
+                                    "cost": {
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                },
+                                "3": {
+                                    "effect_name": "60% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.6,
+                                        "brie_cheese": 0.4
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 8,
+                                        "birthday_factory_break_room_stat_item": 12
+                                    }
+                                },
+                                "4": {
+                                    "effect_name": "80% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 0.8,
+                                        "brie_cheese": 0.2
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 6,
+                                        "birthday_factory_mixing_room_stat_item": 18,
+                                        "birthday_factory_break_room_stat_item": 6
+                                    }
+                                },
+                                "5": {
+                                    "effect_name": "100% SUPER|brie+",
+                                    "effects": {
+                                        "super_brie_cheese": 1,
+                                        "brie_cheese": 0
+                                    },
+                                    "cost": {
+                                        "birthday_factory_pumping_room_stat_item": 10,
+                                        "birthday_factory_mixing_room_stat_item": 10,
+                                        "birthday_factory_break_room_stat_item": 10,
+                                        "birthday_factory_quality_assurance_room_stat_item": 10
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": {
+                    "coggy_colby_cheese": {
+                        "quantity": "2",
+                        "status": "active"
+                    },
+                    "birthday_factory_trinket": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_golden_ticket_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_mixing_room_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_break_room_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled active"
+                    },
+                    "birthday_factory_pumping_room_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "birthday_factory_quality_assurance_room_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "surprise_party_weapon": {
+                        "quantity": "0",
+                        "status": "disabled unowned"
+                    },
+                    "wacky_inflatable_party_people_weapon": {
+                        "quantity": "0",
+                        "status": "disabled unowned"
+                    },
+                    "birthday_infinite_labyrinth_trap_skin": {
+                        "quantity": "0",
+                        "status": "disabled unowned"
+                    },
+                    "birthday_eleven_journal_theme_collectible": {
+                        "quantity": "0",
+                        "status": "disabled unowned"
+                    }
+                },
+                "pipes": {
+                    "first": 0,
+                    "second": 0,
+                    "third": 0,
+                    "fourth": 0,
+                    "fifth": 0
+                },
+                "mice": {
+                    "pumping_room": [
+                        "time_punk",
+                        "time_tailor",
+                        "time_thief",
+                        "reality_restitch"
+                    ],
+                    "mixing_room": [
+                        "force_fighter_blue",
+                        "force_fighter_yellow",
+                        "force_fighter_red",
+                        "force_fighter_pink",
+                        "force_fighter_green",
+                        "super_fighterbot_megasupreme"
+                    ],
+                    "quality_assurance_room": [
+                        "cupcake_runner",
+                        "cupcake_cutie",
+                        "cupcake_candle_thief",
+                        "cupcake_camo",
+                        "sprinkley_sweet"
+                    ],
+                    "break_room": [
+                        "dance_party",
+                        "para_para_dancer",
+                        "breakdancer",
+                        "dance_boss"
+                    ]
+                }
+            }
         }
     ]
 }

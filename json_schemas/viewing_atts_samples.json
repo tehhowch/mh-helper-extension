@@ -632,6 +632,15 @@
             }
         },
         {
+            "description": "Forbidden Grove - Closed (4h to open)",
+            "viewing_atts": {
+                "grove_open": false,
+                "state_progress": 0,
+                "num_runes": "345",
+                "num_runic_bait": "38"
+            }
+        },
+        {
             "description": "SG - Fall",
             "viewing_atts": {
                 "trap_effectiveness": "Very Poor",
@@ -666,5 +675,6 @@
                 "zzt_amplifier": 14,
                 "zzt_max_amplifier": 175
             }
+        }
     ]
 }
