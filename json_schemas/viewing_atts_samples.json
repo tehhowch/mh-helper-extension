@@ -203,69 +203,7 @@
                 },
                 "has_support_mice": "active",
                 "morale_percent": 42,
-                "show_portal": "showPortal",
-                "items": {
-                    "flame_march_archer_trinket": {
-                        "quantity": 10,
-                        "status": ""
-                    },
-                    "flame_march_cavalry_trinket": {
-                        "quantity": 35,
-                        "status": "active"
-                    },
-                    "flame_march_mage_trinket": {
-                        "quantity": 42,
-                        "status": ""
-                    },
-                    "flame_march_scout_trinket": {
-                        "quantity": 42,
-                        "status": ""
-                    },
-                    "flame_march_warrior_trinket": {
-                        "quantity": 24,
-                        "status": ""
-                    },
-                    "super_flame_march_archer_trinket": {
-                        "quantity": 79,
-                        "status": ""
-                    },
-                    "super_flame_march_cavalry_trinket": {
-                        "quantity": 14,
-                        "status": ""
-                    },
-                    "super_flame_march_mage_trinket": {
-                        "quantity": 59,
-                        "status": ""
-                    },
-                    "super_flame_march_scout_trinket": {
-                        "quantity": 77,
-                        "status": ""
-                    },
-                    "super_flame_march_warrior_trinket": {
-                        "quantity": 96,
-                        "status": ""
-                    },
-                    "artillery_strike_stat_item": {
-                        "quantity": 4,
-                        "status": ""
-                    },
-                    "warpath_portal_projector_stat_item": {
-                        "quantity": 0,
-                        "status": "disabled"
-                    },
-                    "flame_march_general_trinket": {
-                        "quantity": 43,
-                        "status": ""
-                    },
-                    "super_flame_march_general_trinket": {
-                        "quantity": 58,
-                        "status": ""
-                    },
-                    "monger_trinket": {
-                        "quantity": 16,
-                        "status": ""
-                    }
-                }
+                "show_portal": "showPortal"
             }
         },
         {
@@ -314,69 +252,7 @@
                     },
                     "has_support_mice": "active",
                     "morale_percent": 3,
-                    "show_portal": "showPortal",
-                    "items": {
-                        "flame_march_archer_trinket": {
-                            "quantity": 40,
-                            "status": "active"
-                        },
-                        "flame_march_cavalry_trinket": {
-                            "quantity": 28,
-                            "status": ""
-                        },
-                        "flame_march_mage_trinket": {
-                            "quantity": 37,
-                            "status": ""
-                        },
-                        "flame_march_scout_trinket": {
-                            "quantity": 32,
-                            "status": ""
-                        },
-                        "flame_march_warrior_trinket": {
-                            "quantity": 17,
-                            "status": ""
-                        },
-                        "super_flame_march_archer_trinket": {
-                            "quantity": 79,
-                            "status": ""
-                        },
-                        "super_flame_march_cavalry_trinket": {
-                            "quantity": 14,
-                            "status": ""
-                        },
-                        "super_flame_march_mage_trinket": {
-                            "quantity": 58,
-                            "status": ""
-                        },
-                        "super_flame_march_scout_trinket": {
-                            "quantity": 77,
-                            "status": ""
-                        },
-                        "super_flame_march_warrior_trinket": {
-                            "quantity": 96,
-                            "status": ""
-                        },
-                        "artillery_strike_stat_item": {
-                            "quantity": 4,
-                            "status": ""
-                        },
-                        "warpath_portal_projector_stat_item": {
-                            "quantity": 0,
-                            "status": "disabled"
-                        },
-                        "flame_march_general_trinket": {
-                            "quantity": 44,
-                            "status": ""
-                        },
-                        "super_flame_march_general_trinket": {
-                            "quantity": 56,
-                            "status": ""
-                        },
-                        "monger_trinket": {
-                            "quantity": 16,
-                            "status": ""
-                        }
-                    }
+                    "show_portal": "showPortal"
                 }
             }
         },
@@ -426,69 +302,7 @@
                     },
                     "has_support_mice": "inactive",
                     "morale_percent": 100,
-                    "show_portal": "showPortal",
-                    "items": {
-                        "flame_march_archer_trinket": {
-                            "quantity": "21",
-                            "status": ""
-                        },
-                        "flame_march_cavalry_trinket": {
-                            "quantity": "11",
-                            "status": ""
-                        },
-                        "flame_march_mage_trinket": {
-                            "quantity": "36",
-                            "status": ""
-                        },
-                        "flame_march_scout_trinket": {
-                            "quantity": "20",
-                            "status": ""
-                        },
-                        "flame_march_warrior_trinket": {
-                            "quantity": "7",
-                            "status": ""
-                        },
-                        "super_flame_march_archer_trinket": {
-                            "quantity": "79",
-                            "status": ""
-                        },
-                        "super_flame_march_cavalry_trinket": {
-                            "quantity": "14",
-                            "status": ""
-                        },
-                        "super_flame_march_mage_trinket": {
-                            "quantity": "58",
-                            "status": ""
-                        },
-                        "super_flame_march_scout_trinket": {
-                            "quantity": "69",
-                            "status": ""
-                        },
-                        "super_flame_march_warrior_trinket": {
-                            "quantity": "85",
-                            "status": ""
-                        },
-                        "artillery_strike_stat_item": {
-                            "quantity": "4",
-                            "status": ""
-                        },
-                        "warpath_portal_projector_stat_item": {
-                            "quantity": "0",
-                            "status": "disabled"
-                        },
-                        "flame_march_general_trinket": {
-                            "quantity": "42",
-                            "status": ""
-                        },
-                        "super_flame_march_general_trinket": {
-                            "quantity": "55",
-                            "status": ""
-                        },
-                        "monger_trinket": {
-                            "quantity": "16",
-                            "status": ""
-                        }
-                    }
+                    "show_portal": "showPortal"
                 }
             }
         },
@@ -514,76 +328,34 @@
                     },
                     "has_support_mice": "inactive",
                     "morale_percent": 0,
-                    "show_portal": "showPortal",
-                    "items": {
-                        "flame_march_archer_trinket": {
-                            "quantity": 21,
-                            "status": ""
-                        },
-                        "flame_march_cavalry_trinket": {
-                            "quantity": 11,
-                            "status": ""
-                        },
-                        "flame_march_mage_trinket": {
-                            "quantity": 36,
-                            "status": ""
-                        },
-                        "flame_march_scout_trinket": {
-                            "quantity": 20,
-                            "status": ""
-                        },
-                        "flame_march_warrior_trinket": {
-                            "quantity": 7,
-                            "status": ""
-                        },
-                        "super_flame_march_archer_trinket": {
-                            "quantity": 79,
-                            "status": ""
-                        },
-                        "super_flame_march_cavalry_trinket": {
-                            "quantity": 14,
-                            "status": ""
-                        },
-                        "super_flame_march_mage_trinket": {
-                            "quantity": 58,
-                            "status": ""
-                        },
-                        "super_flame_march_scout_trinket": {
-                            "quantity": 69,
-                            "status": ""
-                        },
-                        "super_flame_march_warrior_trinket": {
-                            "quantity": 85,
-                            "status": ""
-                        },
-                        "artillery_strike_stat_item": {
-                            "quantity": 4,
-                            "status": " disabled"
-                        },
-                        "warpath_portal_projector_stat_item": {
-                            "quantity": 0,
-                            "status": "disabled"
-                        },
-                        "flame_march_general_trinket": {
-                            "quantity": 43,
-                            "status": ""
-                        },
-                        "super_flame_march_general_trinket": {
-                            "quantity": 55,
-                            "status": ""
-                        },
-                        "monger_trinket": {
-                            "quantity": 16,
-                            "status": ""
-                        }
-                    }
+                    "show_portal": "showPortal"
                 }
             }
         },
         {
             "description": "FW Wave 4 - Artillery Commander Tent",
             "viewing_atts": {
-                "desert_warpath": {}
+                "desert_warpath": {
+                    "wave": "portal",
+                    "victories": "33",
+                    "friends": 1,
+                    "streak_quantity": 0,
+                    "streak_thumb": null,
+                    "streak_type": false,
+                    "mice": {
+                        "desert_elite_gaurd": {
+                            "status": "active",
+                            "quantity": 5
+                        },
+                        "desert_artillery_commander": {
+                            "status": "active",
+                            "quantity": 1
+                        }
+                    },
+                    "has_support_mice": "inactive",
+                    "morale_percent": 0,
+                    "show_portal": "showPortal"
+                }
             }
         },
         {
