@@ -776,10 +776,16 @@
      */
     function addHarbourStage(message, user, user_post, hunt) {
         const quest = user.quests.QuestHarbour;
-        // Hunting crew + can't yet claim booty = Pirate Crew mice are in the attraction pool
-        if (quest.status === "searchStarted" && !quest.can_claim) {
-            message.stage = "On Bounty";
+        if (quest.status === "searchStarted") {
+            // Specific "Pirate Crew" mice are available.
+            // TODO: If the Bounty is complete, is it the "No Bounty" mouse pool? Or
+            // is Pirate still unavailable until the bounty is claimed?
+            message.stage = (quest.can_claim) ? "Unclaimed Bounty" : "On Bounty";
+        } else if (quest.status === "canBeginSearch") {
+            // Pirate mice are not available.
+            message.stage = "Has Bounty";
         } else {
+            // Pirate mice are available.
             message.stage = "No Bounty";
         }
     }
