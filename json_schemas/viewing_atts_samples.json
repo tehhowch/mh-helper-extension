@@ -359,6 +359,30 @@
             }
         },
         {
+            "description": "FW Wave 4 - Artillery Commander Tent - Artillery only",
+            "viewing_atts": {
+                "wave": "portal",
+                "victories": "33",
+                "friends": 1,
+                "streak_quantity": 0,
+                "streak_thumb": null,
+                "streak_type": false,
+                "mice": {
+                    "desert_elite_gaurd": {
+                        "status": "inactive",
+                        "quantity": 0
+                    },
+                    "desert_artillery_commander": {
+                        "status": "active",
+                        "quantity": 1
+                    }
+                },
+                "has_support_mice": "inactive",
+                "morale_percent": 93,
+                "show_portal": "showPortal"
+            }
+        },
+        {
             "description": "Forbidden Grove - Open (12h remaining)",
             "viewing_atts": {
                 "grove_open": true,
