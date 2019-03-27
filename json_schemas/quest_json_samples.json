@@ -1148,7 +1148,7 @@
             }
         },
         {
-            "description": "Laby - Med Plain Tech",
+            "description": "Laby - Med Plain Tech - GG - Lit Lantern",
             "QuestLabyrinth": {
                 "bait_warning": "",
                 "bait_status": "active",
@@ -1317,6 +1317,186 @@
                         "width": 0,
                         "type": "m",
                         "tier": "empty"
+                    }
+                ]
+            }
+        },
+        {
+            "description": "Laby - Med Plain Tech - GG - Unlit Lantern",
+            "QuestLabyrinth": {
+                "bait_warning": "",
+                "bait_status": "active",
+                "hallway_name": "Medium Plain Tech Hallway",
+                "hallway_length": 15,
+                "hallway_clue": "h",
+                "hallway_tier": 1,
+                "status": "hallway",
+                "total_clues": 31,
+                "power_type_warning": "",
+                "can_scramble_doors": "disabled hallway",
+                "can_scramble_clues": "active",
+                "can_retreat": "active",
+                "lantern_status": "inactive",
+                "scramble_door_warning": false,
+                "items": {
+                    "labyrinth_scramble_doors_stat_item": 144,
+                    "labyrinth_scramble_clues_stat_item": 29,
+                    "labyrinth_lantern_fuel": 169,
+                    "glowing_gruyere_cheese": 291,
+                    "cave_nightshade_crafting_item": "1,193",
+                    "cavern_fungus_crafting_item": "8,596",
+                    "plate_of_fealty_crafting_item": 782,
+                    "tech_power_core_crafting_item": 836,
+                    "ancient_scholar_scroll_crafting_item": 851
+                },
+                "tiles": [
+                    {
+                        "index": 0,
+                        "status": "complete good_3"
+                    },
+                    {
+                        "index": 1,
+                        "status": "complete"
+                    },
+                    {
+                        "index": 2,
+                        "status": "complete bad"
+                    },
+                    {
+                        "index": 3,
+                        "status": "active"
+                    },
+                    {
+                        "index": 4,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 5,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 6,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 7,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 8,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 9,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 10,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 11,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 12,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 13,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 14,
+                        "status": "locked"
+                    }
+                ],
+                "doors": [
+                    {
+                        "name": "???",
+                        "choice": null,
+                        "css_class": "disabled mystery"
+                    },
+                    {
+                        "name": "???",
+                        "choice": null,
+                        "css_class": "disabled mystery"
+                    },
+                    {
+                        "name": "???",
+                        "choice": null,
+                        "css_class": "disabled mystery"
+                    }
+                ],
+                "clues": [
+                    {
+                        "name": "Fealty",
+                        "type": "y",
+                        "quantity": 12,
+                        "width": 38.709677419355
+                    },
+                    {
+                        "name": "Scholar",
+                        "type": "s",
+                        "quantity": 15,
+                        "width": 48.387096774194
+                    },
+                    {
+                        "name": "Tech",
+                        "type": "h",
+                        "quantity": 3,
+                        "width": 9.6774193548387
+                    },
+                    {
+                        "name": "Dead End",
+                        "type": "m",
+                        "quantity": 1,
+                        "width": 3.2258064516129
+                    }
+                ],
+                "clue_progress_width": 31,
+                "all_clues": [
+                    {
+                        "name": "Fealty",
+                        "quantity": 12,
+                        "width": 15,
+                        "type": "y",
+                        "tier": 0
+                    },
+                    {
+                        "name": "Tech",
+                        "quantity": 3,
+                        "width": 3.75,
+                        "type": "h",
+                        "tier": 0
+                    },
+                    {
+                        "name": "Scholar",
+                        "quantity": 15,
+                        "width": 18.75,
+                        "type": "s",
+                        "tier": 1
+                    },
+                    {
+                        "name": "Treasury",
+                        "quantity": 0,
+                        "width": 0,
+                        "type": "t",
+                        "tier": "empty"
+                    },
+                    {
+                        "name": "Farming",
+                        "quantity": 0,
+                        "width": 0,
+                        "type": "f",
+                        "tier": 1
+                    },
+                    {
+                        "name": "Dead End",
+                        "quantity": 1,
+                        "width": 1.25,
+                        "type": "m",
+                        "tier": 0
                     }
                 ]
             }
