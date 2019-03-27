@@ -1148,6 +1148,180 @@
             }
         },
         {
+            "description": "Laby - Med Plain Tech",
+            "QuestLabyrinth": {
+                "bait_warning": "",
+                "bait_status": "active",
+                "hallway_name": "Medium Plain Tech Hallway",
+                "hallway_length": 15,
+                "hallway_clue": "h",
+                "hallway_tier": 1,
+                "status": "hallway",
+                "total_clues": 30,
+                "power_type_warning": "",
+                "can_scramble_doors": "disabled hallway",
+                "can_scramble_clues": "active",
+                "can_retreat": "active",
+                "lantern_status": "active",
+                "scramble_door_warning": false,
+                "items": {
+                    "labyrinth_scramble_doors_stat_item": 144,
+                    "labyrinth_scramble_clues_stat_item": 29,
+                    "labyrinth_lantern_fuel": 170,
+                    "glowing_gruyere_cheese": 292,
+                    "cave_nightshade_crafting_item": "1,193",
+                    "cavern_fungus_crafting_item": "8,596",
+                    "plate_of_fealty_crafting_item": 782,
+                    "tech_power_core_crafting_item": 836,
+                    "ancient_scholar_scroll_crafting_item": 851
+                },
+                "tiles": [
+                    {
+                        "index": 0,
+                        "status": "complete good_3"
+                    },
+                    {
+                        "index": 1,
+                        "status": "complete"
+                    },
+                    {
+                        "index": 2,
+                        "status": "active"
+                    },
+                    {
+                        "index": 3,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 4,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 5,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 6,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 7,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 8,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 9,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 10,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 11,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 12,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 13,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 14,
+                        "status": "locked"
+                    }
+                ],
+                "doors": [
+                    {
+                        "name": "???",
+                        "choice": null,
+                        "css_class": "disabled mystery"
+                    },
+                    {
+                        "name": "???",
+                        "choice": null,
+                        "css_class": "disabled mystery"
+                    },
+                    {
+                        "name": "???",
+                        "choice": null,
+                        "css_class": "disabled mystery"
+                    }
+                ],
+                "clues": [
+                    {
+                        "name": "Fealty",
+                        "type": "y",
+                        "quantity": 12,
+                        "width": 40
+                    },
+                    {
+                        "name": "Scholar",
+                        "type": "s",
+                        "quantity": 15,
+                        "width": 50
+                    },
+                    {
+                        "name": "Tech",
+                        "type": "h",
+                        "quantity": 3,
+                        "width": 10
+                    }
+                ],
+                "clue_progress_width": 30,
+                "all_clues": [
+                    {
+                        "name": "Fealty",
+                        "quantity": 12,
+                        "width": 15,
+                        "type": "y",
+                        "tier": 0
+                    },
+                    {
+                        "name": "Tech",
+                        "quantity": 3,
+                        "width": 3.75,
+                        "type": "h",
+                        "tier": 0
+                    },
+                    {
+                        "name": "Scholar",
+                        "quantity": 15,
+                        "width": 18.75,
+                        "type": "s",
+                        "tier": 1
+                    },
+                    {
+                        "name": "Treasury",
+                        "quantity": 0,
+                        "width": 0,
+                        "type": "t",
+                        "tier": "empty"
+                    },
+                    {
+                        "name": "Farming",
+                        "quantity": 0,
+                        "width": 0,
+                        "type": "f",
+                        "tier": 1
+                    },
+                    {
+                        "name": "Dead End",
+                        "quantity": 0,
+                        "width": 0,
+                        "type": "m",
+                        "tier": "empty"
+                    }
+                ]
+            }
+        },
+        {
             "description": "Fort Rox - Dawn - Tower Built & Inactive",
             "QuestFortRox": {
                 "current_phase": "dawn",
