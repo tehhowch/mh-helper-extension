@@ -1502,6 +1502,349 @@
             }
         },
         {
+            "description": "Laby - Med Plain Tech - Completed",
+            "QuestLabyrinth": {
+                "bait_warning": "",
+                "bait_status": "active",
+                "hallway_name": "Medium Plain Tech Hallway",
+                "hallway_length": 15,
+                "hallway_clue": "h",
+                "hallway_tier": 1,
+                "status": "intersection",
+                "total_clues": 49,
+                "power_type_warning": "",
+                "can_scramble_doors": "active",
+                "can_scramble_clues": "active",
+                "can_retreat": "active",
+                "lantern_status": "disabled",
+                "scramble_door_warning": false,
+                "items": {
+                    "labyrinth_scramble_doors_stat_item": 144,
+                    "labyrinth_scramble_clues_stat_item": 29,
+                    "labyrinth_lantern_fuel": 166,
+                    "glowing_gruyere_cheese": 279,
+                    "cave_nightshade_crafting_item": "1,193",
+                    "cavern_fungus_crafting_item": "8,596",
+                    "plate_of_fealty_crafting_item": 782,
+                    "tech_power_core_crafting_item": 836,
+                    "ancient_scholar_scroll_crafting_item": 851
+                },
+                "tiles": [
+                    {
+                        "index": 0,
+                        "status": "complete good_3"
+                    },
+                    {
+                        "index": 1,
+                        "status": "complete"
+                    },
+                    {
+                        "index": 2,
+                        "status": "complete bad"
+                    },
+                    {
+                        "index": 3,
+                        "status": "complete"
+                    },
+                    {
+                        "index": 4,
+                        "status": "complete good_2"
+                    },
+                    {
+                        "index": 5,
+                        "status": "complete good_3"
+                    },
+                    {
+                        "index": 6,
+                        "status": "complete"
+                    },
+                    {
+                        "index": 7,
+                        "status": "complete good_3"
+                    },
+                    {
+                        "index": 8,
+                        "status": "complete base"
+                    },
+                    {
+                        "index": 9,
+                        "status": "complete good_3"
+                    },
+                    {
+                        "index": 10,
+                        "status": "complete"
+                    },
+                    {
+                        "index": 11,
+                        "status": "complete good_3"
+                    },
+                    {
+                        "index": 12,
+                        "status": "complete"
+                    },
+                    {
+                        "index": 13,
+                        "status": "complete good_3"
+                    },
+                    {
+                        "index": 14,
+                        "status": "complete bad"
+                    }
+                ],
+                "doors": [
+                    {
+                        "name": "Medium Plain Scholar Hallway",
+                        "choice": "sm",
+                        "css_class": "sm labyrinthHUD-door-s1 labyrinthHUD-door-length-medium labyrinthHUD-door-category-s",
+                        "hallway_length": "Medium"
+                    },
+                    {
+                        "name": "Medium Plain Tech Hallway",
+                        "choice": "hm",
+                        "css_class": "hm labyrinthHUD-door-h1 labyrinthHUD-door-length-medium labyrinthHUD-door-category-h",
+                        "hallway_length": "Medium"
+                    },
+                    {
+                        "name": "Medium Plain Tech Hallway",
+                        "choice": "hm",
+                        "css_class": "hm labyrinthHUD-door-h1 labyrinthHUD-door-length-medium labyrinthHUD-door-category-h",
+                        "hallway_length": "Medium"
+                    }
+                ],
+                "clues": [
+                    {
+                        "name": "Fealty",
+                        "type": "y",
+                        "quantity": 12,
+                        "width": 24.489795918367
+                    },
+                    {
+                        "name": "Scholar",
+                        "type": "s",
+                        "quantity": 15,
+                        "width": 30.612244897959
+                    },
+                    {
+                        "name": "Tech",
+                        "type": "h",
+                        "quantity": 20,
+                        "width": 40.816326530612
+                    },
+                    {
+                        "name": "Dead End",
+                        "type": "m",
+                        "quantity": 2,
+                        "width": 4.0816326530612
+                    }
+                ],
+                "clue_progress_width": 49,
+                "all_clues": [
+                    {
+                        "name": "Fealty",
+                        "quantity": 12,
+                        "width": 15,
+                        "type": "y",
+                        "tier": 0
+                    },
+                    {
+                        "name": "Tech",
+                        "quantity": 20,
+                        "width": 25,
+                        "type": "h",
+                        "tier": 1
+                    },
+                    {
+                        "name": "Scholar",
+                        "quantity": 15,
+                        "width": 18.75,
+                        "type": "s",
+                        "tier": 1
+                    },
+                    {
+                        "name": "Treasury",
+                        "quantity": 0,
+                        "width": 0,
+                        "type": "t",
+                        "tier": "empty"
+                    },
+                    {
+                        "name": "Farming",
+                        "quantity": 0,
+                        "width": 0,
+                        "type": "f",
+                        "tier": 1
+                    },
+                    {
+                        "name": "Dead End",
+                        "quantity": 2,
+                        "width": 2.5,
+                        "type": "m",
+                        "tier": 0
+                    }
+                ]
+            }
+        },
+        {
+            "description": "Laby - Short Plain Fealty - Lit",
+            "QuestLabyrinth": {
+                "bait_warning": "",
+                "bait_status": "active",
+                "hallway_name": "Short Plain Fealty Hallway",
+                "hallway_length": 10,
+                "hallway_clue": "y",
+                "hallway_tier": 1,
+                "status": "hallway",
+                "total_clues": 49,
+                "power_type_warning": "",
+                "can_scramble_doors": "disabled hallway",
+                "can_scramble_clues": "active",
+                "can_retreat": "active",
+                "lantern_status": "active",
+                "scramble_door_warning": false,
+                "items": {
+                    "labyrinth_scramble_doors_stat_item": "142",
+                    "labyrinth_scramble_clues_stat_item": "29",
+                    "labyrinth_lantern_fuel": "166",
+                    "glowing_gruyere_cheese": "279",
+                    "cave_nightshade_crafting_item": "1,193",
+                    "cavern_fungus_crafting_item": "8,596",
+                    "plate_of_fealty_crafting_item": "782",
+                    "tech_power_core_crafting_item": "836",
+                    "ancient_scholar_scroll_crafting_item": "851"
+                },
+                "tiles": [
+                    {
+                        "index": 0,
+                        "status": "active"
+                    },
+                    {
+                        "index": 1,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 2,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 3,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 4,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 5,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 6,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 7,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 8,
+                        "status": "locked"
+                    },
+                    {
+                        "index": 9,
+                        "status": "locked"
+                    }
+                ],
+                "doors": [
+                    {
+                        "name": "???",
+                        "choice": null,
+                        "css_class": "disabled mystery"
+                    },
+                    {
+                        "name": "???",
+                        "choice": null,
+                        "css_class": "disabled mystery"
+                    },
+                    {
+                        "name": "???",
+                        "choice": null,
+                        "css_class": "disabled mystery"
+                    }
+                ],
+                "clues": [
+                    {
+                        "name": "Fealty",
+                        "type": "y",
+                        "quantity": 12,
+                        "width": 24.489795918367
+                    },
+                    {
+                        "name": "Scholar",
+                        "type": "s",
+                        "quantity": 15,
+                        "width": 30.612244897959
+                    },
+                    {
+                        "name": "Tech",
+                        "type": "h",
+                        "quantity": 20,
+                        "width": 40.816326530612
+                    },
+                    {
+                        "name": "Dead End",
+                        "type": "m",
+                        "quantity": 2,
+                        "width": 4.0816326530612
+                    }
+                ],
+                "clue_progress_width": 49,
+                "all_clues": [
+                    {
+                        "name": "Fealty",
+                        "quantity": 12,
+                        "width": 15,
+                        "type": "y",
+                        "tier": 0
+                    },
+                    {
+                        "name": "Tech",
+                        "quantity": 20,
+                        "width": 25,
+                        "type": "h",
+                        "tier": 1
+                    },
+                    {
+                        "name": "Scholar",
+                        "quantity": 15,
+                        "width": 18.75,
+                        "type": "s",
+                        "tier": 1
+                    },
+                    {
+                        "name": "Treasury",
+                        "quantity": 0,
+                        "width": 0,
+                        "type": "t",
+                        "tier": "empty"
+                    },
+                    {
+                        "name": "Farming",
+                        "quantity": 0,
+                        "width": 0,
+                        "type": "f",
+                        "tier": 1
+                    },
+                    {
+                        "name": "Dead End",
+                        "quantity": 2,
+                        "width": 2.5,
+                        "type": "m",
+                        "tier": 0
+                    }
+                ]
+            }
+        },
+        {
             "description": "Fort Rox - Dawn - Tower Built & Inactive",
             "QuestFortRox": {
                 "current_phase": "dawn",
