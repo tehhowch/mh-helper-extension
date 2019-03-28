@@ -1845,6 +1845,499 @@
             }
         },
         {
+            "description": "Laby - Exit",
+            "QuestLabyrinth": {
+                "bait_warning": "active",
+                "bait_status": "",
+                "hallway_name": "Medium Plain Fealty Hallway",
+                "hallway_length": 15,
+                "hallway_clue": "y",
+                "hallway_tier": 1,
+                "status": "exit secret",
+                "total_clues": 100,
+                "power_type_warning": "",
+                "can_scramble_doors": "disabled",
+                "can_scramble_clues": "disabled exit",
+                "can_retreat": "disabled",
+                "lantern_status": "disabled",
+                "scramble_door_warning": false,
+                "items": {
+                    "labyrinth_scramble_doors_stat_item": "137",
+                    "labyrinth_scramble_clues_stat_item": "29",
+                    "labyrinth_lantern_fuel": "136",
+                    "glowing_gruyere_cheese": "229",
+                    "cave_nightshade_crafting_item": "1,193",
+                    "cavern_fungus_crafting_item": "8,596",
+                    "plate_of_fealty_crafting_item": "782",
+                    "tech_power_core_crafting_item": "836",
+                    "ancient_scholar_scroll_crafting_item": "851"
+                },
+                "doors": [
+                    {
+                        "name": "The Outer Fealty Shrine",
+                        "tier": 1,
+                        "choice": "ys",
+                        "css_class": "labyrinthHUD-exit-y1"
+                    },
+                    {
+                        "name": "The Tech Foundry Outskirts",
+                        "tier": 1,
+                        "choice": "hs",
+                        "css_class": "labyrinthHUD-exit-h1"
+                    },
+                    {
+                        "name": "The Neophyte Scholar Study",
+                        "tier": 1,
+                        "choice": "ss",
+                        "css_class": "labyrinthHUD-exit-s1"
+                    },
+                    {
+                        "name": "Treasury District<br />(Blocked)",
+                        "css_class": "t broken disabled"
+                    },
+                    {
+                        "name": "The Farming Garden",
+                        "tier": 1,
+                        "choice": "fs",
+                        "css_class": "labyrinthHUD-exit-f1"
+                    },
+                    {
+                        "name": "The Lair of the Minotaur",
+                        "tier": 1,
+                        "choice": "n",
+                        "css_class": "labyrinthHUD-exit-n1"
+                    }
+                ],
+                "clues": [
+                    {
+                        "name": "Fealty",
+                        "type": "y",
+                        "quantity": 35,
+                        "width": 35
+                    },
+                    {
+                        "name": "Scholar",
+                        "type": "s",
+                        "quantity": 32,
+                        "width": 32
+                    },
+                    {
+                        "name": "Tech",
+                        "type": "h",
+                        "quantity": 30,
+                        "width": 30
+                    },
+                    {
+                        "name": "Dead End",
+                        "type": "m",
+                        "quantity": 3,
+                        "width": 3
+                    }
+                ],
+                "clue_progress_width": 100,
+                "all_clues": [
+                    {
+                        "name": "Fealty",
+                        "quantity": 35,
+                        "width": 43.75,
+                        "type": "y",
+                        "tier": 1
+                    },
+                    {
+                        "name": "Tech",
+                        "quantity": 30,
+                        "width": 37.5,
+                        "type": "h",
+                        "tier": 1
+                    },
+                    {
+                        "name": "Scholar",
+                        "quantity": 32,
+                        "width": 40,
+                        "type": "s",
+                        "tier": 1
+                    },
+                    {
+                        "name": "Treasury",
+                        "quantity": 0,
+                        "width": 0,
+                        "type": "t",
+                        "tier": "empty"
+                    },
+                    {
+                        "name": "Farming",
+                        "quantity": 0,
+                        "width": 0,
+                        "type": "f",
+                        "tier": 1
+                    },
+                    {
+                        "name": "Dead End",
+                        "quantity": 3,
+                        "width": 3.75,
+                        "type": "m",
+                        "tier": 0
+                    }
+                ]
+            }
+        },
+        {
+            "description": "Zokor - Mino Lair - 0 caught",
+            "QuestAncientCity": {
+                "status": "secret",
+                "bait_warning": "active",
+                "bait_status": "",
+                "power_type_warning": "",
+                "boss": "hiddenDistrict napping",
+                "countdown": 20,
+                "total": "???",
+                "remaining": "???",
+                "width": 100,
+                "district_tier": 1,
+                "district_type": "n",
+                "clue_name": "Hidden",
+                "district_name": "The Lair of the Minotaur",
+                "items": {
+                    "cave_nightshade_crafting_item": {
+                        "quantity": "1,193",
+                        "status": ""
+                    },
+                    "cavern_fungus_crafting_item": {
+                        "quantity": "8,596",
+                        "status": ""
+                    },
+                    "plate_of_fealty_crafting_item": {
+                        "quantity": "782",
+                        "status": ""
+                    },
+                    "tech_power_core_crafting_item": {
+                        "quantity": "836",
+                        "status": ""
+                    },
+                    "ancient_scholar_scroll_crafting_item": {
+                        "quantity": "851",
+                        "status": ""
+                    },
+                    "glowing_gruyere_cheese": {
+                        "quantity": "229"
+                    }
+                }
+            }
+        },
+        {
+            "description": "Zokor - Mino Lair - 1 caught - Shadow",
+            "QuestAncientCity": {
+                "status": "secret",
+                "bait_warning": "",
+                "bait_status": "active",
+                "power_type_warning": "",
+                "boss": "hiddenDistrict awake",
+                "countdown": 19,
+                "total": "???",
+                "remaining": "???",
+                "width": 90,
+                "district_tier": 1,
+                "district_type": "n",
+                "clue_name": "Hidden",
+                "district_name": "The Lair of the Minotaur",
+                "items": {
+                    "cave_nightshade_crafting_item": {
+                        "quantity": "1,193",
+                        "status": ""
+                    },
+                    "cavern_fungus_crafting_item": {
+                        "quantity": "8,596",
+                        "status": ""
+                    },
+                    "plate_of_fealty_crafting_item": {
+                        "quantity": 782,
+                        "status": ""
+                    },
+                    "tech_power_core_crafting_item": {
+                        "quantity": 836,
+                        "status": ""
+                    },
+                    "ancient_scholar_scroll_crafting_item": {
+                        "quantity": 851,
+                        "status": ""
+                    },
+                    "glowing_gruyere_cheese": {
+                        "quantity": 218
+                    }
+                }
+            }
+        },
+        {
+            "description": "Zokor - Mino Lair - 2 caught - Shadow",
+            "QuestAncientCity": {}
+        },
+        {
+            "description": "Zokor - Mino Lair - 3 caught - Shadow",
+            "QuestAncientCity": {
+                "status": "secret",
+                "bait_warning": "",
+                "bait_status": "active",
+                "power_type_warning": "",
+                "boss": "hiddenDistrict enraged",
+                "countdown": 17,
+                "total": "???",
+                "remaining": "???",
+                "width": 70,
+                "district_tier": 1,
+                "district_type": "n",
+                "clue_name": "Hidden",
+                "district_name": "The Lair of the Minotaur",
+                "items": {
+                    "cave_nightshade_crafting_item": {
+                        "quantity": "1,193",
+                        "status": ""
+                    },
+                    "cavern_fungus_crafting_item": {
+                        "quantity": "8,596",
+                        "status": ""
+                    },
+                    "plate_of_fealty_crafting_item": {
+                        "quantity": 782,
+                        "status": ""
+                    },
+                    "tech_power_core_crafting_item": {
+                        "quantity": 836,
+                        "status": ""
+                    },
+                    "ancient_scholar_scroll_crafting_item": {
+                        "quantity": 851,
+                        "status": ""
+                    },
+                    "glowing_gruyere_cheese": {
+                        "quantity": 214
+                    }
+                }
+            }
+        },
+        {
+            "description": "Zokor - Mino Lair - 4 caught - Shadow",
+            "QuestAncientCity": {
+                "status": "secret",
+                "bait_warning": "",
+                "bait_status": "active",
+                "power_type_warning": "",
+                "boss": "hiddenDistrict enraged",
+                "countdown": 16,
+                "total": "???",
+                "remaining": "???",
+                "width": 60,
+                "district_tier": 1,
+                "district_type": "n",
+                "clue_name": "Hidden",
+                "district_name": "The Lair of the Minotaur",
+                "items": {
+                    "cave_nightshade_crafting_item": {
+                        "quantity": "1,193",
+                        "status": ""
+                    },
+                    "cavern_fungus_crafting_item": {
+                        "quantity": "8,596",
+                        "status": ""
+                    },
+                    "plate_of_fealty_crafting_item": {
+                        "quantity": "782",
+                        "status": ""
+                    },
+                    "tech_power_core_crafting_item": {
+                        "quantity": "836",
+                        "status": ""
+                    },
+                    "ancient_scholar_scroll_crafting_item": {
+                        "quantity": "851",
+                        "status": ""
+                    },
+                    "glowing_gruyere_cheese": {
+                        "quantity": "212"
+                    }
+                }
+            }
+        },
+        {
+            "description": "Zokor - Mino Lair - 5 caught - Shadow",
+            "QuestAncientCity": {
+                "status": "secret",
+                "bait_warning": "",
+                "bait_status": "active",
+                "power_type_warning": "",
+                "boss": "hiddenDistrict enraged",
+                "countdown": 15,
+                "total": "???",
+                "remaining": "???",
+                "width": 50,
+                "district_tier": 1,
+                "district_type": "n",
+                "clue_name": "Hidden",
+                "district_name": "The Lair of the Minotaur",
+                "items": {
+                    "cave_nightshade_crafting_item": {
+                        "quantity": "1,193",
+                        "status": ""
+                    },
+                    "cavern_fungus_crafting_item": {
+                        "quantity": "8,596",
+                        "status": ""
+                    },
+                    "plate_of_fealty_crafting_item": {
+                        "quantity": "782",
+                        "status": ""
+                    },
+                    "tech_power_core_crafting_item": {
+                        "quantity": "836",
+                        "status": ""
+                    },
+                    "ancient_scholar_scroll_crafting_item": {
+                        "quantity": "851",
+                        "status": ""
+                    },
+                    "glowing_gruyere_cheese": {
+                        "quantity": "211"
+                    }
+                }
+            }
+        },
+        {
+            "description": "Zokor - Mino Lair - 6 caught - Shadow",
+            "QuestAncientCity": {
+                "status": "secret",
+                "bait_warning": "",
+                "bait_status": "active",
+                "power_type_warning": "",
+                "boss": "hiddenDistrict enraged",
+                "countdown": 14,
+                "total": "???",
+                "remaining": "???",
+                "width": 40,
+                "district_tier": 1,
+                "district_type": "n",
+                "clue_name": "Hidden",
+                "district_name": "The Lair of the Minotaur",
+                "items": {
+                    "cave_nightshade_crafting_item": {
+                        "quantity": "1,193",
+                        "status": ""
+                    },
+                    "cavern_fungus_crafting_item": {
+                        "quantity": "8,596",
+                        "status": ""
+                    },
+                    "plate_of_fealty_crafting_item": {
+                        "quantity": 782,
+                        "status": ""
+                    },
+                    "tech_power_core_crafting_item": {
+                        "quantity": 836,
+                        "status": ""
+                    },
+                    "ancient_scholar_scroll_crafting_item": {
+                        "quantity": 851,
+                        "status": ""
+                    },
+                    "glowing_gruyere_cheese": {
+                        "quantity": 308
+                    }
+                }
+            }
+        },
+        {
+            "description": "Zokor - Mino Lair - 7 caught - Shadow",
+            "QuestAncientCity": {
+                "status": "secret",
+                "bait_warning": "",
+                "bait_status": "active",
+                "power_type_warning": "",
+                "boss": "hiddenDistrict reckless",
+                "countdown": 13,
+                "total": "???",
+                "remaining": "???",
+                "width": 30,
+                "district_tier": 1,
+                "district_type": "n",
+                "clue_name": "Hidden",
+                "district_name": "The Lair of the Minotaur",
+                "items": {
+                    "cave_nightshade_crafting_item": {
+                        "quantity": "1,193",
+                        "status": ""
+                    },
+                    "cavern_fungus_crafting_item": {
+                        "quantity": "8,596",
+                        "status": ""
+                    },
+                    "plate_of_fealty_crafting_item": {
+                        "quantity": "782",
+                        "status": ""
+                    },
+                    "tech_power_core_crafting_item": {
+                        "quantity": "836",
+                        "status": ""
+                    },
+                    "ancient_scholar_scroll_crafting_item": {
+                        "quantity": "851",
+                        "status": ""
+                    },
+                    "glowing_gruyere_cheese": {
+                        "quantity": "307"
+                    }
+                }
+            }
+        },
+        {
+            "description": "Zokor - Mino Lair - 8 caught - Shadow",
+            "QuestAncientCity": {}
+        },
+        {
+            "description": "Zokor - Mino Lair - 9 caught - Shadow",
+            "QuestAncientCity": {
+                "status": "secret",
+                "bait_warning": "",
+                "bait_status": "active",
+                "power_type_warning": "",
+                "boss": "hiddenDistrict reckless",
+                "countdown": 11,
+                "total": "???",
+                "remaining": "???",
+                "width": 10,
+                "district_tier": 1,
+                "district_type": "n",
+                "clue_name": "Hidden",
+                "district_name": "The Lair of the Minotaur",
+                "items": {
+                    "cave_nightshade_crafting_item": {
+                        "quantity": "1,193",
+                        "status": ""
+                    },
+                    "cavern_fungus_crafting_item": {
+                        "quantity": "8,596",
+                        "status": ""
+                    },
+                    "plate_of_fealty_crafting_item": {
+                        "quantity": "782",
+                        "status": ""
+                    },
+                    "tech_power_core_crafting_item": {
+                        "quantity": "836",
+                        "status": ""
+                    },
+                    "ancient_scholar_scroll_crafting_item": {
+                        "quantity": "851",
+                        "status": ""
+                    },
+                    "glowing_gruyere_cheese": {
+                        "quantity": "302"
+                    }
+                }
+            }
+        },
+        {
+            "description": "Zokor - Mino Lair - 10 caught - Shadow",
+            "QuestAncientCity": {}
+        },
+        {
             "description": "Fort Rox - Dawn - Tower Built & Inactive",
             "QuestFortRox": {
                 "current_phase": "dawn",
