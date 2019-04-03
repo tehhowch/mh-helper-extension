@@ -578,7 +578,7 @@
             }
         },
         {
-            "description": "Iceerg - Bombing Run",
+            "description": "Iceberg - Bombing Run",
             "QuestIceberg": {
                 "in_bonus": false,
                 "user_progress": 1389,
@@ -664,6 +664,96 @@
                 "timeline_position": 160,
                 "cutaway_position": -743,
                 "player_position": 770
+            }
+        },
+        {
+            "description": "Iceberg - Hidden Depths",
+            "QuestIceberg": {
+                "in_bonus": true,
+                "user_progress": 10,
+                "turns_taken": 190,
+                "max_turns": 250,
+                "max_depth": 200,
+                "can_reset": false,
+                "can_drill": true,
+                "drill_heat": 0,
+                "drill_max_charges": 8,
+                "has_drill": true,
+                "items": {
+                    "drill_charge_stat_item": 9,
+                    "sticky_trinket": 727,
+                    "wax_trinket": 317
+                },
+                "chests": [
+                    {
+                        "id": 1,
+                        "name": "Supply Chest",
+                        "turn": 425,
+                        "active": true,
+                        "position": 623
+                    },
+                    {
+                        "id": 2,
+                        "name": "Strongbox",
+                        "turn": 350,
+                        "active": true,
+                        "position": 525
+                    },
+                    {
+                        "id": 3,
+                        "name": "Treasure Chest",
+                        "turn": 275,
+                        "active": true,
+                        "position": 428
+                    }
+                ],
+                "phases": {
+                    "1": {
+                        "id": 1,
+                        "name": "Treacherous Tunnels",
+                        "length": 300,
+                        "percent": 0,
+                        "top": 53,
+                        "height": 390
+                    },
+                    "2": {
+                        "id": 2,
+                        "name": "Brutal Bulwark",
+                        "length": 300,
+                        "percent": 1.5,
+                        "top": 443,
+                        "height": 390
+                    },
+                    "3": {
+                        "id": 3,
+                        "name": "Bombing Run",
+                        "length": 1000,
+                        "percent": 3,
+                        "top": 833,
+                        "height": 1300
+                    },
+                    "4": {
+                        "id": 4,
+                        "name": "The Mad Depths",
+                        "length": 200,
+                        "percent": 8,
+                        "top": 2133,
+                        "height": 260
+                    },
+                    "5": {
+                        "id": 5,
+                        "name": "Icewing's Lair",
+                        "length": false,
+                        "percent": 9,
+                        "top": 2393,
+                        "height": 0
+                    }
+                },
+                "current_phase": "Hidden Depths",
+                "timeline_position": 445,
+                "bonus_timeline_position": 98,
+                "cutaway_position": -36,
+                "player_position": 66
             }
         },
         {
