@@ -1168,6 +1168,21 @@
                 "is_law": true,
                 "fools_gold": 1044,
                 "phase": "active_poster"
+            },
+            "QuestRelicHunter": {
+                "maps": [
+                    {
+                        "map_id": 1127596,
+                        "name": "Thieves Gang Wanted Poster",
+                        "hash": "23d708a7a716d3d325e64da0a889601f",
+                        "thumb": "https://www.mousehuntgame.com/images/ui/treasure_maps/wanted_poster_common.png",
+                        "remaining": 2,
+                        "is_rare": null,
+                        "is_complete": null,
+                        "is_favourite": null,
+                        "has_message": null
+                    }
+                ]
             }
         },
         {
