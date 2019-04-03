@@ -1190,10 +1190,27 @@
             "QuestClawShotCity": {
                 "map_active": true,
                 "has_wanted_poster": false,
-                "posters_complete": 75,
+                "posters_complete": 76,
+                "posters_complete_formatted": "76",
                 "is_law": true,
-                "fools_gold": 1044,
+                "fools_gold": "1102",
+                "fools_gold_formatted": "1,102",
                 "phase": "active_poster"
+            },
+            "QuestRelicHunter": {
+                "maps": [
+                    {
+                        "map_id": "1127596",
+                        "name": "Thieves Gang Wanted Poster",
+                        "hash": "b7dc9f8f735624204784b584a77f6631",
+                        "thumb": "https://www.mousehuntgame.com/images/ui/treasure_maps/wanted_poster_common.png",
+                        "remaining": 1,
+                        "is_rare": null,
+                        "is_complete": null,
+                        "is_favourite": null,
+                        "has_message": null
+                    }
+                ]
             }
         },
         {
