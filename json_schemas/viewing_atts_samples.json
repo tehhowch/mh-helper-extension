@@ -55,6 +55,107 @@
             }
         },
         {
+            "description": "FW Wave 1",
+            "viewing_atts": {
+                "desert_warpath": {
+                    "wave": 1,
+                    "victories": 34,
+                    "friends": 2,
+                    "streak_quantity": 0,
+                    "streak_thumb": null,
+                    "streak_type": false,
+                    "mice": {
+                        "desert_warrior_weak": {
+                            "status": "active",
+                            "quantity": 8
+                        },
+                        "desert_scout_weak": {
+                            "status": "inactive",
+                            "quantity": 0
+                        },
+                        "desert_archer_weak": {
+                            "status": "active",
+                            "quantity": 25
+                        },
+                        "desert_general": {
+                            "status": "active",
+                            "quantity": 1
+                        },
+                        "desert_supply": {
+                            "status": "active",
+                            "quantity": 1
+                        }
+                    },
+                    "has_support_mice": "active",
+                    "morale_percent": 77,
+                    "show_portal": "showPortal",
+                    "items": {
+                        "flame_march_archer_trinket": {
+                            "quantity": 50,
+                            "status": ""
+                        },
+                        "flame_march_cavalry_trinket": {
+                            "quantity": 11,
+                            "status": ""
+                        },
+                        "flame_march_mage_trinket": {
+                            "quantity": 36,
+                            "status": ""
+                        },
+                        "flame_march_scout_trinket": {
+                            "quantity": 29,
+                            "status": ""
+                        },
+                        "flame_march_warrior_trinket": {
+                            "quantity": 22,
+                            "status": ""
+                        },
+                        "super_flame_march_archer_trinket": {
+                            "quantity": 79,
+                            "status": ""
+                        },
+                        "super_flame_march_cavalry_trinket": {
+                            "quantity": 14,
+                            "status": ""
+                        },
+                        "super_flame_march_mage_trinket": {
+                            "quantity": 58,
+                            "status": ""
+                        },
+                        "super_flame_march_scout_trinket": {
+                            "quantity": 69,
+                            "status": ""
+                        },
+                        "super_flame_march_warrior_trinket": {
+                            "quantity": 85,
+                            "status": ""
+                        },
+                        "artillery_strike_stat_item": {
+                            "quantity": 5,
+                            "status": ""
+                        },
+                        "warpath_portal_projector_stat_item": {
+                            "quantity": 0,
+                            "status": "disabled"
+                        },
+                        "flame_march_general_trinket": {
+                            "quantity": 45,
+                            "status": ""
+                        },
+                        "super_flame_march_general_trinket": {
+                            "quantity": 54,
+                            "status": ""
+                        },
+                        "monger_trinket": {
+                            "quantity": 16,
+                            "status": ""
+                        }
+                    },
+                    "canvas_page_url": "https://www.mousehuntgame.com/"
+                }
+            }
+        },
+        {
             "description": "FW Wave 2 All available",
             "viewing_atts": {
                 "desert_warpath": {
