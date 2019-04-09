@@ -7478,6 +7478,45 @@
                 "eggsweeper_trowels": "0",
                 "canvas_page_url": "https://www.mousehuntgame.com/"
             }
+        },
+        {
+            "description": "SEH 2019 - Eggscavator Charge + MM + 13 Charges",
+            "QuestSpringHunt": {
+                "eggscavator_warning": null,
+                "bait_warning": null,
+                "has_stockpile": "found",
+                "charge_quantity": 13,
+                "charge_percent": 65,
+                "charge_state": "active",
+                "charge_level": "medium",
+                "charge_doubler": null,
+                "stars": [],
+                "egg_hash": "5cbb9da298275d566c2efcc6fc832aa2",
+                "area_total": 2,
+                "area_found": 1,
+                "items": {
+                    "marshmallow_monterey_cheese": {
+                        "quantity": "409",
+                        "status": "active"
+                    },
+                    "eggstra_trinket": {
+                        "quantity": "739",
+                        "status": ""
+                    },
+                    "egg_charge_trinket": {
+                        "quantity": "25",
+                        "status": "active"
+                    },
+                    "eggstra_charge_trinket": {
+                        "quantity": "38",
+                        "status": ""
+                    }
+                },
+                "recent_eggs": [],
+                "has_recent_eggs": null,
+                "eggsweeper_trowels": "0",
+                "canvas_page_url": "https://www.mousehuntgame.com/"
+            }
         }
     ]
 }
