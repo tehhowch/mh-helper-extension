@@ -7278,7 +7278,7 @@
         },
         {
             "description": "SEH 2019 - Eggstra + MM",
-            "QuestSprintHunt": {
+            "QuestSpringHunt": {
                 "eggscavator_warning": null,
                 "bait_warning": null,
                 "has_stockpile": "found",
@@ -7325,7 +7325,7 @@
         },
         {
             "description": "SEH 2019 - Eggstra Charge + MM",
-            "QuestSprintHunt": {
+            "QuestSpringHunt": {
                 "eggscavator_warning": null,
                 "bait_warning": null,
                 "has_stockpile": "found",
@@ -7393,6 +7393,84 @@
                     "eggstra_charge_trinket": {
                         "quantity": "34",
                         "status": ""
+                    }
+                },
+                "recent_eggs": [],
+                "has_recent_eggs": null,
+                "eggsweeper_trowels": "0",
+                "canvas_page_url": "https://www.mousehuntgame.com/"
+            }
+        },
+        {
+            "description": "SEH 2019 - Eggstra + MM + Non-stockpile",
+            "QuestSpringHunt": {
+                "eggscavator_warning": null,
+                "bait_warning": "active",
+                "has_stockpile": "not_found",
+                "charge_quantity": 0,
+                "charge_percent": 0,
+                "charge_state": null,
+                "charge_level": "none",
+                "charge_doubler": "active",
+                "stars": [],
+                "egg_hash": "f7f16a12688746898c52d9debe902803",
+                "area_total": 2,
+                "area_found": 0,
+                "items": {
+                    "marshmallow_monterey_cheese": {
+                        "quantity": "422",
+                        "status": "active"
+                    },
+                    "eggstra_trinket": {
+                        "quantity": "738",
+                        "status": "active"
+                    },
+                    "egg_charge_trinket": {
+                        "quantity": "33",
+                        "status": ""
+                    },
+                    "eggstra_charge_trinket": {
+                        "quantity": "34",
+                        "status": ""
+                    }
+                },
+                "recent_eggs": [],
+                "has_recent_eggs": null,
+                "eggsweeper_trowels": "0",
+                "canvas_page_url": "https://www.mousehuntgame.com/"
+            }
+        },
+        {
+            "description": "SEH 2019 - Eggstra Charge + MM + 1 Charge",
+            "QuestSpringHunt": {
+                "eggscavator_warning": null,
+                "bait_warning": null,
+                "has_stockpile": "found",
+                "charge_quantity": 1,
+                "charge_percent": 5,
+                "charge_state": "active",
+                "charge_level": "low",
+                "charge_doubler": "active",
+                "stars": [],
+                "egg_hash": "b842b356ed4a36f0ce2e96248dff1b9d",
+                "area_total": 2,
+                "area_found": 1,
+                "items": {
+                    "marshmallow_monterey_cheese": {
+                        "quantity": "421",
+                        "status": "active"
+                    },
+                    "eggstra_trinket": {
+                        "quantity": "738",
+                        "status": ""
+                    },
+                    "egg_charge_trinket": {
+                        "quantity": "34",
+                        "status": ""
+                    },
+                    "eggstra_charge_trinket": {
+                        "quantity": "33",
+                        "status": "active"
                     }
                 },
                 "recent_eggs": [],
