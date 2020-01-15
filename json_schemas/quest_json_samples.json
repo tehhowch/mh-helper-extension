@@ -7595,6 +7595,308 @@
                 "eggsweeper_trowels": "0",
                 "canvas_page_url": "https://www.mousehuntgame.com/"
             }
+        },
+        {
+            "description": "Lunar New Year 2020 - Stockpile - Dumpling - Hunting Costumed Monkey",
+            "QuestLunarNewYear2020": {
+                "has_stockpile": "found",
+                "stockpile_locations": [
+                    "town_of_gnawnia",
+                    "laboratory",
+                    "great_gnarled_tree",
+                    "dojo",
+                    "ss_huntington_ii",
+                    "kings_gauntlet",
+                    "claw_shot_city",
+                    "desert_city",
+                    "rift_gnawnia",
+                    "fungal_cavern",
+                    "moussu_picchu",
+                    "queso_river"
+                ],
+                "items": {
+                    "lunar_new_year_2017_cheese": {
+                        "quantity": "209",
+                        "status": "active"
+                    },
+                    "lunar_new_year_2018_cheese": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "lny_2020_lantern_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "lny_unlit_lantern_stat_item": {
+                        "quantity": "28",
+                        "status": "disabled"
+                    },
+                    "lny_unlit_lantern_2018_stat_item": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    },
+                    "rat_jade_base": {
+                        "quantity": "0",
+                        "status": "disabled"
+                    }
+                },
+                "mice": [
+                    {
+                        "name": "Tiger",
+                        "type": "costumed_tiger",
+                        "image": "https://www.mousehuntgame.com/images/mice/small/8afa525dbbb6902274fa3e4d6d875bc5.jpg?cv=246",
+                        "is_caught": true,
+                        "is_active": null,
+                        "is_available": true
+                    },
+                    {
+                        "name": "Rabbit",
+                        "type": "costumed_rabbit",
+                        "image": "https://www.mousehuntgame.com/images/mice/small/004f46a28bf008453952de443b0b81a5.jpg?cv=246",
+                        "is_caught": true,
+                        "is_active": null,
+                        "is_available": true
+                    },
+                    {
+                        "name": "Dragon",
+                        "type": "costumed_dragon",
+                        "image": "https://www.mousehuntgame.com/images/mice/small/f54ce1dc153a3fef8a3f0e7a72b9f288.jpg?cv=246",
+                        "is_caught": true,
+                        "is_active": null,
+                        "is_available": true
+                    },
+                    {
+                        "name": "Snake",
+                        "type": "costumed_snake",
+                        "image": "https://www.mousehuntgame.com/images/mice/small/f5dbc0742b947c5291f6f5a73b7efaff.jpg?cv=246",
+                        "is_caught": true,
+                        "is_active": null,
+                        "is_available": true
+                    },
+                    {
+                        "name": "Horse",
+                        "type": "costumed_horse",
+                        "image": "https://www.mousehuntgame.com/images/mice/small/03c10bf22e88a3f11d33295a2380acc5.jpg?cv=246",
+                        "is_caught": true,
+                        "is_active": null,
+                        "is_available": true
+                    },
+                    {
+                        "name": "Sheep",
+                        "type": "costumed_sheep",
+                        "image": "https://www.mousehuntgame.com/images/mice/small/9f0ba722b59d8d3e7e8dac10b4f3be0e.jpg?cv=246",
+                        "is_caught": true,
+                        "is_active": null,
+                        "is_available": true
+                    },
+                    {
+                        "name": "Monkey",
+                        "type": "costumed_monkey",
+                        "image": "https://www.mousehuntgame.com/images/mice/small/18416e5f7cd23de9111a5bd0f3ebdcf7.jpg?cv=246",
+                        "is_caught": null,
+                        "is_active": true,
+                        "is_available": true
+                    },
+                    {
+                        "name": "Rooster",
+                        "type": "costumed_rooster",
+                        "image": "https://www.mousehuntgame.com/images/mice/small/77d24182fe1671c04e3de6581eb6ae5b.jpg?cv=246",
+                        "is_caught": null,
+                        "is_active": null,
+                        "is_available": true
+                    },
+                    {
+                        "name": "Dog",
+                        "type": "costumed_dog",
+                        "image": "https://www.mousehuntgame.com/images/mice/small/f67616c9e5ee1219d9cdceef6eef8c56.jpg?cv=246",
+                        "is_caught": null,
+                        "is_active": null,
+                        "is_available": true
+                    },
+                    {
+                        "name": "Pig",
+                        "type": "costumed_pig",
+                        "image": "https://www.mousehuntgame.com/images/mice/small/9451fd3f0993e44076b3857f0deb08c9.jpg?cv=246",
+                        "is_caught": null,
+                        "is_active": null,
+                        "is_available": true
+                    },
+                    {
+                        "name": "Rat",
+                        "type": "costumed_rat",
+                        "image": "https://www.mousehuntgame.com/images/mice/small/0ce22094d880e5797d6f5fb048285995.jpg?cv=246",
+                        "is_caught": null,
+                        "is_active": null,
+                        "is_available": true
+                    }
+                ],
+                "boss_types": [
+                    "costumed_tiger",
+                    "costumed_rabbit",
+                    "costumed_dragon",
+                    "costumed_snake",
+                    "costumed_horse",
+                    "costumed_sheep",
+                    "costumed_monkey",
+                    "costumed_rooster",
+                    "costumed_dog",
+                    "costumed_pig",
+                    "costumed_rat"
+                ],
+                "lit_lantern": 0,
+                "suggestion": "",
+                "luck": 0,
+                "luck_formatted": 0,
+                "lantern_status": "noLantern",
+                "is_lantern_active": false,
+                "lantern_height": 0,
+                "row_position": 0,
+                "current_row": 0,
+                "max_luck": 50,
+                "candle_per_bonus": 10,
+                "last_claimed_height": 0,
+                "rewards": {
+                    "30": [
+                        [
+                            "lunar_new_year_2018_cheese",
+                            3
+                        ]
+                    ],
+                    "60": [
+                        [
+                            "lunar_new_year_2018_cheese",
+                            3
+                        ]
+                    ],
+                    "90": [
+                        [
+                            "lunar_new_year_2018_cheese",
+                            3
+                        ]
+                    ],
+                    "120": [
+                        [
+                            "lunar_new_year_2018_cheese",
+                            3
+                        ],
+                        [
+                            "lny_rat_geyser_tactical_skin",
+                            1
+                        ]
+                    ],
+                    "150": [
+                        [
+                            "lunar_new_year_2018_cheese",
+                            3
+                        ]
+                    ],
+                    "180": [
+                        [
+                            "lunar_new_year_2018_cheese",
+                            3
+                        ]
+                    ],
+                    "210": [
+                        [
+                            "lunar_new_year_2018_cheese",
+                            3
+                        ]
+                    ],
+                    "240": [
+                        [
+                            "lunar_new_year_2018_cheese",
+                            3
+                        ],
+                        [
+                            "dog_droid_archmagus_skin",
+                            1
+                        ]
+                    ],
+                    "270": [
+                        [
+                            "lunar_new_year_2018_cheese",
+                            3
+                        ]
+                    ],
+                    "300": [
+                        [
+                            "lunar_new_year_2018_cheese",
+                            3
+                        ]
+                    ],
+                    "330": [
+                        [
+                            "lunar_new_year_2018_cheese",
+                            3
+                        ]
+                    ],
+                    "360": [
+                        [
+                            "lunar_new_year_2018_cheese",
+                            3
+                        ],
+                        [
+                            "rat_lny_journal_theme_collectible",
+                            1
+                        ]
+                    ],
+                    "390": [
+                        [
+                            "lunar_new_year_2018_cheese",
+                            3
+                        ]
+                    ],
+                    "420": [
+                        [
+                            "lunar_new_year_2018_cheese",
+                            3
+                        ]
+                    ],
+                    "450": [
+                        [
+                            "lunar_new_year_2018_cheese",
+                            3
+                        ]
+                    ],
+                    "480": [
+                        [
+                            "lunar_new_year_2018_cheese",
+                            3
+                        ],
+                        [
+                            "lny_pig_timesplit_dissonance_skin",
+                            1
+                        ]
+                    ],
+                    "500": [
+                        [
+                            "lny_unlit_lantern_2018_stat_item",
+                            10
+                        ]
+                    ]
+                },
+                "can_claim": false,
+                "event_status": "",
+                "rows": [
+                    {
+                        "row_number": 49,
+                        "is_current": null,
+                        "has_reward": true,
+                        "is_claimed": false,
+                        "reward_types": "lny_unlit_lantern_2018_stat_item",
+                        "label": "500 feet"
+                    },
+                    {
+                        "row_number": 0,
+                        "is_current": true,
+                        "has_reward": null,
+                        "is_claimed": false,
+                        "reward_types": null,
+                        "label": null
+                    }
+                ],
+                "canvas_page_url": "https://www.mousehuntgame.com/"
+            }
         }
     ]
 }
