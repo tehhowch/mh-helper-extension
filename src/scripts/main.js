@@ -18,7 +18,7 @@
 
     // Listening for calls
     window.addEventListener('message', ev => {
-        if (ev.data.jacks_message == null) {
+        if (ev.data.mhct_message == null) {
             return;
         }
 
@@ -26,29 +26,29 @@
             alert('Please make sure you are logged in into MH.');
             return;
         }
-        if (ev.data.jacks_message === 'userhistory') {
+        if (ev.data.mhct_message === 'userhistory') {
             window.open(`${base_domain_url}/searchByUser.php?user=${user.user_id}`);
             return;
         }
 
-        if (ev.data.jacks_message === 'mhmh'
-            || ev.data.jacks_message === 'ryonn') {
-            openMapMiceSolver(ev.data.jacks_message);
+        if (ev.data.mhct_message === 'mhmh'
+            || ev.data.mhct_message === 'ryonn') {
+            openMapMiceSolver(ev.data.mhct_message);
             return;
         }
 
-        if (ev.data.jacks_message === 'horn') {
+        if (ev.data.mhct_message === 'horn') {
             sound_horn();
             return;
         }
 
-        if ('tsitu_loader' === ev.data.jacks_message) {
+        if ('tsitu_loader' === ev.data.mhct_message) {
             window.tsitu_loader_offset = ev.data.tsitu_loader_offset;
             openBookmarklet(ev.data.file_link);
             return;
         }
 
-        if (ev.data.jacks_message === 'show_horn_alert') {
+        if (ev.data.mhct_message === 'show_horn_alert') {
             const sound_the_horn = confirm("Horn is Ready! Sound it?");
             if (sound_the_horn) {
                 sound_horn();
@@ -57,11 +57,11 @@
         }
 
         // Crown submission results in either the boolean `false`, or the total submitted crowns.
-        if (ev.data.jacks_message === 'crownSubmissionStatus') {
+        if (ev.data.mhct_message === 'crownSubmissionStatus') {
             const counts = ev.data.submitted;
             if (counts) {
                 displayFlashMessage(ev.data.settings, "success",
-                    `Submitted ${counts} crowns for ${$('span.hunterInfoView-userName').text()}.`);
+                    `Submitted ${counts} crowns for ${$('span[class*="titleBar-name"]').text()}.`);
             } else {
                 displayFlashMessage(ev.data.settings, "error", "There was an issue submitting crowns on the backend.");
             }
@@ -166,7 +166,7 @@
             return;
         }
         const mhhh_flash_message_div = $('#mhhh_flash_message_div');
-        mhhh_flash_message_div.text("Jack's MH Helper: " + message);
+        mhhh_flash_message_div.text("MHCT Helper: " + message);
 
         mhhh_flash_message_div.css('left', 'calc(50% - ' + (mhhh_flash_message_div.width() / 2) + 'px)');
 
@@ -248,7 +248,7 @@
     // Get settings
     function getSettings(callback) {
         window.addEventListener("message", function listenSettings(event) {
-            if (event.data.jacks_settings_response !== 1) {
+            if (event.data.mhct_settings_response !== 1) {
                 return;
             }
 
@@ -260,7 +260,7 @@
                 callback(event.data.settings);
             }
         }, false);
-        window.postMessage({jacks_settings_request: 1}, "*");
+        window.postMessage({mhct_settings_request: 1}, "*");
     }
 
     /**
@@ -287,14 +287,16 @@
 
             bronze: 0,
             silver: 0,
-            gold: 0
+            gold: 0,
+            platinum: 0,
+            diamond: 0
         };
 
         /** Rather than compute counts ourselves, use the `badge` display data.
          * badges: [
          *     {
-         *         badge: (500 | 100    | 10),
-         *         type: (gold | silver | bronze),
+         *         badge: (2500   | 1000     | 500  | 100    | 10),
+         *         type: (diamond | platinum | gold | silver | bronze),
          *         mice: string[]
          *     },
          *     ...
@@ -305,7 +307,7 @@
         // Prevent other extensions (e.g. Privacy Badger) from blocking the crown
         // submission by submitting from the content script.
         window.postMessage({
-            "jacks_crown_update": 1,
+            "mhct_crown_update": 1,
             "crowns": payload,
             "settings": settings
         }, window.origin);
@@ -473,14 +475,31 @@
         if (!message.isNew || !message.messageData || !message.messageData.items || message.messageData.items.length === 0) {
             return;
         }
-        const items = message.messageData.items;
 
+        const items = message.messageData.items;
+        submitConvertible(convertible, items, response.user.user_id);
+    }
+
+    /**
+     * @typedef {Object} HgItem
+     * @property {number} item_id HitGrab's ID for this item
+     * @property {string} name HitGrab's display name for this item
+     * @property {number} quantity the number of this item received or opened
+     */
+
+    /**
+     * Helper function to submit opened items.
+     * @param {HgItem} convertible The item that was opened.
+     * @param {HgItem[]} items An array of items that were obtained by opening the convertible
+     * @param {string} userId the user associated with the submission
+     */
+    function submitConvertible(convertible, items, user_id) {
         const record = {
             convertible: getItem(convertible),
-            items: items.map(getItem.bind(null)),
+            items: items.map(getItem),
             extension_version: formatVersion(mhhh_version),
             asset_package_hash: Date.now(),
-            user_id: response.user.user_id,
+            user_id: user_id,
             entry_timestamp: Math.round(Date.now() / 1000)
         };
 
@@ -546,11 +565,57 @@
                 // Handle a prize mouse attraction.
                 if (debug_logging) {
                     window.postMessage({
-                        "jacks_log_request": 1,
+                        "mhct_log_request": 1,
                         "prize mouse journal": markup
                     }, window.origin);
                 }
                 // TODO: Implement data submission
+            }
+            else if (css_class.search(/desert_heater_base_trigger/) !== -1 && css_class.search(/fail/) === -1) {
+                // Handle a Desert Heater Base loot proc.
+                const data = markup.render_data.text;
+                const quantityRegex = /mouse dropped ([\d,]+) <a class/;
+                const nameRegex = />(.+?)<\/a>/g; // "g" flag used for stickiness
+                if (quantityRegex.test(data) && nameRegex.test(data)) {
+                    const quantityMatch = quantityRegex.exec(data);
+                    const strQuantity = quantityMatch[1].replace(/,/g, '').trim();
+                    const lootQty = parseInt(strQuantity, 10);
+
+                    // Update the loot name search to start where the loot quantity was found.
+                    nameRegex.lastIndex = quantityMatch.index;
+                    const lootName = nameRegex.exec(data)[1];
+
+                    const loot = Object.values(hunt_response.inventory)
+                        .find(item => item.name === lootName);
+
+                    if (!lootQty || !loot) {
+                        window.postMessage({
+                            "mhct_log_request": 1,
+                            "is_error": true,
+                            "desert heater journal": markup,
+                            "inventory": hunt_response.inventory,
+                            "reason": `Didn't find named loot "${lootName}" in inventory`
+                        }, window.origin);
+                    } else {
+                        const convertible = {
+                            id: 2952, // DHB's actual item ID
+                            name: "Desert Heater Base",
+                            quantity: 1
+                        };
+                        const items = [{ id: loot.item_id, name: lootName, quantity: lootQty }];
+                        if (debug_logging) { window.console.log({ desert_heater_loot: items }); }
+
+                        submitConvertible(convertible, items, hunt_response.user.user_id)
+                    }
+                } else {
+                    window.postMessage({
+                        "mhct_log_request": 1,
+                        "is_error": true,
+                        "desert heater journal": markup,
+                        "inventory": hunt_response.inventory,
+                        "reason": "Didn't match quantity and loot name regex patterns"
+                    }, window.origin);
+                }
             }
             else if (Object.keys(journal).length !== 0) {
                 // Only the first regular mouse attraction journal entry can be the active one.
@@ -742,12 +807,14 @@
         "Lost City": addLostCityStage,
         "Mousoleum": addMousoleumStage,
         "Moussu Picchu": addMoussuPicchuStage,
+        "Queso Geyser": addQuesoGeyserStage,
         "SUPER|brie+ Factory": addSBFactoryStage,
         "Sand Dunes": addSandDunesStage,
         "Seasonal Garden": addSeasonalGardenStage,
         "Sunken City": addSunkenCityStage,
         "Toxic Spill": addToxicSpillStage,
         "Twisted Garden": addGardenStage,
+        "Valour Rift": addValourRiftStage,
         "Whisker Woods Rift": addWhiskerWoodsRiftStage,
         "Zokor": addZokorStage,
     };
@@ -829,24 +896,20 @@
      * @param {Object <string, any>} hunt The journal entry corresponding to the active hunt.
      */
     function addFestiveCometStage(message, user, user_post, hunt) {
-        const quest = user.quests.QuestWinterHunt2018;
+        const quest = user.quests.QuestWinterHunt2019;
         if (!quest) {
             return;
         }
 
-        if (quest.comet.at_boss === true) {
+        if (quest.comet.current_phase === 11) {
             message.stage = "Boss";
         } else {
             let theme = quest.decorations.current_decoration || "none";
             if (theme == "none") {
                 theme = "No Decor";
             } else {
-                // Capitalize every useful word in the decoration string.
-                theme = theme.replace(/_festive_decoration_stat_item/i, '')
-                    .replace(/_/i, ' ')
-                    .split(" ")
-                    .map(word => word[0].toUpperCase() + word.substr(1))
-                    .join(" ");
+                theme = theme.replace(/festive_([a-z_]+)_shorts_stat_item/i, "$1").replace(/_/g, " ");
+                theme = theme.charAt(0).toUpperCase() + theme.slice(1);
             }
             message.stage = theme;
         }
@@ -1374,12 +1437,76 @@
         }
     }
 
+    /**
+     * Report the state of corks and eruptions
+     * @param {Object <string, any>} message The message to be sent.
+     * @param {Object <string, any>} user The user state object, when the hunt was invoked (pre-hunt).
+     * @param {Object <string, any>} user_post The user state object, after the hunt.
+     * @param {Object <string, any>} hunt The journal entry corresponding to the active hunt.
+     */
+    function addQuesoGeyserStage(message, user, user_post, hunt) {
+        const state = user.quests.QuestQuesoGeyser.state;
+        if (state === "collecting") {
+            message.stage = "Cork Collecting";
+        } else if (state === "corked") {
+            message.stage = "Pressure Building";
+        } else if (state === "eruption") {
+            // Tiny/Small/Medium/Large/Epic Eruption
+            message.stage = user.quests.QuestQuesoGeyser.state_name;
+        }
+    }
+
+    /**
+     * Report tower stage: Outside, Eclipse, Floors 1-7, 9-15, 17-23, 25-31+, Umbra
+     * @param {Object <string, any>} message The message to be sent.
+     * @param {Object <string, any>} user The user state object, when the hunt was invoked (pre-hunt).
+     * @param {Object <string, any>} user_post The user state object, after the hunt.
+     * @param {Object <string, any>} hunt The journal entry corresponding to the active hunt.
+     */
+    function addValourRiftStage(message, user, user_post, hunt) {
+        const attrs = user.environment_atts || user.enviroment_atts;
+        switch (attrs.state) {
+            case "tower":
+                let floor = attrs.floor;
+                let stageName;
+
+                if (floor >= 1 && floor % 8 === 0) {
+                    stageName = "Eclipse";
+                } else if (floor >= 1 && floor <= 7) {
+                    stageName = "Floors 1-7";
+                } else if (floor >= 9 && floor <= 15) {
+                    stageName = "Floors 9-15";
+                } else if (floor >= 17 && floor <= 23) {
+                    stageName = "Floors 17-23";
+                } else if (floor >= 25) {
+                    stageName = "Floors 25-31+";
+                }
+
+                if (attrs.active_augmentations.tu) {
+                    stageName = "UU " + stageName;
+                }
+
+                message.stage = stageName;
+                break;
+            case "farming":
+                message.stage = "Outside";
+                break;
+            default:
+                if (debug_logging) {window.console.log({message: "Skipping unknown Valour Rift stage", pre: attrs, post: user_post.environment_atts || user_post.enviroment_atts});}
+                message.location = null;
+                break;
+        }
+    }
+
     /** @type {Object <string, Function>} */
     const location_huntdetails_lookup = {
         "Bristle Woods Rift": addBristleWoodsRiftHuntDetails,
-        "Harbour": addHarbourHuntDetails,
+        "Claw Shot City": addClawShotCityHuntDetails,
+        "Fiery Warpath": addFieryWarpathHuntDetails,
         "Fort Rox": addFortRoxHuntDetails,
+        "Harbour": addHarbourHuntDetails,
         "Sand Crypts": addSandCryptsHuntDetails,
+        "Valour Rift": addValourRiftHuntDetails,
         "Whisker Woods Rift": addWhiskerWoodsRiftHuntDetails,
         "Zokor": addZokorHuntDetails,
         "Zugzwang's Tower": addZugzwangsTowerHuntDetails
@@ -1402,9 +1529,49 @@
 
         // TODO: Apply any global hunt details (such as from ongoing events, auras, etc).
         [
+            addEggHuntDetails,
+            addHalloweenHuntDetails,
             addLNYHuntDetails,
             addLuckyCatchHuntDetails
         ].forEach(details_func => details_func(message, user, user_post, hunt));
+    }
+
+    /**
+     * Record the Eggscavator Charge level, both before and after the hunt.
+     * @param {Object <string, any>} message The message to be sent.
+     * @param {Object <string, any>} user The user state object, when the hunt was invoked (pre-hunt).
+     * @param {Object <string, any>} user_post The user state object, after the hunt.
+     * @param {Object <string, any>} hunt The journal entry corresponding to the active hunt.
+     */
+    function addEggHuntDetails(message, user, user_post, hunt) {
+        const quest = getActiveSEHQuest(user.quests);
+        const post_quest = getActiveSEHQuest(user_post.quests);
+        if (quest && post_quest) {
+            message.hunt_details = Object.assign(message.hunt_details || {}, {
+                is_egg_hunt: true,
+                egg_charge_pre: parseInt(quest.charge_quantity, 10),
+                egg_charge_post: parseInt(post_quest.charge_quantity, 10),
+                can_double_eggs: (quest.charge_doubler === "active"),
+            });
+        }
+    }
+
+    /**
+     * Record the Cannon state and whether the hunt was taken in a stockpile location.
+     * @param {Object <string, any>} message The message to be sent.
+     * @param {Object <string, any>} user The user state object, when the hunt was invoked (pre-hunt).
+     * @param {Object <string, any>} user_post The user state object, after the hunt.
+     * @param {Object <string, any>} hunt The journal entry corresponding to the active hunt.
+     */
+    function addHalloweenHuntDetails(message, user, user_post, hunt) {
+        const quest = getActiveHalloweenQuest(user.quests);
+        if (quest) {
+            message.hunt_details = Object.assign(message.hunt_details || {}, {
+                is_halloween_hunt: true,
+                is_firing_cannon: !!(quest.is_cannon_enabled || quest.is_long_range_cannon_enabled),
+                is_in_stockpile: !!quest.has_stockpile
+            });
+        }
     }
 
     /**
@@ -1468,22 +1635,93 @@
     }
 
     /**
-     * Report whether certain mice were attractable on the hunt.
+     * Track the poster type. Specific available mice require information from `relichunter.php`.
      * @param {Object <string, any>} message The message to be sent.
      * @param {Object <string, any>} user The user state object, when the hunt was invoked (pre-hunt).
      * @param {Object <string, any>} user_post The user state object, after the hunt.
      * @param {Object <string, any>} hunt The journal entry corresponding to the active hunt.
      */
+    function addClawShotCityHuntDetails(message, user, user_post, hunt) {
+        const map = user.quests.QuestRelicHunter.maps.filter(m => m.name.endsWith("Wanted Poster"))[0];
+        if (map && !map.is_complete) {
+            message.hunt_details = {
+                poster_type: map.name.replace(/Wanted Poster/i, "").trim(),
+                at_boss: (map.remaining === 1)
+            };
+        }
+    }
 
-    function addHarbourHuntDetails(message, user, user_post, hunt) {
-        const quest = user.quests.QuestHarbour;
-        const details = {
-            on_bounty: (quest.status === "searchStarted"),
-        };
-        quest.crew.forEach(mouse => {
-            details[`has_caught_${mouse.type}`] = (mouse.status === "caught");
-        });
-        message.hunt_details = details;
+    /**
+     * Log the mouse populations, remaining total, boss invincibility, and streak data.
+     * MAYBE: Record usage of FW charms, e.g. "targeted mouse was attracted"
+     * charm_ids 534: Archer, 535: Cavalry, 536: Commander, 537: Mage, 538: Scout, 539: Warrior
+     *   540: S Archer, 541: S Cavalry, 542: S Mage, 543: S Scout, 544: S Warrior, 615: S Commander
+     * @param {Object <string, any>} message The message to be sent.
+     * @param {Object <string, any>} user The user state object, when the hunt was invoked (pre-hunt).
+     * @param {Object <string, any>} user_post The user state object, after the hunt.
+     * @param {Object <string, any>} hunt The journal entry corresponding to the active hunt.
+     */
+    function addFieryWarpathHuntDetails(message, user, user_post, hunt) {
+        const attrs = user.viewing_atts.desert_warpath;
+        const fw = {};
+        if ([1, 2, 3].includes(parseInt(attrs.wave, 10))) {
+            const asType = name => name.replace(/desert_|_weak|_epic|_strong/g, "");
+
+            if (attrs.streak_quantity > 0) {
+                fw.streak_count = parseInt(attrs.streak_quantity, 10),
+                fw.streak_type = asType(attrs.streak_type),
+                fw.streak_increased_on_hunt = (message.caught === 1 &&
+                    fw.streak_type === asType(user_post.viewing_atts.desert_warpath.streak_type));
+            }
+
+            // Track the mice remaining in the wave, per type and in total.
+            let remaining = 0;
+            [
+                "desert_warrior",
+                "desert_warrior_weak",
+                "desert_warrior_epic",
+                "desert_scout",
+                "desert_scout_weak",
+                "desert_scout_epic",
+                "desert_archer",
+                "desert_archer_weak",
+                "desert_archer_epic",
+                "desert_mage",
+                "desert_mage_strong",
+                "desert_cavalry",
+                "desert_cavalry_strong",
+                "desert_artillery"
+            ].filter(name => name in attrs.mice).forEach(mouse => {
+                const q = parseInt(attrs.mice[mouse].quantity, 10);
+                fw[`num_${asType(mouse)}`] = q;
+                remaining += q;
+            });
+            const wave_total = ({1: 105, 2: 185, 3: 260})[attrs.wave];
+            // Support retreats when 10% or fewer total mice remain.
+            fw.morale = remaining / wave_total;
+
+            fw.has_support_mice = (attrs.has_support_mice === "active");
+            if (fw.has_support_mice) {
+                // Calculate the non-rounded `morale_percent` viewing attribute.
+                fw.support_morale = (wave_total - remaining) / (.9 * wave_total);
+            }
+        } else if ([4, "4", "portal"].includes(attrs.wave)) {
+            // If the Warmonger or Artillery Commander was already caught (i.e. Ultimate Charm),
+            // don't record any hunt details since there isn't anything to learn.
+            const boss = attrs.mice[(message.stage === "Portal") ?
+                    "desert_artillery_commander" : "desert_boss"];
+            if (parseInt(boss.quantity, 10) !== 1) {
+                return;
+            }
+            // Theurgy Wardens are "desert_elite_gaurd". Yes, "gaurd".
+            fw.num_warden = parseInt(attrs.mice.desert_elite_gaurd.quantity, 10);
+            fw.boss_invincible = !!fw.num_warden;
+        } else {
+            if (debug_logging) {window.console.warn({record: message, user, user_post, hunt});}
+            throw new Error(`Unknown FW Wave "${attrs.wave}"`);
+        }
+
+        message.hunt_details = fw;
     }
 
     /**
@@ -1515,6 +1753,24 @@
                 : parseInt(quest.fort.t.level, 10);
         details.can_autocatch_any = (tower_state >= 2);
 
+        message.hunt_details = details;
+    }
+
+    /**
+     * Report whether certain mice were attractable on the hunt.
+     * @param {Object <string, any>} message The message to be sent.
+     * @param {Object <string, any>} user The user state object, when the hunt was invoked (pre-hunt).
+     * @param {Object <string, any>} user_post The user state object, after the hunt.
+     * @param {Object <string, any>} hunt The journal entry corresponding to the active hunt.
+     */
+    function addHarbourHuntDetails(message, user, user_post, hunt) {
+        const quest = user.quests.QuestHarbour;
+        const details = {
+            on_bounty: (quest.status === "searchStarted"),
+        };
+        quest.crew.forEach(mouse => {
+            details[`has_caught_${mouse.type}`] = (mouse.status === "caught");
+        });
         message.hunt_details = details;
     }
 
@@ -1559,7 +1815,7 @@
             }
         }
     }
-  
+
     /**
      * For the level-3 districts, report whether the boss was defeated or not.
      * For the Minotaur lair, report the categorical label, number of catches, and meter width.
@@ -1600,6 +1856,25 @@
         };
         zt.cm_available = (zt.technic === 16 || zt.mystic === 16) && message.cheese.id === 371;
         message.hunt_details = zt;
+    }
+
+    /**
+     * Report active augmentations and floor number
+     * @param {Object <string, any>} message The message to be sent.
+     * @param {Object <string, any>} user The user state object, when the hunt was invoked (pre-hunt).
+     * @param {Object <string, any>} user_post The user state object, after the hunt.
+     * @param {Object <string, any>} hunt The journal entry corresponding to the active hunt.
+     */
+    function addValourRiftHuntDetails(message, user, user_post, hunt) {
+        const attrs = user.environment_atts || user.enviroment_atts;
+        // active_augmentations is undefined outside of the tower
+        if (attrs.stage === "tower") {
+            message.hunt_details = {
+                super_siphon: !!attrs.active_augmentations.ss, // active = true, inactive = false
+                string_stepping: !!attrs.active_augmentations.sste,
+                floor: attrs.floor, // exact floor number (can be used to derive prestige and floor_type)
+            };
+        }
     }
 
     /**
@@ -1677,7 +1952,7 @@
 
     function getItem(item) {
         return {
-            id: item.item_id,
+            id: item.item_id || item.id,
             name: item.name,
             // type: item.type,
             quantity: item.quantity
@@ -1699,6 +1974,19 @@
     }
 
     /**
+     * Return the active Halloween quest object, if possible.
+     * @param {Object <string, Object <string, any>>} allQuests the `user.quests` object containing all of the user's quests
+     * @returns {Object <string, any> | null} The quest if it exists, else `null`
+     */
+    function getActiveHalloweenQuest(allQuests) {
+        const quest_names = Object.keys(allQuests)
+            .filter(name => name.includes("QuestHalloween"));
+        return (quest_names.length
+            ? allQuests[quest_names[0]]
+            : null);
+    }
+
+    /**
      * Return the active LNY quest object, if possible.
      * @param {Object <string, Object <string, any>>} allQuests the `user.quests` object containing all of the user's quests
      * @returns {Object <string, any> | null} The quest if it exists, else `null`
@@ -1706,6 +1994,19 @@
     function getActiveLNYQuest(allQuests) {
         const quest_names = Object.keys(allQuests)
             .filter(name => name.includes("QuestLunarNewYear"));
+        return (quest_names.length
+            ? allQuests[quest_names[0]]
+            : null);
+    }
+
+    /**
+     * Return the active Spring Egg Hunt quest, if possible.
+     * @param {Object <string, Object <string, any>>} allQuests the `user.quests` object containing all of the user's quests
+     * @returns {Object <string, any> | null} The quest if it exists, else `null`
+     */
+    function getActiveSEHQuest(allQuests) {
+        const quest_names = Object.keys(allQuests)
+            .filter(name => name.includes("QuestSpringHunt"));
         return (quest_names.length
             ? allQuests[quest_names[0]]
             : null);
